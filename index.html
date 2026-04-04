@@ -4435,7 +4435,12 @@
         function showVipModal() {
             document.getElementById('vipModal').classList.add('show');
             document.body.style.overflow = 'hidden';
-            setTimeout(() => document.getElementById('vipCodeInput').focus(), 300);
+            var inp = document.getElementById('vipCodeInput');
+            inp.disabled = false;
+            inp.value = '';
+            inp.style.borderColor = 'rgba(212,168,83,0.4)';
+            document.getElementById('vipMsg').textContent = '';
+            setTimeout(function(){ inp.focus(); }, 300);
         }
         function closeVipModal() {
             document.getElementById('vipModal').classList.remove('show');
