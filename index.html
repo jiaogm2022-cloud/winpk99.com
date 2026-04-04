@@ -674,7 +674,7 @@
 
             .image-pdfs { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
 
-            .vip-modal { padding: 1.5rem; max-width: 95%; }
+            .vip-modal { padding: 1.5rem; max-width: 95%; max-height: 90vh; overflow-y: auto; }
             .vip-modal .crown-big { font-size: 2.5rem; }
             .vip-modal h3 { font-size: 1.2rem; }
 
@@ -737,11 +737,11 @@
             .pdf-card .pdf-vip-lock p { font-size: 0.72rem; }
             .pdf-card .pdf-vip-lock .vip-btn { padding: 4px 12px; font-size: 0.7rem; }
 
-            .vip-modal { padding: 1.2rem; max-width: 96%; border-radius: 12px; }
-            .vip-modal .crown-big { font-size: 2rem; margin-bottom: 0.5rem; }
-            .vip-modal h3 { font-size: 1.05rem; }
-            .vip-modal .desc { font-size: 0.82rem; }
-            .vip-modal .close-btn { top: 10px; right: 14px; font-size: 1.2rem; }
+            .vip-modal { padding: 1rem 1rem 1.2rem; max-width: 96%; border-radius: 12px; max-height: 85vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+            .vip-modal .crown-big { font-size: 1.6rem; margin-bottom: 0.3rem; }
+            .vip-modal h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+            .vip-modal .desc { font-size: 0.78rem; }
+            .vip-modal .close-btn { top: 8px; right: 12px; font-size: 1.2rem; z-index: 10; }
 
             /* VIP pricing cards stack vertically on mobile */
             #vipPricingCards { flex-direction: column !important; }
@@ -775,8 +775,9 @@
             section h2 { font-size: 1.4rem; }
             .card-header h3 { font-size: 0.82rem; }
             .image-pdfs { grid-template-columns: 1fr; }
-            .vip-modal { padding: 1rem; }
-            .vip-modal h3 { font-size: 0.95rem; }
+            .vip-modal { padding: 0.8rem; max-height: 82vh; }
+            .vip-modal h3 { font-size: 0.9rem; }
+            .vip-modal .crown-big { font-size: 1.4rem; margin-bottom: 0.2rem; }
         }
         
         
