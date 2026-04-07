@@ -28,6 +28,9 @@
     <meta name="twitter:title" content="德州扑克中文系统资料库 - 会员资料·每日更新">
     <meta name="twitter:description" content="面向中文玩家的德州扑克系统资料库：入门规则、实战策略、资金管理、线上安全、会员图表资料与每日更新。">
     <meta name="twitter:image" content="https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg">
+    <meta name="theme-color" content="#0a0e17">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preload" as="image" href="images/HGDP_Deployment/page_1.jpg" fetchpriority="high">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -99,6 +102,36 @@
                     "@type": "Answer",
                     "text": "合理的资金管理是长期盈利的基础。建议根据自身经济情况设定止损线，控制每次买入金额，避免情绪化下注。详细的资金管理策略请参考本站专题文章。"
                 }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "winpk99 德州扑克教学与策略指南",
+        "url": "https://www.winpk99.com/",
+        "logo": "https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg",
+        "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首页",
+                "item": "https://www.winpk99.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "每日更新",
+                "item": "https://www.winpk99.com/updates.html"
             }
         ]
     }
@@ -748,8 +781,8 @@
 
             /* VIP pricing cards stack vertically on mobile */
             #vipPricingCards { flex-direction: column !important; }
-            #vipContactCards { flex-direction: column !important; gap: 10px !important; align-items: center !important; }
-            #vipContactCards > div { width: 100% !important; justify-content: center !important; }
+            #vipContactCards { grid-template-columns: 1fr !important; gap: 10px !important; }
+            #vipContactCards > button { width: 100% !important; justify-content: flex-start !important; }
 
             #vipCodeInput { padding: 10px 12px; font-size: 0.9rem; }
             .vip-modal button[onclick="activateVip()"] { padding: 10px 16px; font-size: 0.85rem; }
@@ -1053,6 +1086,102 @@
         .contact-email:hover {
             background: rgba(212,168,83,0.25);
             transform: translateY(-2px);
+        }
+
+        .vip-contact-panel {
+            background: linear-gradient(135deg, rgba(212,168,83,0.16), rgba(245,215,142,0.06));
+            border: 1px solid rgba(212,168,83,0.42);
+            border-radius: 16px;
+            padding: 18px;
+            margin: 16px 0;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+        }
+        .vip-contact-title {
+            color: #f5d78e;
+            font-weight: 800;
+            margin-bottom: 8px;
+            font-size: 1.08rem;
+        }
+        .vip-contact-hint {
+            color: #b8b1a4;
+            font-size: 0.78rem;
+            margin: 0 0 14px;
+            line-height: 1.6;
+        }
+        #vipContactCards {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+        .vip-contact-card {
+            width: 100%;
+            min-height: 74px;
+            background: rgba(0,0,0,0.36);
+            border: 1px solid rgba(245,215,142,0.2);
+            border-radius: 14px;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            cursor: pointer;
+            text-align: left;
+            transition: transform 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+        .vip-contact-card:hover,
+        .vip-contact-card:focus-visible {
+            transform: translateY(-2px);
+            border-color: rgba(245,215,142,0.62);
+            background: rgba(212,168,83,0.14);
+            box-shadow: 0 10px 24px rgba(0,0,0,0.24);
+            outline: none;
+        }
+        .vip-contact-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(212,168,83,0.16);
+            font-size: 1.35rem;
+            flex: 0 0 auto;
+        }
+        .vip-contact-copy {
+            margin-left: auto;
+            color: #0a0e17;
+            background: linear-gradient(135deg, #d4a853, #f5d78e);
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 0.72rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+        .vip-contact-card.is-copied {
+            border-color: rgba(29,185,84,0.7);
+            background: rgba(29,185,84,0.14);
+        }
+        .vip-contact-label {
+            display: block;
+            color: #8f8f8f;
+            font-size: 0.68rem;
+            margin-bottom: 2px;
+        }
+        .vip-contact-value {
+            display: block;
+            color: #f5d78e;
+            font-weight: 900;
+            font-size: 1.08rem;
+            letter-spacing: 0.03em;
+        }
+        #vipCopyMsg {
+            min-height: 1.2em;
+            color: #1db954;
+            font-size: 0.76rem;
+            font-weight: 700;
+            margin: 10px 0 0;
         }
 
         /* Card with VIP tag */
@@ -1509,6 +1638,225 @@
                 font-size: 2.2rem;
             }
         }
+
+        /* ========== SEO and visual polish layer ========== */
+        :root {
+            color-scheme: dark;
+            --bg: #0a0e17;
+            --panel: rgba(18,25,43,0.82);
+            --panel-strong: rgba(18,25,43,0.94);
+            --gold: #d4a853;
+            --gold-soft: #f5d78e;
+            --green: #1db954;
+            --text: #e6eee9;
+            --muted: #9fb0a8;
+        }
+
+        body {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        ::selection {
+            background: rgba(212,168,83,0.35);
+            color: #fff;
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid rgba(245,215,142,0.85);
+            outline-offset: 4px;
+        }
+
+        section {
+            scroll-margin-top: 92px;
+        }
+
+        nav .nav-container {
+            justify-content: center;
+        }
+
+        nav a {
+            border: 1px solid transparent;
+        }
+
+        nav a:hover,
+        nav a.active {
+            border-color: rgba(212,168,83,0.35);
+        }
+
+        .hero {
+            isolation: isolate;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: auto 8% 7% 8%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(245,215,142,0.42), transparent);
+            z-index: 1;
+        }
+
+        .hero-eyebrow::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--green);
+            box-shadow: 0 0 16px rgba(29,185,84,0.9);
+        }
+
+        .seo-entry {
+            margin-top: -2.2rem;
+            position: relative;
+            z-index: 5;
+        }
+
+        .seo-entry-panel {
+            background:
+                radial-gradient(circle at 15% 10%, rgba(212,168,83,0.14), transparent 36%),
+                radial-gradient(circle at 82% 18%, rgba(29,185,84,0.12), transparent 34%),
+                var(--panel-strong);
+            border: 1px solid rgba(212,168,83,0.34);
+            border-radius: 24px;
+            box-shadow: 0 24px 70px rgba(0,0,0,0.32);
+            padding: clamp(1.2rem, 3vw, 2rem);
+        }
+
+        .seo-entry h2 {
+            text-align: left;
+            padding: 0;
+            margin-bottom: 0.75rem;
+        }
+
+        .seo-entry h2::after {
+            margin-left: 0;
+        }
+
+        .seo-entry p {
+            color: var(--muted);
+            line-height: 1.9;
+        }
+
+        .seo-entry-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem;
+            margin-top: 1.4rem;
+        }
+
+        .seo-entry-card {
+            display: block;
+            min-height: 100%;
+            color: var(--text);
+            text-decoration: none;
+            background: rgba(255,255,255,0.045);
+            border: 1px solid rgba(212,168,83,0.22);
+            border-radius: 18px;
+            padding: 1rem;
+            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        }
+
+        .seo-entry-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(245,215,142,0.66);
+            background: rgba(255,255,255,0.07);
+        }
+
+        .seo-entry-card strong {
+            display: block;
+            color: var(--gold-soft);
+            margin-bottom: 0.45rem;
+            font-size: 1.02rem;
+        }
+
+        .seo-entry-card span {
+            color: var(--muted);
+            line-height: 1.7;
+            font-size: 0.92rem;
+        }
+
+        .value-card,
+        .pricing-card,
+        .path-card,
+        .card,
+        .pdf-card,
+        .section-cta {
+            backdrop-filter: blur(14px);
+        }
+
+        .value-card,
+        .path-card,
+        .pdf-card {
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .value-card:hover,
+        .path-card:hover,
+        .pdf-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(245,215,142,0.58);
+            box-shadow: 0 20px 48px rgba(0,0,0,0.28);
+        }
+
+        .safe-note {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .safe-note::before {
+            content: '风险提示';
+            display: inline-block;
+            margin-right: 0.6rem;
+            color: #0a0e17;
+            background: linear-gradient(135deg, var(--green), #8ef0b1);
+            border-radius: 999px;
+            padding: 0.1rem 0.55rem;
+            font-size: 0.76rem;
+            font-weight: 900;
+        }
+
+        .pdf-viewer-body img {
+            max-width: min(92vw, 1080px);
+            max-height: calc(100vh - 150px);
+            object-fit: contain;
+        }
+
+        @media (max-width: 900px) {
+            nav .nav-container {
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                scrollbar-width: none;
+            }
+
+            nav .nav-container::-webkit-scrollbar {
+                display: none;
+            }
+
+            .seo-entry {
+                margin-top: -1rem;
+            }
+
+            .seo-entry-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 560px) {
+            .seo-entry-panel {
+                border-radius: 18px;
+            }
+
+            .seo-entry-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .seo-entry h2 {
+                font-size: 1.7rem;
+            }
+        }
     
     
     </style>
@@ -1571,6 +1919,31 @@
     </header>
 
     <main class="container">
+
+    <section class="seo-entry" aria-labelledby="seo-entry-title">
+        <div class="seo-entry-panel">
+            <h2 id="seo-entry-title">德州扑克学习从这 4 个方向开始</h2>
+            <p>winpk99 面向中文玩家整理德州扑克教学、策略复盘、线下局避坑、资金管理和线上安全内容。本站不做牌局组织或赌博导流，重点是帮助用户在学习规则、理解风险、复盘决策之前，先建立一套可执行的判断框架。</p>
+            <div class="seo-entry-grid" aria-label="德州扑克学习主题入口">
+                <a class="seo-entry-card" href="#避坑指南">
+                    <strong>德州扑克避坑</strong>
+                    <span>识别线下局、熟人局、老板局、陌生人约局和团队配合等高风险信号。</span>
+                </a>
+                <a class="seo-entry-card" href="#实战策略">
+                    <strong>德州扑克策略</strong>
+                    <span>围绕位置、起手牌、底池赔率、下注尺度和长期复盘建立实战框架。</span>
+                </a>
+                <a class="seo-entry-card" href="#资金管理">
+                    <strong>资金管理与止损</strong>
+                    <span>把买入、止损线、离场时间和情绪控制写成清晰规则，减少追损。</span>
+                </a>
+                <a class="seo-entry-card" href="updates.html">
+                    <strong>每日更新文章</strong>
+                    <span>持续发布中文德州扑克风险识别、平台安全、学习路径和复盘笔记。</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <section id="会员方案" class="conversion-section">
         <h2>会员方案</h2>
@@ -4795,24 +5168,28 @@
             <style>@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.85;transform:scale(1.02);}}</style>
 
             <!-- 联系方式 -->
-            <div style="background:linear-gradient(135deg,rgba(212,168,83,0.1),rgba(245,215,142,0.05));border:1px solid rgba(212,168,83,0.3);border-radius:12px;padding:16px;margin:14px 0;">
-                <p style="color:#d4a853;font-weight:700;margin-bottom:10px;font-size:1rem;">&#128172; 联系开通会员</p>
-                <div id="vipContactCards" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-                    <div style="background:rgba(0,0,0,0.3);padding:12px 22px;border-radius:10px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <span style="font-size:1.4rem;">&#128172;</span>
-                        <div style="text-align:left;">
-                            <div style="color:#888;font-size:0.65rem;">QQ（点击复制）</div>
-                            <div style="color:#d4a853;font-weight:700;font-size:1.15rem;letter-spacing:0.05em;" onclick="navigator.clipboard.writeText('993833');this.innerText='已复制!';setTimeout(()=>this.innerText='993833',1500)">993833</div>
-                        </div>
-                    </div>
-                    <div style="background:rgba(0,0,0,0.3);padding:12px 22px;border-radius:10px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <span style="font-size:1.4rem;">&#9992;</span>
-                        <div style="text-align:left;">
-                            <div style="color:#888;font-size:0.65rem;">Telegram（点击复制）</div>
-                            <div style="color:#d4a853;font-weight:700;font-size:1.05rem;" onclick="navigator.clipboard.writeText('@SkySingapore');this.innerText='已复制!';setTimeout(()=>this.innerText='@SkySingapore',1500)">@SkySingapore</div>
-                        </div>
-                    </div>
+            <div class="vip-contact-panel">
+                <p class="vip-contact-title">&#128172; 联系开通会员</p>
+                <p class="vip-contact-hint">点击下面任意联系方式即可复制，不需要点中小字；复制后到 QQ 或 Telegram 搜索添加。</p>
+                <div id="vipContactCards">
+                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '993833', 'QQ号已复制：993833')">
+                        <span class="vip-contact-icon">&#128172;</span>
+                        <span>
+                            <span class="vip-contact-label">QQ 号</span>
+                            <span class="vip-contact-value">993833</span>
+                        </span>
+                        <span class="vip-contact-copy">复制</span>
+                    </button>
+                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '@SkySingapore', 'Telegram 已复制：@SkySingapore')">
+                        <span class="vip-contact-icon">&#9992;</span>
+                        <span>
+                            <span class="vip-contact-label">Telegram</span>
+                            <span class="vip-contact-value">@SkySingapore</span>
+                        </span>
+                        <span class="vip-contact-copy">复制</span>
+                    </button>
                 </div>
+                <p id="vipCopyMsg" aria-live="polite"></p>
             </div>
 
             <!-- 激活码输入 -->
@@ -4946,6 +5323,46 @@
         function shakeInput(el) {
             el.style.animation = 'shake 0.4s ease';
             setTimeout(() => el.style.animation = '', 400);
+        }
+
+        function copyVipContact(button, text, successText) {
+            const msg = document.getElementById('vipCopyMsg');
+            const copyLabel = button.querySelector('.vip-contact-copy');
+
+            const markCopied = () => {
+                document.querySelectorAll('.vip-contact-card').forEach(card => {
+                    card.classList.remove('is-copied');
+                    const label = card.querySelector('.vip-contact-copy');
+                    if (label) label.textContent = '复制';
+                });
+                button.classList.add('is-copied');
+                if (copyLabel) copyLabel.textContent = '已复制';
+                if (msg) msg.textContent = successText;
+                setTimeout(() => {
+                    button.classList.remove('is-copied');
+                    if (copyLabel) copyLabel.textContent = '复制';
+                    if (msg) msg.textContent = '';
+                }, 1800);
+            };
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(markCopied).catch(() => fallbackCopyVipContact(text, markCopied));
+            } else {
+                fallbackCopyVipContact(text, markCopied);
+            }
+        }
+
+        function fallbackCopyVipContact(text, onSuccess) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.setAttribute('readonly', '');
+            textarea.style.position = 'fixed';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            onSuccess();
         }
 
         function unlockVip() {
