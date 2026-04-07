@@ -6,7 +6,7 @@
     <title>德州扑克教学与策略指南 - 入门技巧·避坑防骗·资金管理 | winpk99</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="winpk99 德州扑克中文教学与策略指南，系统整理德州扑克入门规则、实战技巧、牌桌读人、资金管理、线上安全、线下局避坑防骗等内容，帮助中文玩家建立更稳健的学习框架与风险意识。">
+    <meta name="description" content="winpk99 德州扑克中文系统资料库，提供入门规则、实战策略、牌桌读人、资金管理、线上安全、线下局避坑防骗、会员图表资料与每日更新，帮助中文玩家建立更稳健的学习与复盘框架。">
     <meta name="keywords" content="德州扑克,德州扑克教学,德州扑克入门,德州扑克规则,德州扑克技巧,德州扑克策略,德扑教学,德扑攻略,德扑技巧,Texas Holdem,扑克教程,扑克策略,德州扑克避坑,德州扑克防骗,线下局风险,线上德州扑克安全,牌桌读人,扑克心理学,资金管理,现金局策略,锦标赛策略,GTO基础,HUD数据">
     <meta name="author" content="winpk99 德州扑克教学与策略指南">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -15,8 +15,8 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="德州扑克教学与策略指南 - 入门·避坑·资金管理">
-    <meta property="og:description" content="面向中文玩家的德州扑克系统学习站：入门规则、实战技巧、牌桌读人、资金管理、线上安全与线下局避坑防骗。">
+    <meta property="og:title" content="德州扑克中文系统资料库 - 会员资料·每日更新·避坑复盘">
+    <meta property="og:description" content="面向中文玩家的德州扑克系统资料库：入门规则、实战策略、牌桌读人、资金管理、线上安全、会员图表资料与每日更新。">
     <meta property="og:url" content="https://www.winpk99.com/">
     <meta property="og:site_name" content="winpk99 德州扑克教学与策略指南">
     <meta property="og:locale" content="zh_CN">
@@ -25,8 +25,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="德州扑克教学与策略指南 - 入门·避坑·资金管理">
-    <meta name="twitter:description" content="面向中文玩家的德州扑克系统学习站：入门规则、实战技巧、牌桌读人、资金管理与线上安全。">
+    <meta name="twitter:title" content="德州扑克中文系统资料库 - 会员资料·每日更新">
+    <meta name="twitter:description" content="面向中文玩家的德州扑克系统资料库：入门规则、实战策略、资金管理、线上安全、会员图表资料与每日更新。">
     <meta name="twitter:image" content="https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg">
 
     <!-- JSON-LD Structured Data -->
@@ -1076,6 +1076,439 @@
         .card.vip-card .card-header {
             background: linear-gradient(90deg, rgba(18,25,43,0.9), rgba(212,168,83,0.08));
         }
+
+        /* ========== Conversion-focused homepage refresh ========== */
+        nav .nav-container {
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        nav a.nav-cta {
+            background: linear-gradient(135deg, #d4a853, #f5d78e);
+            color: #0a0e17;
+            box-shadow: 0 8px 22px rgba(212, 168, 83, 0.2);
+        }
+
+        .hero {
+            height: auto;
+            min-height: 88vh;
+            align-items: stretch;
+            text-align: left;
+            background:
+                radial-gradient(circle at 78% 18%, rgba(29,185,84,0.24), transparent 32%),
+                radial-gradient(circle at 20% 20%, rgba(212,168,83,0.2), transparent 30%),
+                linear-gradient(135deg, #071019 0%, #12192b 48%, #071019 100%);
+            animation: none;
+            padding: 5rem 2rem 4rem;
+        }
+
+        .hero::before {
+            content: '';
+            inset: 0;
+            left: 0;
+            top: 0;
+            transform: none;
+            background-image:
+                linear-gradient(rgba(212,168,83,0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(212,168,83,0.06) 1px, transparent 1px);
+            background-size: 48px 48px;
+            mask-image: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent 85%);
+            animation: none;
+            z-index: 0;
+        }
+
+        .hero-wrap {
+            width: min(1180px, 100%);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content {
+            animation: slideUp 0.8s ease-out;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #1db954;
+            background: rgba(29,185,84,0.12);
+            border: 1px solid rgba(29,185,84,0.35);
+            border-radius: 999px;
+            padding: 0.45rem 0.9rem;
+            font-size: 0.95rem;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.4rem, 5vw, 5rem);
+            line-height: 1.05;
+            letter-spacing: 0.01em;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero p.hero-lead {
+            color: #dbe7e0;
+            font-size: clamp(1rem, 2vw, 1.35rem);
+            line-height: 1.9;
+            letter-spacing: 0;
+            max-width: 760px;
+            margin-bottom: 1.6rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+            margin: 1.8rem 0;
+        }
+
+        .hero-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0.85rem 1.35rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #d4a853, #f5d78e);
+            color: #0a0e17;
+            text-decoration: none;
+            font-weight: 900;
+            border: 1px solid rgba(245,215,142,0.55);
+            box-shadow: 0 12px 30px rgba(212,168,83,0.22);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .hero-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 36px rgba(212,168,83,0.34);
+        }
+
+        .hero-btn.secondary {
+            background: rgba(255,255,255,0.05);
+            color: #d4a853;
+            border-color: rgba(212,168,83,0.45);
+            box-shadow: none;
+        }
+
+        .trust-strip {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 0.8rem;
+            max-width: 780px;
+        }
+
+        .trust-item {
+            background: rgba(10,14,23,0.55);
+            border: 1px solid rgba(212,168,83,0.22);
+            border-radius: 14px;
+            padding: 0.9rem;
+        }
+
+        .trust-item strong {
+            display: block;
+            color: #d4a853;
+            font-size: 1.2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .trust-item span {
+            color: #9fb0a8;
+            font-size: 0.82rem;
+        }
+
+        .hero-preview {
+            position: relative;
+            padding: 1rem;
+            border-radius: 28px;
+            background: linear-gradient(145deg, rgba(212,168,83,0.22), rgba(29,185,84,0.12));
+            box-shadow: 0 24px 80px rgba(0,0,0,0.45);
+        }
+
+        .preview-card {
+            background: rgba(7,16,25,0.88);
+            border: 1px solid rgba(212,168,83,0.38);
+            border-radius: 22px;
+            padding: 1.2rem;
+            overflow: hidden;
+        }
+
+        .preview-cover {
+            display: grid;
+            grid-template-columns: 0.78fr 1fr;
+            gap: 1rem;
+            align-items: stretch;
+        }
+
+        .preview-cover img {
+            width: 100%;
+            height: 100%;
+            min-height: 260px;
+            object-fit: cover;
+            object-position: top center;
+            border-radius: 16px;
+            border: 1px solid rgba(212,168,83,0.22);
+            background: #0a0e17;
+        }
+
+        .preview-copy {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.8rem;
+        }
+
+        .preview-copy .label {
+            width: fit-content;
+            color: #0a0e17;
+            background: #d4a853;
+            border-radius: 999px;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.78rem;
+            font-weight: 900;
+        }
+
+        .preview-copy h2 {
+            color: #f5d78e;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            text-align: left;
+            padding: 0;
+            margin: 0;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        .preview-copy h2::after {
+            display: none;
+        }
+
+        .preview-copy p {
+            color: #c7d6cf;
+            line-height: 1.8;
+        }
+
+        .preview-list {
+            display: grid;
+            gap: 0.65rem;
+            margin-top: 0.4rem;
+        }
+
+        .preview-list span {
+            color: #e5efe9;
+            background: rgba(255,255,255,0.055);
+            border-left: 3px solid #1db954;
+            border-radius: 8px;
+            padding: 0.65rem 0.75rem;
+        }
+
+        .conversion-section {
+            border-top: none;
+            padding-top: 4rem;
+        }
+
+        .conversion-grid,
+        .pricing-grid,
+        .path-grid {
+            display: grid;
+            gap: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        .conversion-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .pricing-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .path-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .value-card,
+        .pricing-card,
+        .path-card,
+        .section-cta {
+            background: rgba(18, 25, 43, 0.78);
+            border: 1px solid rgba(212, 168, 83, 0.28);
+            border-radius: 18px;
+            padding: 1.4rem;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.22);
+        }
+
+        .value-card h3,
+        .pricing-card h3,
+        .path-card h3 {
+            color: #d4a853;
+            margin-bottom: 0.7rem;
+            font-size: 1.2rem;
+        }
+
+        .value-card p,
+        .pricing-card p,
+        .path-card p,
+        .section-cta p {
+            color: #b9c5bf;
+            line-height: 1.8;
+        }
+
+        .pricing-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-card.highlight {
+            border-color: rgba(255,107,107,0.65);
+            background: linear-gradient(145deg, rgba(255,107,107,0.12), rgba(18,25,43,0.82));
+        }
+
+        .pricing-card .tag {
+            display: inline-block;
+            color: #0a0e17;
+            background: #d4a853;
+            border-radius: 999px;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.75rem;
+            font-weight: 900;
+            margin-bottom: 0.8rem;
+        }
+
+        .pricing-card.highlight .tag {
+            color: #fff;
+            background: linear-gradient(135deg, #ff6b6b, #ffa07a);
+        }
+
+        .price {
+            color: #f5d78e;
+            font-size: 2.6rem;
+            font-weight: 900;
+            margin: 0.4rem 0 0.8rem;
+        }
+
+        .price small {
+            color: #8ea49a;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            display: grid;
+            gap: 0.7rem;
+            margin: 1rem 0 1.3rem;
+        }
+
+        .pricing-card li {
+            color: #dbe7e0;
+            line-height: 1.65;
+            padding-left: 1.4rem;
+            position: relative;
+        }
+
+        .pricing-card li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #1db954;
+            font-weight: 900;
+        }
+
+        .safe-note {
+            margin-top: 2rem;
+            color: #9fb0a8;
+            background: rgba(29,185,84,0.08);
+            border: 1px solid rgba(29,185,84,0.22);
+            border-radius: 14px;
+            padding: 1rem 1.2rem;
+            line-height: 1.8;
+        }
+
+        .section-cta {
+            text-align: center;
+            margin-top: 2rem;
+            border-color: rgba(29,185,84,0.35);
+            background:
+                radial-gradient(circle at 50% 0%, rgba(29,185,84,0.16), transparent 45%),
+                rgba(18,25,43,0.82);
+        }
+
+        .section-cta h3 {
+            color: #d4a853;
+            font-size: 1.6rem;
+            margin-bottom: 0.6rem;
+        }
+
+        @media (max-width: 900px) {
+            .hero {
+                min-height: auto;
+                padding: 3.5rem 1rem 3rem;
+            }
+
+            .hero-wrap,
+            .preview-cover,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-strip,
+            .conversion-grid,
+            .path-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .preview-cover img {
+                min-height: 220px;
+                max-height: 360px;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .hero {
+                padding: 2.5rem 0.75rem 2rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p.hero-lead {
+                font-size: 0.95rem;
+            }
+
+            .hero-actions {
+                flex-direction: column;
+            }
+
+            .hero-btn {
+                width: 100%;
+            }
+
+            .trust-strip,
+            .conversion-grid,
+            .path-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .preview-card {
+                padding: 0.8rem;
+            }
+
+            .preview-cover img {
+                min-height: 190px;
+            }
+
+            .price {
+                font-size: 2.2rem;
+            }
+        }
     
     
     </style>
@@ -1084,11 +1517,10 @@
     <nav aria-label="主导航">
         <div class="nav-container">
             <a href="#home">首页</a>
-            <a href="#序言">序言</a>
+            <a href="#会员方案" class="nav-cta">会员方案</a>
+            <a href="#会员内容">会员内容</a>
             <a href="#避坑指南">避坑指南</a>
             <a href="#实战策略">实战策略</a>
-            <a href="#读人识局">读人识局</a>
-            <a href="#资金管理">资金管理</a>
             <a href="#合规风险">合规风险<span class="vip-badge" style="background:linear-gradient(135deg,#ff6b6b,#ffa07a,#ff6b6b);background-size:200% 200%;animation:goldShine 3s ease infinite;">SVIP</span></a>
             <a href="#线上安全">线上安全<span class="vip-badge" style="background:linear-gradient(135deg,#ff6b6b,#ffa07a,#ff6b6b);background-size:200% 200%;animation:goldShine 3s ease infinite;">SVIP</span></a>
             <a href="updates.html">每日更新</a>
@@ -1099,16 +1531,138 @@
     
     <header>
     <div class="hero" id="home" role="banner">
-        <div class="hero-content">
-            <h1>德州扑克教学与策略指南</h1>
-            <p>入门规则 · 实战技巧 · 避坑防骗 · 资金管理</p>
-            <div class="card-icons" aria-hidden="true">&#9824; &#9829; &#9830; &#9827;</div>
+        <div class="hero-wrap">
+            <div class="hero-content">
+                <div class="hero-eyebrow">中文德州扑克资料库 · 每日更新</div>
+                <h1>德州扑克中文系统资料库</h1>
+                <p class="hero-lead">从入门规则、实战策略、读人识局到资金管理与线上安全，帮中文玩家用更清晰的框架学习、复盘、避坑。会员可解锁深度文章、图表资料与高阶专题。</p>
+                <div class="hero-actions">
+                    <a class="hero-btn" href="#会员方案">查看会员方案</a>
+                    <a class="hero-btn secondary" href="updates.html">看今日更新</a>
+                </div>
+                <div class="trust-strip" aria-label="网站内容亮点">
+                    <div class="trust-item"><strong>20+</strong><span>深度文章</span></div>
+                    <div class="trust-item"><strong>11套</strong><span>图表资料</span></div>
+                    <div class="trust-item"><strong>每日</strong><span>持续更新</span></div>
+                    <div class="trust-item"><strong>VIP/SVIP</strong><span>分层学习</span></div>
+                </div>
+            </div>
+
+            <div class="hero-preview" aria-label="会员资料预览">
+                <div class="preview-card">
+                    <div class="preview-cover">
+                        <img src="images/HGDP_Deployment/page_1.jpg" alt="德州扑克会员资料封面预览：HGDP 策略资料第一页" loading="eager" fetchpriority="high" decoding="async">
+                        <div class="preview-copy">
+                            <span class="label">会员资料预览</span>
+                            <h2>先建立框架，再做复盘</h2>
+                            <p>把零散经验整理成可反复查看的学习路径，适合新手入门、老玩家复盘和内容每天更新。</p>
+                            <div class="preview-list">
+                                <span>规则与位置：减少盲目入池</span>
+                                <span>避坑与资金管理：先保护本金</span>
+                                <span>线上安全：看懂平台和风险边界</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="scroll-indicator" aria-hidden="true">&#8595;</div>
     </div>
     </header>
 
     <main class="container">
+
+    <section id="会员方案" class="conversion-section">
+        <h2>会员方案</h2>
+        <p class="section-subtitle">把站外流量导到这里，让用户快速理解：买会员能解锁什么</p>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <span class="tag">适合系统入门</span>
+                <h3>VIP 会员</h3>
+                <div class="price">&#165;399 <small>永久有效</small></div>
+                <p>适合想补齐规则、策略、读人识局、避坑防骗与资金管理基础框架的用户。</p>
+                <ul>
+                    <li>解锁基础与进阶文章内容</li>
+                    <li>学习起手牌、位置、筹码深度和复盘逻辑</li>
+                    <li>查看避坑清单、资金管理和读人识局专题</li>
+                    <li>解锁会员图表资料与后续更新</li>
+                </ul>
+                <button class="vip-btn" onclick="showVipModal()">开通或输入激活码</button>
+            </div>
+            <div class="pricing-card highlight">
+                <span class="tag">推荐进阶用户</span>
+                <h3>SVIP 超级会员</h3>
+                <div class="price">&#165;1999 <small>永久有效</small></div>
+                <p>适合想进一步学习合规风险、线上安全、反作弊意识和高阶复盘专题的用户。</p>
+                <ul>
+                    <li>包含 VIP 全部内容</li>
+                    <li>解锁合规风险与灰色边界识别专题</li>
+                    <li>解锁线上安全、平台规则和 HUD 复盘专题</li>
+                    <li>获得持续补充的高阶策略与资料更新</li>
+                </ul>
+                <button class="vip-btn" onclick="showVipModal()">查看 SVIP 开通方式</button>
+            </div>
+        </div>
+        <p class="safe-note">本站内容定位为德州扑克教学、风险识别与理性复盘资料，不提供组织牌局、赌博导流、代打或资金交易服务。我们主张先理解规则、管理风险，再决定是否参与任何线下或线上活动。</p>
+    </section>
+
+    <section id="会员内容" class="conversion-section">
+        <h2>会员能得到什么</h2>
+        <p class="section-subtitle">把“卖会员”改成“卖清晰的学习路径、资料库和持续更新”</p>
+        <div class="conversion-grid">
+            <div class="value-card">
+                <h3>学习路径</h3>
+                <p>从规则、位置、起手牌、底池赔率开始，逐步进入读人识局、资金管理和实战复盘，减少东看一篇、西看一段的碎片化学习。</p>
+            </div>
+            <div class="value-card">
+                <h3>避坑防骗</h3>
+                <p>围绕线下局、熟人局、线上平台和资金安全，整理常见风险信号，帮助用户在坐下之前先判断“这个局值不值得碰”。</p>
+            </div>
+            <div class="value-card">
+                <h3>图表资料</h3>
+                <p>将长文内容整理成封面资料和图表，适合手机端快速查看，也方便会员反复回看重点章节。</p>
+            </div>
+            <div class="value-card">
+                <h3>每日更新</h3>
+                <p>通过独立的每日更新页持续发布新手问题、手牌复盘、策略笔记和平台安全提醒，让网站长期有新内容可分享。</p>
+            </div>
+            <div class="value-card">
+                <h3>复盘框架</h3>
+                <p>重点不是承诺结果，而是帮助用户拆解决策：当时的位置、筹码、赔率、对手类型和情绪状态是否支持这一步。</p>
+            </div>
+            <div class="value-card">
+                <h3>中文用户友好</h3>
+                <p>用中文语境解释常见概念，不要求用户先看大量英文术语，适合从国内中文内容平台导流来的新用户。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="学习路径" class="conversion-section">
+        <h2>建议学习路径</h2>
+        <p class="section-subtitle">让第一次来的用户知道下一步该点哪里</p>
+        <div class="path-grid">
+            <div class="path-card">
+                <h3>1. 先看公开内容</h3>
+                <p>从避坑指南、实战策略和资金管理开始，确认本站内容风格是否适合你。</p>
+            </div>
+            <div class="path-card">
+                <h3>2. 再开通会员</h3>
+                <p>如果你想系统看完整章节、图表资料和持续更新，就通过会员弹窗联系开通。</p>
+            </div>
+            <div class="path-card">
+                <h3>3. 每天做复盘</h3>
+                <p>结合每日更新页，把学到的内容用于复盘自己的决策，而不是追求情绪化的短期结果。</p>
+            </div>
+        </div>
+        <div class="section-cta">
+            <h3>准备系统学习了吗？</h3>
+            <p>先看会员方案，再进入更多资料区查看可解锁的资料封面。</p>
+            <div class="hero-actions" style="justify-content:center;">
+                <a class="hero-btn" href="#更多资料">查看资料库</a>
+                <a class="hero-btn secondary" href="#会员方案">回到会员方案</a>
+            </div>
+        </div>
+    </section>
 
     <section id="序言">
         <h2>&#128218; 序言</h2>
@@ -1237,7 +1791,7 @@
 <p>，随着牌局进行，桌面上的筹码总额在不断减少。据数学模型估算，在一场持续数小时的激进牌局中，庄家累计抽走的水钱甚至可能超过所有玩家的总带入金额。这意味着，即便有一两个玩家赢了钱，从整体看，所有玩家作为一个群体，其资产是被系统性抽干的3。（三）真实案例测算：日入15万的暴利根据媒体曝光的“城市英雄俱乐部”数据，我们可以窥见这一暴利的冰山一角。数据显示，仅在第82桌，在不到两小时的时间里，所有玩家盈利部分的5%抽水就达到了1,472元。如果一家中型俱乐部每天能开设100桌（对于拥有数万会员的大型联盟，这并非难事），其日抽水收入就可轻松突破15万元，月盈利可达450万元人民币3。</p>
 <p>4.2 保险（Insurance）：被包装成避险工具的暴利陷阱如果说抽水是明目张胆的税收，那么“保险”就是精心设计的金融衍生品骗局。在WPK类App中，“买保险”已成为标配功能。当玩家全押（All-in）且牌面领先时，系统会提示是否购买保险，以防被对手在后续发牌中“反超”（Bad Beat）23。（一）赔率的不公平性与负EV线下正规比赛极少引入保险，因为计算复杂且拖慢节奏。线上App之所以热衷于此，是因为保险是庄家（通常是俱乐部老板或专门的“保险公司”）与玩家之间的直接对赌。庄家设定的赔率往往低</p>
 <p>于真实的数学概率（Pot Odds）。</p>
-<p class="list-item">● 数学原理：假设你在转牌圈（Turn）全押，对手只有一张牌能赢你（Outs为1），此时对手赢的概率约为2.2%。公平赔率应接近1:45。但系统提供的保险赔率可能只有1:30。这意味着，每购买一次保险，玩家都在承担巨大的数学期望（Expected Value, EV）损失。长此以往，购买保险的EV永远是负的23。（二）第二份抽水与利润占比保险并非为了保护玩家，而是为了给庄家创造第二份无风险收益。根据调查数据，在一个典型的牌局中，保险产生的利润竟占到了俱乐部总利润的25%-30%。以前述“城市英雄俱乐部”的单桌数据为例，除了1,472元的抽水，俱乐部还额外收取了475元的保险费用24。对于俱乐部来说，保险依靠大数定律几乎是稳赚不赔的生意，它不仅没有任何风险，反而成为了比抽水更具爆发力的盈利点。（三）心理操纵与焦虑营销App在UI设计上极力渲染“防被搞”、“保平安”的焦虑情绪。当玩家All-in时，倒计时音效、闪烁的保险选项、以及过往被逆转的惨痛记忆，都会诱导玩家在恐惧中做出错误的决策。许多小白玩家误以为买了保险就是“稳健投资”，殊不知这正是他们长期亏损的主要原因之一26。</p>
+<p class="list-item">● 数学原理：假设你在转牌圈（Turn）全押，对手只有一张牌能赢你（Outs为1），此时对手赢的概率约为2.2%。公平赔率应接近1:45。但系统提供的保险赔率可能只有1:30。这意味着，每购买一次保险，玩家都在承担巨大的数学期望（Expected Value, EV）损失。长此以往，购买保险的EV永远是负的23。（二）第二份抽水与利润占比保险并非为了保护玩家，而是为了给庄家创造第二份无风险收益。根据调查数据，在一个典型的牌局中，保险产生的利润竟占到了俱乐部总利润的25%-30%。以前述“城市英雄俱乐部”的单桌数据为例，除了1,472元的抽水，俱乐部还额外收取了475元的保险费用24。对于俱乐部来说，保险依靠大数定律几乎是几乎没有风险的生意，它不仅没有任何风险，反而成为了比抽水更具爆发力的盈利点。（三）心理操纵与焦虑营销App在UI设计上极力渲染“防被搞”、“保平安”的焦虑情绪。当玩家All-in时，倒计时音效、闪烁的保险选项、以及过往被逆转的惨痛记忆，都会诱导玩家在恐惧中做出错误的决策。许多小白玩家误以为买了保险就是“稳健投资”，殊不知这正是他们长期亏损的主要原因之一26。</p>
 <p>4.3 平台服务费：隐形的第三把刀除了俱乐部和代理的收割，平台方自身也在吸血。虽然平台不直接参与赌资结算，但它们会收取高额的“房卡费”或“服务费”。通常的收费标准是每人每2小时收取2-5元人民币（等值的钻石/金币）。考虑到一个平台可能拥有数百万活跃用户，每天开设数十万张牌桌，这笔看似微小的“过路费”，实际上构成了平台方每日数百万甚至上千万的合法（表面上）收入。这也解释了为何平台方有动力不断优化App体验，甚至默许黑产的存在，因为流量本身就是平台的生命线2。</p>
 <p>第五节 技术的绞杀：算法、机器人与“上帝视角”如果说抽水和保险是制度性的收割，属于“明枪”，那么技术作弊就是针对性的屠杀，属于“暗箭”。在这些缺乏第三方监管的“黑盒子”App中，公平性完全取决于庄家的良心，而良心在暴利面前往往一文不值。</p>
 <p>5.1 机器人（Bots）与“杀猪盘”在WPK生态中，玩家面对的对手可能根本不是有血有肉的人。（一）凑局机器人与流量填充为了让牌局看起来火热，解决冷启动问题，俱乐部会投放大量的AI机器人（Bot）。早期的机器人比较“弱智”，主要负责“送钱”养鱼，让新玩家尝到甜头。但随着技术迭代，现在的AI已经进化，能够根据底池赔率（Pot Odds）和博弈论最优策略（GTO）做出完美决策。它们不知疲倦，没有情绪波动，能够24小时在线收割17。（二）团伙作弊（Collusion）与围猎更可怕的是“伙牌”。几个机器人或受控账号同时坐在一张桌子上，它们通过后台协议共享底牌信息，合伙围猎桌上唯一的真人玩家（俗称“杀猪”）。</p>
@@ -1245,7 +1799,7 @@
 <p>账号B通过看到A和自己的牌，能更精准地计算胜率。一旦公共牌发出，它们可以通过不断的加注（Raise）和反加注（Re-raise），将不知情的玩家夹在中间，迫使玩家为了看牌支付高额代价，或者直接弃牌损失底池。这种协同作战，单兵玩家几乎毫无胜算1。</p>
 <p>5.2 “上帝视角”与后台控制对于所谓的“运气”，在黑产App中是可以被量化、购买和控制的。（一）透视挂与超级账号调查显示，部分高级代理商或与平台内部人员勾结的“特权阶层”，拥有“管理员账号”或购买了定制的第三方作弊软件（外挂）。这些软件可以解析App的数据包，开启“上帝视角”，直接在屏幕上显示所有玩家的底牌。这种作弊极其隐蔽，因为作弊者通常会故意输掉一些无关痛痒的小牌，只在关键的大底池（Deep Stack）中一击必杀，让受害者误以为只是自己“运气不好”17。（二）胜率控制（RNG Manipulation）虽然平台声称发牌是基于随机数生成器（RNG）的，但屡见不鲜的“冤家牌”（Cooler）和“河牌绝杀”（River Rat）让资深玩家生疑。有证据和大量玩家反馈表明，为了增加游戏的刺激性和波动性（从而诱导更多重购和保险），或者为了精准收割大客户，后台算法可能会被人为干预。</p>
 <p class="list-item">● 养鱼模式：新注册的充值大户，系统可能会在初期调高其胜率，让其频繁中牌，建立自信。</p>
-<p class="list-item">● 杀猪模式：当资金积累到一定程度，系统会突然生成极小概率的“冤家牌”（如A花撞K花），让玩家在认为自己必胜的情况下输光所有筹码。这种人为制造的“剧本”，是黑产收割财富最高效的手段17。</p>
+<p class="list-item">● 杀猪模式：当资金积累到一定程度，系统会突然生成极小概率的“冤家牌”（如A花撞K花），让玩家在认为自己进阶的情况下输光所有筹码。这种人为制造的“剧本”，是黑产收割财富最高效的手段17。</p>
 <h4>第六节 玩家画像与受害路径：从“娱乐”到“毁灭”6.1 受害者画像通过对闲鱼引流数据和公开判决书的分析，受害人群体呈现出年轻化、高知化的趋势。</h4>
 <p class="list-item">● 大学生与职场新人：他们是闲鱼的主要用户，对新鲜事物充满好奇，渴望通过“技术”赚取零花钱。</p>
 <p class="list-item">● 私营业主与中产阶级：他们有较强的支付能力，将德州扑克视为一种高端社交或智力游戏，容易在“微局”升级到“豪局”的过程中迷失。</p>
@@ -1301,7 +1855,7 @@
 <p>，随着牌局进行，桌面上的筹码总额在不断减少。据数学模型估算，在一场持续数小时的激进牌局中，庄家累计抽走的水钱甚至可能超过所有玩家的总带入金额。这意味着，即便有一两个玩家赢了钱，从整体看，所有玩家作为一个群体，其资产是被系统性抽干的3。（三）真实案例测算：日入15万的暴利根据媒体曝光的“城市英雄俱乐部”数据，我们可以窥见这一暴利的冰山一角。数据显示，仅在第82桌，在不到两小时的时间里，所有玩家盈利部分的5%抽水就达到了1,472元。如果一家中型俱乐部每天能开设100桌（对于拥有数万会员的大型联盟，这并非难事），其日抽水收入就可轻松突破15万元，月盈利可达450万元人民币3。</p>
 <p>4.2 保险（Insurance）：被包装成避险工具的暴利陷阱如果说抽水是明目张胆的税收，那么“保险”就是精心设计的金融衍生品骗局。在WPK类App中，“买保险”已成为标配功能。当玩家全押（All-in）且牌面领先时，系统会提示是否购买保险，以防被对手在后续发牌中“反超”（Bad Beat）23。（一）赔率的不公平性与负EV线下正规比赛极少引入保险，因为计算复杂且拖慢节奏。线上App之所以热衷于此，是因为保险是庄家（通常是俱乐部老板或专门的“保险公司”）与玩家之间的直接对赌。庄家设定的赔率往往低</p>
 <p>于真实的数学概率（Pot Odds）。</p>
-<p class="list-item">● 数学原理：假设你在转牌圈（Turn）全押，对手只有一张牌能赢你（Outs为1），此时对手赢的概率约为2.2%。公平赔率应接近1:45。但系统提供的保险赔率可能只有1:30。这意味着，每购买一次保险，玩家都在承担巨大的数学期望（Expected Value, EV）损失。长此以往，购买保险的EV永远是负的23。（二）第二份抽水与利润占比保险并非为了保护玩家，而是为了给庄家创造第二份无风险收益。根据调查数据，在一个典型的牌局中，保险产生的利润竟占到了俱乐部总利润的25%-30%。以前述“城市英雄俱乐部”的单桌数据为例，除了1,472元的抽水，俱乐部还额外收取了475元的保险费用24。对于俱乐部来说，保险依靠大数定律几乎是稳赚不赔的生意，它不仅没有任何风险，反而成为了比抽水更具爆发力的盈利点。（三）心理操纵与焦虑营销App在UI设计上极力渲染“防被搞”、“保平安”的焦虑情绪。当玩家All-in时，倒计时音效、闪烁的保险选项、以及过往被逆转的惨痛记忆，都会诱导玩家在恐惧中做出错误的决策。许多小白玩家误以为买了保险就是“稳健投资”，殊不知这正是他们长期亏损的主要原因之一26。</p>
+<p class="list-item">● 数学原理：假设你在转牌圈（Turn）全押，对手只有一张牌能赢你（Outs为1），此时对手赢的概率约为2.2%。公平赔率应接近1:45。但系统提供的保险赔率可能只有1:30。这意味着，每购买一次保险，玩家都在承担巨大的数学期望（Expected Value, EV）损失。长此以往，购买保险的EV永远是负的23。（二）第二份抽水与利润占比保险并非为了保护玩家，而是为了给庄家创造第二份无风险收益。根据调查数据，在一个典型的牌局中，保险产生的利润竟占到了俱乐部总利润的25%-30%。以前述“城市英雄俱乐部”的单桌数据为例，除了1,472元的抽水，俱乐部还额外收取了475元的保险费用24。对于俱乐部来说，保险依靠大数定律几乎是几乎没有风险的生意，它不仅没有任何风险，反而成为了比抽水更具爆发力的盈利点。（三）心理操纵与焦虑营销App在UI设计上极力渲染“防被搞”、“保平安”的焦虑情绪。当玩家All-in时，倒计时音效、闪烁的保险选项、以及过往被逆转的惨痛记忆，都会诱导玩家在恐惧中做出错误的决策。许多小白玩家误以为买了保险就是“稳健投资”，殊不知这正是他们长期亏损的主要原因之一26。</p>
 <p>4.3 平台服务费：隐形的第三把刀除了俱乐部和代理的收割，平台方自身也在吸血。虽然平台不直接参与赌资结算，但它们会收取高额的“房卡费”或“服务费”。通常的收费标准是每人每2小时收取2-5元人民币（等值的钻石/金币）。考虑到一个平台可能拥有数百万活跃用户，每天开设数十万张牌桌，这笔看似微小的“过路费”，实际上构成了平台方每日数百万甚至上千万的合法（表面上）收入。这也解释了为何平台方有动力不断优化App体验，甚至默许黑产的存在，因为流量本身就是平台的生命线2。</p>
 <p>第五节 技术的绞杀：算法、机器人与“上帝视角”如果说抽水和保险是制度性的收割，属于“明枪”，那么技术作弊就是针对性的屠杀，属于“暗箭”。在这些缺乏第三方监管的“黑盒子”App中，公平性完全取决于庄家的良心，而良心在暴利面前往往一文不值。</p>
 <p>5.1 机器人（Bots）与“杀猪盘”在WPK生态中，玩家面对的对手可能根本不是有血有肉的人。（一）凑局机器人与流量填充为了让牌局看起来火热，解决冷启动问题，俱乐部会投放大量的AI机器人（Bot）。早期的机器人比较“弱智”，主要负责“送钱”养鱼，让新玩家尝到甜头。但随着技术迭代，现在的AI已经进化，能够根据底池赔率（Pot Odds）和博弈论最优策略（GTO）做出完美决策。它们不知疲倦，没有情绪波动，能够24小时在线收割17。（二）团伙作弊（Collusion）与围猎更可怕的是“伙牌”。几个机器人或受控账号同时坐在一张桌子上，它们通过后台协议共享底牌信息，合伙围猎桌上唯一的真人玩家（俗称“杀猪”）。</p>
@@ -1309,7 +1863,7 @@
 <p>账号B通过看到A和自己的牌，能更精准地计算胜率。一旦公共牌发出，它们可以通过不断的加注（Raise）和反加注（Re-raise），将不知情的玩家夹在中间，迫使玩家为了看牌支付高额代价，或者直接弃牌损失底池。这种协同作战，单兵玩家几乎毫无胜算1。</p>
 <p>5.2 “上帝视角”与后台控制对于所谓的“运气”，在黑产App中是可以被量化、购买和控制的。（一）透视挂与超级账号调查显示，部分高级代理商或与平台内部人员勾结的“特权阶层”，拥有“管理员账号”或购买了定制的第三方作弊软件（外挂）。这些软件可以解析App的数据包，开启“上帝视角”，直接在屏幕上显示所有玩家的底牌。这种作弊极其隐蔽，因为作弊者通常会故意输掉一些无关痛痒的小牌，只在关键的大底池（Deep Stack）中一击必杀，让受害者误以为只是自己“运气不好”17。（二）胜率控制（RNG Manipulation）虽然平台声称发牌是基于随机数生成器（RNG）的，但屡见不鲜的“冤家牌”（Cooler）和“河牌绝杀”（River Rat）让资深玩家生疑。有证据和大量玩家反馈表明，为了增加游戏的刺激性和波动性（从而诱导更多重购和保险），或者为了精准收割大客户，后台算法可能会被人为干预。</p>
 <p class="list-item">● 养鱼模式：新注册的充值大户，系统可能会在初期调高其胜率，让其频繁中牌，建立自信。</p>
-<p class="list-item">● 杀猪模式：当资金积累到一定程度，系统会突然生成极小概率的“冤家牌”（如A花撞K花），让玩家在认为自己必胜的情况下输光所有筹码。这种人为制造的“剧本”，是黑产收割财富最高效的手段17。</p>
+<p class="list-item">● 杀猪模式：当资金积累到一定程度，系统会突然生成极小概率的“冤家牌”（如A花撞K花），让玩家在认为自己进阶的情况下输光所有筹码。这种人为制造的“剧本”，是黑产收割财富最高效的手段17。</p>
 <h4>第六节 玩家画像与受害路径：从“娱乐”到“毁灭”6.1 受害者画像通过对闲鱼引流数据和公开判决书的分析，受害人群体呈现出年轻化、高知化的趋势。</h4>
 <p class="list-item">● 大学生与职场新人：他们是闲鱼的主要用户，对新鲜事物充满好奇，渴望通过“技术”赚取零花钱。</p>
 <p class="list-item">● 私营业主与中产阶级：他们有较强的支付能力，将德州扑克视为一种高端社交或智力游戏，容易在“微局”升级到“豪局”的过程中迷失。</p>
@@ -2554,7 +3108,7 @@
                     <span class="card-toggle">&#9660;</span>
                 </div>
                 <div class="card-content">
-                    <p>代德州扑克高 策略白皮 ：不完全信息下现 级 书的决策科学体系1. 绪论：作为决策科学的扑克博弈德州扑克（Texas Hold&#x27;em）常被误解为一种单纯的博彩游戏，但在高水平竞技领域，它实质上是一门在不完全信息下进行资源优化配置的决策科学。现代扑克理论的发展已经超越了传统的经验主义，转向了以博弈论（Game Theory）、概率统计学和行为心理学为基础的严密系统。本白皮书旨在构建一个详尽的战略框架，解析从纳什均衡（Nash Equilibrium）的数学基石到高阶剥削性调整（Exploitative Adjustments）的实战应用，为职业玩家和理论研究者提供一份关于最大化期望值（Expected Value, EV）的终极指南。在这一复杂的系统中，胜利不再仅仅取决于单手牌的胜负，而是取决于决策过程的质量。根据大数定律，短期结果充满方差（Variance），但长期收益收敛于决策的数学期望。因此，所谓的高级策略，并非寻找必胜的秘籍，而是建立一套能够持续在数百万次决策中捕获微小优势（Edge）的算法体系。这一体系要求玩家不仅要理解“最优”策略是什么，更要理解为何在特定情境下偏离最优策略能产生超额收益。</p>
+                    <p>代德州扑克高 策略白皮 ：不完全信息下现 级 书的决策科学体系1. 绪论：作为决策科学的扑克博弈德州扑克（Texas Hold&#x27;em）常被误解为一种单纯的博彩游戏，但在高水平竞技领域，它实质上是一门在不完全信息下进行资源优化配置的决策科学。现代扑克理论的发展已经超越了传统的经验主义，转向了以博弈论（Game Theory）、概率统计学和行为心理学为基础的严密系统。本白皮书旨在构建一个详尽的战略框架，解析从纳什均衡（Nash Equilibrium）的数学基石到高阶剥削性调整（Exploitative Adjustments）的实战应用，为职业玩家和理论研究者提供一份关于最大化期望值（Expected Value, EV）的终极指南。在这一复杂的系统中，胜利不再仅仅取决于单手牌的胜负，而是取决于决策过程的质量。根据大数定律，短期结果充满方差（Variance），但长期收益收敛于决策的数学期望。因此，所谓的高级策略，并非寻找进阶的秘籍，而是建立一套能够持续在数百万次决策中捕获微小优势（Edge）的算法体系。这一体系要求玩家不仅要理解“最优”策略是什么，更要理解为何在特定情境下偏离最优策略能产生超额收益。</p>
 <p>2. 博弈论最优（GTO）与策略基准在探讨如何击败对手之前，必须首先确立一个防御性的基准，即博弈论最优策略（GTO）。GTO并非旨在最大化对阵特定对手的利润，而是旨在构建一个不可被剥削的策略核心，确立盈亏的底线。</p>
 <p>2.1 纳什均衡与无差别原则GTO策略的核心在于纳什均衡。在两人零和博弈中，如果双方都采用GTO策略，那么没有任何一方可以通过单方面改变策略来提高自己的收益 1。这种状态下的策略是防御性的极致，它通过精确的频率混合，使得对手的任何对策（Counter-strategy）都无法获得正期望值。这一策略构建的基础是无差别原则（Indifference Principle）。为了防止对手剥削我们的行动，我们需要构建一个混合策略，使得对手在面对我们的下注或加注时，其跟注或弃牌的EV是相同的。例如，在河牌圈（River）进行诈唬时，我们需要平衡价值下注与诈唬的比例，使得对手抓诈唬（BluffCatch）的期望值为零。这种平衡消除了对手通过过度跟注或过度弃牌来获利的可能性。</p>
 <p>2.2 最小防御频率（MDF）的数学构建为了贯彻无差别原则，防御方必须遵循最小防御频率（Minimum Defense Frequency, MDF）。MDF定义了面对对手下注时，为了防止对手利用纯诈唬（即0胜率的手牌）自动获利，防守方必须继续游戏（跟注或加注）的最小范围比例。MDF的计算公式为：</p>
@@ -2645,7 +3199,7 @@
                     <span class="card-toggle">&#9660;</span>
                 </div>
                 <div class="card-content" style="position:relative;"><div class="card-content-inner vip-locked" style="filter:blur(6px);user-select:none;pointer-events:none;">
-                    <p>代德州扑克高 策略白皮 ：不完全信息下现 级 书的决策科学体系1. 绪论：作为决策科学的扑克博弈德州扑克（Texas Hold&#x27;em）常被误解为一种单纯的博彩游戏，但在高水平竞技领域，它实质上是一门在不完全信息下进行资源优化配置的决策科学。现代扑克理论的发展已经超越了传统的经验主义，转向了以博弈论（Game Theory）、概率统计学和行为心理学为基础的严密系统。本白皮书旨在构建一个详尽的战略框架，解析从纳什均衡（Nash Equilibrium）的数学基石到高阶剥削性调整（Exploitative Adjustments）的实战应用，为职业玩家和理论研究者提供一份关于最大化期望值（Expected Value, EV）的终极指南。在这一复杂的系统中，胜利不再仅仅取决于单手牌的胜负，而是取决于决策过程的质量。根据大数定律，短期结果充满方差（Variance），但长期收益收敛于决策的数学期望。因此，所谓的高级策略，并非寻找必胜的秘籍，而是建立一套能够持续在数百万次决策中捕获微小优势（Edge）的算法体系。这一体系要求玩家不仅要理解“最优”策略是什么，更要理解为何在特定情境下偏离最优策略能产生超额收益。</p>
+                    <p>代德州扑克高 策略白皮 ：不完全信息下现 级 书的决策科学体系1. 绪论：作为决策科学的扑克博弈德州扑克（Texas Hold&#x27;em）常被误解为一种单纯的博彩游戏，但在高水平竞技领域，它实质上是一门在不完全信息下进行资源优化配置的决策科学。现代扑克理论的发展已经超越了传统的经验主义，转向了以博弈论（Game Theory）、概率统计学和行为心理学为基础的严密系统。本白皮书旨在构建一个详尽的战略框架，解析从纳什均衡（Nash Equilibrium）的数学基石到高阶剥削性调整（Exploitative Adjustments）的实战应用，为职业玩家和理论研究者提供一份关于最大化期望值（Expected Value, EV）的终极指南。在这一复杂的系统中，胜利不再仅仅取决于单手牌的胜负，而是取决于决策过程的质量。根据大数定律，短期结果充满方差（Variance），但长期收益收敛于决策的数学期望。因此，所谓的高级策略，并非寻找进阶的秘籍，而是建立一套能够持续在数百万次决策中捕获微小优势（Edge）的算法体系。这一体系要求玩家不仅要理解“最优”策略是什么，更要理解为何在特定情境下偏离最优策略能产生超额收益。</p>
 <p>2. 博弈论最优（GTO）与策略基准在探讨如何击败对手之前，必须首先确立一个防御性的基准，即博弈论最优策略（GTO）。GTO并非旨在最大化对阵特定对手的利润，而是旨在构建一个不可被剥削的策略核心，确立盈亏的底线。</p>
 <p>2.1 纳什均衡与无差别原则GTO策略的核心在于纳什均衡。在两人零和博弈中，如果双方都采用GTO策略，那么没有任何一方可以通过单方面改变策略来提高自己的收益 1。这种状态下的策略是防御性的极致，它通过精确的频率混合，使得对手的任何对策（Counter-strategy）都无法获得正期望值。这一策略构建的基础是无差别原则（Indifference Principle）。为了防止对手剥削我们的行动，我们需要构建一个混合策略，使得对手在面对我们的下注或加注时，其跟注或弃牌的EV是相同的。例如，在河牌圈（River）进行诈唬时，我们需要平衡价值下注与诈唬的比例，使得对手抓诈唬（BluffCatch）的期望值为零。这种平衡消除了对手通过过度跟注或过度弃牌来获利的可能性。</p>
 <p>2.2 最小防御频率（MDF）的数学构建为了贯彻无差别原则，防御方必须遵循最小防御频率（Minimum Defense Frequency, MDF）。MDF定义了面对对手下注时，为了防止对手利用纯诈唬（即0胜率的手牌）自动获利，防守方必须继续游戏（跟注或加注）的最小范围比例。MDF的计算公式为：</p>
@@ -2733,25 +3287,25 @@
             </div>
 
                 <div class="card-header" onclick="toggleCard(this)">
-                    <h3>德州扑克黑皮书：娱乐局必胜法</h3>
+                    <h3>德州扑克黑皮书：娱乐局进阶策略</h3>
                     <span class="card-toggle">&#9660;</span>
                 </div>
                 <div class="card-content">
                     <p>德州扑克黑皮 ：第五篇 新世界（书 · Trends &amp;） 年 局与异化 的必Toolkit ——2025 娱乐 战场解胜</p>
 <p>第一章：亚洲扑克新纪元——行动通货膨胀与生态异化2025年的亚洲扑克版图，正经历着一场从底层逻辑到顶层赛事的剧烈重构。这不再是十年前那个仅由少数职业牌手统治的、以标准德州扑克（NLH）为主导的静态市场，而是一个充满了高频波动、规则异化与技术博弈的全新生态。根据亚洲扑克巡回赛（APT）在台北的盛况分析，亚洲市场正在成为全球扑克产业增长的引擎，而这种增长伴随着游戏形态的根本性改变——从单纯的竞技向“高行动率”（High Action）的娱乐赌博化转型 1。</p>
-<p>1.1 亚洲扑克的复兴与“行动”的通货膨胀APT台北站作为亚洲扑克新时代的风向标，其主赛事高达500万美元的保底奖金不仅刷新了东半球的记录，更标志着大量资本与新玩家的涌入 1。然而，这种繁荣的背后，是玩家对游戏体验阈值的不断提高。传统的无限注德州扑克（NLH）在许多高端私局（Home Games）和娱乐局中，因其相对较慢的节奏和较高的弃牌率，逐渐被视为“枯燥”的代名词。为了迎合以中国、韩国、东南亚为代表的富裕阶层玩家（通常被称为“老板”或“VIP”）对刺激与即时反馈的渴求，市场自发演化出了一套“行动通货膨胀”机制 3。这种机制的核心在于通过规则修改，人为制造巨大的底池与极低的筹码底池比（SPR），迫使玩家频繁进入全下（All-in）状态。这其中包括了Bomb Pot（炸弹底池） 的常态化、强制性的Straddle（抓） 与 Ante（前注），以及多牌面（Double Board）玩法的普及 5。在这种环境下，传统的“紧凶”（TAG）策略面临严峻挑战。在一个翻前底池就已经包含10BB甚至20BB的游戏中，等待一手好牌的成本变得极高，且一旦入池，往往面临多方混战（Multi-way Pots），单对单的技术优势被大幅稀释。2025年的实战必胜解，首先要求玩家从心理上接受这种“高波动”的常态，并建立适应短筹码高频博弈的数学模型。</p>
+<p>1.1 亚洲扑克的复兴与“行动”的通货膨胀APT台北站作为亚洲扑克新时代的风向标，其主赛事高达500万美元的保底奖金不仅刷新了东半球的记录，更标志着大量资本与新玩家的涌入 1。然而，这种繁荣的背后，是玩家对游戏体验阈值的不断提高。传统的无限注德州扑克（NLH）在许多高端私局（Home Games）和娱乐局中，因其相对较慢的节奏和较高的弃牌率，逐渐被视为“枯燥”的代名词。为了迎合以中国、韩国、东南亚为代表的富裕阶层玩家（通常被称为“老板”或“VIP”）对刺激与即时反馈的渴求，市场自发演化出了一套“行动通货膨胀”机制 3。这种机制的核心在于通过规则修改，人为制造巨大的底池与极低的筹码底池比（SPR），迫使玩家频繁进入全下（All-in）状态。这其中包括了Bomb Pot（炸弹底池） 的常态化、强制性的Straddle（抓） 与 Ante（前注），以及多牌面（Double Board）玩法的普及 5。在这种环境下，传统的“紧凶”（TAG）策略面临严峻挑战。在一个翻前底池就已经包含10BB甚至20BB的游戏中，等待一手好牌的成本变得极高，且一旦入池，往往面临多方混战（Multi-way Pots），单对单的技术优势被大幅稀释。2025年的实战策略思路，首先要求玩家从心理上接受这种“高波动”的常态，并建立适应短筹码高频博弈的数学模型。</p>
 <p>1.2 线上与线下的双重异化这种“异化”不仅发生在实体牌桌上，也深刻影响了线上生态。以GGPoker、PokerBros、ClubGG为代表的移动端扑克应用，通过引入“保险”（Insurance）、“跑多次”（Run It Multiple Times）、“EVCashout”（期望值套现）等功能，重塑了玩家的风险偏好 8。这些功能看似降低了波动，实则是平台通过复杂的算法与手续费（Juice）进行隐形抽水的工具。与此同时，技术的进步使得“工具理性”在2025年达到了顶峰。GTO Wizard等求解器不仅能够处理复杂的翻后局面，甚至开始针对Ante和Straddle等特殊结构提供精确的预解方案 11。然而，这种理论的精进与线下局中“暗黑技术”的泛滥形成了鲜明对比。从具备AI分析能力的CVK系列分析仪到</p>
 <p>纳米级红外隐形眼镜，作弊手段的科技含量已足以让毫无防备的“理论派”玩家倾家荡产 13。因此，本报告将深入剖析这三大维度的交汇点：在规则异化的娱乐局中如何利用数学漏洞盈利，如何利用线上工具训练直觉，以及如何识别并防御高科技作弊。</p>
-<p>第二章：双板奥马哈炸弹底池（Double Board PLO BombPot）——2025娱乐局的“终极战场”在2025年的中国局与亚洲高端局中，Double Board PLO Bomb Pots（双板奥马哈炸弹底池） 已经取代了传统的NLH，成为决定整晚盈亏的关键战场 6。这种玩法因其巨大的底池、复杂的分配机制以及极高的娱乐性，成为了连接职业牌手与娱乐玩家的纽带，也是“必胜法”施展的核心领域。</p>
+<p>第二章：双板奥马哈炸弹底池（Double Board PLO BombPot）——2025娱乐局的“终极战场”在2025年的中国局与亚洲高端局中，Double Board PLO Bomb Pots（双板奥马哈炸弹底池） 已经取代了传统的NLH，成为决定整晚盈亏的关键战场 6。这种玩法因其巨大的底池、复杂的分配机制以及极高的娱乐性，成为了连接职业牌手与娱乐玩家的纽带，也是“进阶策略”施展的核心领域。</p>
 <p>2.1 游戏机制与数学陷阱解析Double Board PLO Bomb Pot 的核心规则是：所有玩家在翻牌前支付固定的Ante（通常为5BB-10BB），跳过翻前叫注，直接发放两副公共牌（Top Board 和 Bottom Board），并进行翻牌圈、转牌圈、河牌圈的下注 6。最终底池由两副牌面的获胜者平分（Split Pot）。</p>
 <p>2.1.1 权益稀释与“四分一”灾难（Quartering）这种玩法的最大陷阱在于玩家往往高估了自己在单一牌面上的坚果牌力。在单板游戏中，坚果意味着通吃（Scoop）；但在双板游戏中，单板坚果往往只意味着赢得一半底池。更危险的是，如果多名玩家持有相同的坚果牌（如顺子），这一半底池还将继续被瓜分。例如，在6人局中，底池极其巨大。如果你在Top Board持有坚果顺子，但在Bottom Board毫无胜算，而另一名对手也持有同样的顺子。最终你们将平分Top Board的50%底池，即每人获得总底池的25%。考虑到你需要投入大量筹码去跟注或加注，这种**“四分一”（Quartering）** 的结果往往会导致实际资金的净亏损（Negative Net Profit），即便你名义上“赢”了一半 17。职业牌手必须深刻理解：在双板游戏中，单向的坚果往往是用来“拉”（Pull）对手入池的，而不是用来“推”（Push）对手出局的。如果你无法赢得另一半底池，你希望尽可能多的人留下来支付底池，以增加那25%或50%的绝对值。反之，如果你有双向权益（Scoop Potential），则应极度激进地造池 19。</p>
-<p>2.1.2 必胜解：Freerolling（无风险套利）在2025年的高水平对局中，真正的必胜策略是寻找Freeroll（无风险套利） 的机会 6。Freeroll状态指的是：你已经锁定了第一副牌面的胜利（例如持有绝对坚果且牌面无抽牌可能），同时在第二副牌面持有强听牌或边缘成牌，有机会赢得第二副牌面。</p>
+<p>2.1.2 策略思路：Freerolling（无风险套利）在2025年的高水平对局中，真正的进阶策略是寻找Freeroll（无风险套利） 的机会 6。Freeroll状态指的是：你已经锁定了第一副牌面的胜利（例如持有绝对坚果且牌面无抽牌可能），同时在第二副牌面持有强听牌或边缘成牌，有机会赢得第二副牌面。</p>
 <p class="list-item">● 策略执行： 当你处于Freeroll状态时，你实际上是在拿对手的钱进行赌博。此时你的每一次下注对你自己而言都是零风险的（至多平分底池），而对对手而言则是致命的。在面对多个对手时，这种局面下应该无限制地加注（Pot Limit允许的最大额度），迫使那些只有单向权益的对手陷入长考或弃牌。</p>
 <p class="list-item">● 死牌效应（Card Removal）： 双板游戏中有两倍的公共牌，加上四张手牌，使得“死牌”效应极其显著 21。计算补牌（Outs）时必须极其严谨。如果你需要一张红桃A来完成同花，必须检查另一副牌面上是否已经出现了红桃A。这种微小的细节往往决定了你是处于Freeroll还是Drawing Dead（死听）。</p>
 <p>2.2 针对“随机手牌”的剥削策略Bomb Pot的另一大特征是所有玩家持有随机手牌进入翻牌圈。这意味着传统的翻前范围（</p>
 <p>Pre-flop Ranges）概念完全失效。在翻牌圈，所有人的范围都是100%的随机牌 6。</p>
 <p class="list-item">● 坚果优势（Nut Advantage）的绝对化： 由于没有翻前加注者的范围优势，胜负完全取决于谁的牌与牌面联系更紧密。数据表明，娱乐玩家在Bomb Pot中倾向于过度玩“顶对”或“中对”等在单板NLH中尚可的牌型，或者死追单向的听牌 7。</p>
-<p class="list-item">● 弃牌率的调整： 必胜法则要求极高的翻牌圈弃牌率。如果你的四张手牌没有与两副牌面中的任何一副形成强联系（如两对以上或强听牌），或者没有在其中一副形成坚果潜力，直接弃牌是长期正EV的唯一选择 19。不要因为支付了Ante就觉得“套牢”了（Pot Committed），那是沉没成本谬误。</p>
+<p class="list-item">● 弃牌率的调整： 进阶策略原则要求极高的翻牌圈弃牌率。如果你的四张手牌没有与两副牌面中的任何一副形成强联系（如两对以上或强听牌），或者没有在其中一副形成坚果潜力，直接弃牌是长期正EV的唯一选择 19。不要因为支付了Ante就觉得“套牢”了（Pot Committed），那是沉没成本谬误。</p>
 <p>第三章：中国局的特殊生态——抓（Straddle）、前注（Ante）与保险（Insurance）中国局（China Game）不仅在于玩法的变异，更在于其独特的金融与社交规则。Straddle和保险不仅仅是游戏机制，更是“老板”们控制游戏节奏和管理情绪的工具。</p>
 <p>3.1 强制行动体系：Straddle 与 Ante 的动力学在2025年的中国局中，Straddle（通常是UTG位两倍大盲）已是标配，甚至出现了Button Straddle或多重Straddle（UTG, UTG+1,...）的情况 5。</p>
 <p>3.1.1 SPR（筹码底池比）的剧变Straddle的引入直接改变了游戏的数学结构。在100BB买入的牌局中，如果有两倍的Straddle，实际的有效筹码深度瞬间降为25-33BB 22。这意味着游戏从深筹码策略转变为短筹码策略。</p>
@@ -2783,7 +3337,7 @@
 <p>6.1 2025主流作弊设备解析1. 新一代扑克分析仪（Poker Analyzers - CVK系列）：○ 原理： 这种设备外观像普通智能手机（如三星、iPhone模型，型号如CVK 350, CVK 500），侧面隐藏红外/紫外摄像头。配合特制的侧面条码扑克（Barcode Marked Cards），可以在洗牌结束的瞬间扫描牌序 13。○ 2025进化点： 扫描距离更远（20-40cm甚至更远），识别速度更快（0.1秒），且支持外接镜头（如手表、车钥匙、打火机甚至充电宝中的隐藏镜头） 37。这使得把手机放在桌面上不再是必要条件，作弊者可以更加隐蔽。○ 数据传输： 结果通过微型隐形耳机（Earpiece）或震动器（Vibrator）传达给作弊者 38。</p>
 <p>2. 红外隐形眼镜（Infrared Contact Lenses）：○ 原理： 配合背部用红外墨水标记的扑克牌。这种墨水肉眼不可见，但在滤光镜片下显示发光字体 14。○ 实战鉴别： 观察某些玩家在看牌背时是否有不自然的凝视，或者在强光/暗光环境下眼睛是否有异常反应（虽然高质量镜片已很难从外观察觉）。</p>
 <p>3. 洗牌机黑客（DeckMate Hacks）：○ 原理： 自动洗牌机（如DeckMate 2）内部有摄像头用于校验牌张。黑客可以通过USB接口植入恶意固件，或者通过蓝牙截取摄像头数据，从而知晓整副牌的顺序，并通过手机APP实时显示 41。○ 防御： 在私人局中，如果使用的是老旧或来源不明的自动洗牌机，风险极高。坚持手洗或要求定期检查机器是唯一的防御手段。</p>
-<h4>6.2 娱乐局必胜法之“安全防御”</h4>
+<h4>6.2 娱乐局进阶策略之“安全防御”</h4>
 <p class="list-item">● 物理隔离： 尽量不在允许带手机上桌、且没有信号屏蔽的私局玩大额。</p>
 <p class="list-item">● 观察异常： 警惕那些总是将随身物品（车钥匙、打火机、充电宝）精确摆放在牌桌边缘的玩</p>
 <p>家。警惕那些在发牌前就表现出异常自信或决策与公共牌面极度不符的玩家。</p>
@@ -2793,10 +3347,10 @@
 <p class="list-item">● 入池率（VPIP）过高： 很多老板玩牌是为了看翻牌，VPIP可能高达50%甚至80% 42。</p>
 <p class="list-item">● 对底池赔率不敏感： 面对加注，他们可能因为“感觉来了”而用垃圾牌跟注。</p>
 <p>在面对这种对手时，GTO建议的“平衡”（Balance）和“混合策略”（Mixed Strategy）变得毫无意义。如果对手永远不弃牌，你诈唬（Bluff）就是在送钱 44。</p>
-<p>7.2 2025剥削策略（Exploitative Play）的必胜解针对2025年的低级别或娱乐局，必胜法则是**“针对性剥削”**：1. 放弃平衡： 不要为了平衡范围而用强牌过牌（Check）。如果你有坚果，就往死里打价值（Value Bet）。老板们愿意支付 44。</p>
+<p>7.2 2025剥削策略（Exploitative Play）的策略思路针对2025年的低级别或娱乐局，进阶策略原则是**“针对性剥削”**：1. 放弃平衡： 不要为了平衡范围而用强牌过牌（Check）。如果你有坚果，就往死里打价值（Value Bet）。老板们愿意支付 44。</p>
 <p>2. 超额加注（Overbet）： 针对那些只会看自己牌力的玩家，当你有绝对强牌时，可以使用超过底池的下注。他们跟注的理由通常是“我想看一张牌”，而不是计算赔率 43。</p>
 <p>3. 节点锁定（Node Locking）： 在使用求解器复盘时，不要看GTO解，而是要锁定对手的策略节点（例如锁定对手永远不弃掉顶对），看看AI如何建议你调整。通常AI会建议你大幅减少诈唬，大幅增加价值下注的频率和尺度 44。</p>
-<p>第八章：软实力与“局”的艺术（Soft Skills）在2025年的中国局必胜法中，技术只是底色，“做人” 才是核心。正如职业牌手所言，要在高额局中生存，你不仅要赢钱，还要让输钱的老板觉得“开心”、“值得” 30。</p>
+<p>第八章：软实力与“局”的艺术（Soft Skills）在2025年的中国局进阶策略中，技术只是底色，“做人” 才是核心。正如职业牌手所言，要在高额局中生存，你不仅要赢钱，还要让输钱的老板觉得“开心”、“值得” 30。</p>
 <h4>8.1 情绪价值交换</h4>
 <p class="list-item">● 老板的心态： 老板来打牌是消费，买的是刺激、面子和社交。赢钱的PRO是在提供一种“陪练”和“娱乐”服务。</p>
 <p class="list-item">● 策略：○ 不要做“沉默的杀手”： 在桌上要活跃，要聊天，输了要大度，赢了要谦虚。○ 适度“送回”： 在无关痛痒的小底池中，适当展示一些较松的玩牌，让老板觉得你有可被</p>
@@ -2812,25 +3366,25 @@
                 </div>
             <div class="card vip-card-basic">
                 <div class="card-header" onclick="toggleCard(this)">
-                    <h3>德州扑克黑皮书：娱乐局必胜法</h3>
+                    <h3>德州扑克黑皮书：娱乐局进阶策略</h3>
                     <span class="card-toggle">&#9660;</span>
                 </div>
                 <div class="card-content" style="position:relative;"><div class="card-content-inner vip-locked" style="filter:blur(6px);user-select:none;pointer-events:none;">
                     <p>德州扑克黑皮 ：第五篇 新世界（书 · Trends &amp;） 年 局与异化 的必Toolkit ——2025 娱乐 战场解胜</p>
 <p>第一章：亚洲扑克新纪元——行动通货膨胀与生态异化2025年的亚洲扑克版图，正经历着一场从底层逻辑到顶层赛事的剧烈重构。这不再是十年前那个仅由少数职业牌手统治的、以标准德州扑克（NLH）为主导的静态市场，而是一个充满了高频波动、规则异化与技术博弈的全新生态。根据亚洲扑克巡回赛（APT）在台北的盛况分析，亚洲市场正在成为全球扑克产业增长的引擎，而这种增长伴随着游戏形态的根本性改变——从单纯的竞技向“高行动率”（High Action）的娱乐赌博化转型 1。</p>
-<p>1.1 亚洲扑克的复兴与“行动”的通货膨胀APT台北站作为亚洲扑克新时代的风向标，其主赛事高达500万美元的保底奖金不仅刷新了东半球的记录，更标志着大量资本与新玩家的涌入 1。然而，这种繁荣的背后，是玩家对游戏体验阈值的不断提高。传统的无限注德州扑克（NLH）在许多高端私局（Home Games）和娱乐局中，因其相对较慢的节奏和较高的弃牌率，逐渐被视为“枯燥”的代名词。为了迎合以中国、韩国、东南亚为代表的富裕阶层玩家（通常被称为“老板”或“VIP”）对刺激与即时反馈的渴求，市场自发演化出了一套“行动通货膨胀”机制 3。这种机制的核心在于通过规则修改，人为制造巨大的底池与极低的筹码底池比（SPR），迫使玩家频繁进入全下（All-in）状态。这其中包括了Bomb Pot（炸弹底池） 的常态化、强制性的Straddle（抓） 与 Ante（前注），以及多牌面（Double Board）玩法的普及 5。在这种环境下，传统的“紧凶”（TAG）策略面临严峻挑战。在一个翻前底池就已经包含10BB甚至20BB的游戏中，等待一手好牌的成本变得极高，且一旦入池，往往面临多方混战（Multi-way Pots），单对单的技术优势被大幅稀释。2025年的实战必胜解，首先要求玩家从心理上接受这种“高波动”的常态，并建立适应短筹码高频博弈的数学模型。</p>
+<p>1.1 亚洲扑克的复兴与“行动”的通货膨胀APT台北站作为亚洲扑克新时代的风向标，其主赛事高达500万美元的保底奖金不仅刷新了东半球的记录，更标志着大量资本与新玩家的涌入 1。然而，这种繁荣的背后，是玩家对游戏体验阈值的不断提高。传统的无限注德州扑克（NLH）在许多高端私局（Home Games）和娱乐局中，因其相对较慢的节奏和较高的弃牌率，逐渐被视为“枯燥”的代名词。为了迎合以中国、韩国、东南亚为代表的富裕阶层玩家（通常被称为“老板”或“VIP”）对刺激与即时反馈的渴求，市场自发演化出了一套“行动通货膨胀”机制 3。这种机制的核心在于通过规则修改，人为制造巨大的底池与极低的筹码底池比（SPR），迫使玩家频繁进入全下（All-in）状态。这其中包括了Bomb Pot（炸弹底池） 的常态化、强制性的Straddle（抓） 与 Ante（前注），以及多牌面（Double Board）玩法的普及 5。在这种环境下，传统的“紧凶”（TAG）策略面临严峻挑战。在一个翻前底池就已经包含10BB甚至20BB的游戏中，等待一手好牌的成本变得极高，且一旦入池，往往面临多方混战（Multi-way Pots），单对单的技术优势被大幅稀释。2025年的实战策略思路，首先要求玩家从心理上接受这种“高波动”的常态，并建立适应短筹码高频博弈的数学模型。</p>
 <p>1.2 线上与线下的双重异化这种“异化”不仅发生在实体牌桌上，也深刻影响了线上生态。以GGPoker、PokerBros、ClubGG为代表的移动端扑克应用，通过引入“保险”（Insurance）、“跑多次”（Run It Multiple Times）、“EVCashout”（期望值套现）等功能，重塑了玩家的风险偏好 8。这些功能看似降低了波动，实则是平台通过复杂的算法与手续费（Juice）进行隐形抽水的工具。与此同时，技术的进步使得“工具理性”在2025年达到了顶峰。GTO Wizard等求解器不仅能够处理复杂的翻后局面，甚至开始针对Ante和Straddle等特殊结构提供精确的预解方案 11。然而，这种理论的精进与线下局中“暗黑技术”的泛滥形成了鲜明对比。从具备AI分析能力的CVK系列分析仪到</p>
 <p>纳米级红外隐形眼镜，作弊手段的科技含量已足以让毫无防备的“理论派”玩家倾家荡产 13。因此，本报告将深入剖析这三大维度的交汇点：在规则异化的娱乐局中如何利用数学漏洞盈利，如何利用线上工具训练直觉，以及如何识别并防御高科技作弊。</p>
-<p>第二章：双板奥马哈炸弹底池（Double Board PLO BombPot）——2025娱乐局的“终极战场”在2025年的中国局与亚洲高端局中，Double Board PLO Bomb Pots（双板奥马哈炸弹底池） 已经取代了传统的NLH，成为决定整晚盈亏的关键战场 6。这种玩法因其巨大的底池、复杂的分配机制以及极高的娱乐性，成为了连接职业牌手与娱乐玩家的纽带，也是“必胜法”施展的核心领域。</p>
+<p>第二章：双板奥马哈炸弹底池（Double Board PLO BombPot）——2025娱乐局的“终极战场”在2025年的中国局与亚洲高端局中，Double Board PLO Bomb Pots（双板奥马哈炸弹底池） 已经取代了传统的NLH，成为决定整晚盈亏的关键战场 6。这种玩法因其巨大的底池、复杂的分配机制以及极高的娱乐性，成为了连接职业牌手与娱乐玩家的纽带，也是“进阶策略”施展的核心领域。</p>
 <p>2.1 游戏机制与数学陷阱解析Double Board PLO Bomb Pot 的核心规则是：所有玩家在翻牌前支付固定的Ante（通常为5BB-10BB），跳过翻前叫注，直接发放两副公共牌（Top Board 和 Bottom Board），并进行翻牌圈、转牌圈、河牌圈的下注 6。最终底池由两副牌面的获胜者平分（Split Pot）。</p>
 <p>2.1.1 权益稀释与“四分一”灾难（Quartering）这种玩法的最大陷阱在于玩家往往高估了自己在单一牌面上的坚果牌力。在单板游戏中，坚果意味着通吃（Scoop）；但在双板游戏中，单板坚果往往只意味着赢得一半底池。更危险的是，如果多名玩家持有相同的坚果牌（如顺子），这一半底池还将继续被瓜分。例如，在6人局中，底池极其巨大。如果你在Top Board持有坚果顺子，但在Bottom Board毫无胜算，而另一名对手也持有同样的顺子。最终你们将平分Top Board的50%底池，即每人获得总底池的25%。考虑到你需要投入大量筹码去跟注或加注，这种**“四分一”（Quartering）** 的结果往往会导致实际资金的净亏损（Negative Net Profit），即便你名义上“赢”了一半 17。职业牌手必须深刻理解：在双板游戏中，单向的坚果往往是用来“拉”（Pull）对手入池的，而不是用来“推”（Push）对手出局的。如果你无法赢得另一半底池，你希望尽可能多的人留下来支付底池，以增加那25%或50%的绝对值。反之，如果你有双向权益（Scoop Potential），则应极度激进地造池 19。</p>
-<p>2.1.2 必胜解：Freerolling（无风险套利）在2025年的高水平对局中，真正的必胜策略是寻找Freeroll（无风险套利） 的机会 6。Freeroll状态指的是：你已经锁定了第一副牌面的胜利（例如持有绝对坚果且牌面无抽牌可能），同时在第二副牌面持有强听牌或边缘成牌，有机会赢得第二副牌面。</p>
+<p>2.1.2 策略思路：Freerolling（无风险套利）在2025年的高水平对局中，真正的进阶策略是寻找Freeroll（无风险套利） 的机会 6。Freeroll状态指的是：你已经锁定了第一副牌面的胜利（例如持有绝对坚果且牌面无抽牌可能），同时在第二副牌面持有强听牌或边缘成牌，有机会赢得第二副牌面。</p>
 <p class="list-item">● 策略执行： 当你处于Freeroll状态时，你实际上是在拿对手的钱进行赌博。此时你的每一次下注对你自己而言都是零风险的（至多平分底池），而对对手而言则是致命的。在面对多个对手时，这种局面下应该无限制地加注（Pot Limit允许的最大额度），迫使那些只有单向权益的对手陷入长考或弃牌。</p>
 <p class="list-item">● 死牌效应（Card Removal）： 双板游戏中有两倍的公共牌，加上四张手牌，使得“死牌”效应极其显著 21。计算补牌（Outs）时必须极其严谨。如果你需要一张红桃A来完成同花，必须检查另一副牌面上是否已经出现了红桃A。这种微小的细节往往决定了你是处于Freeroll还是Drawing Dead（死听）。</p>
 <p>2.2 针对“随机手牌”的剥削策略Bomb Pot的另一大特征是所有玩家持有随机手牌进入翻牌圈。这意味着传统的翻前范围（</p>
 <p>Pre-flop Ranges）概念完全失效。在翻牌圈，所有人的范围都是100%的随机牌 6。</p>
 <p class="list-item">● 坚果优势（Nut Advantage）的绝对化： 由于没有翻前加注者的范围优势，胜负完全取决于谁的牌与牌面联系更紧密。数据表明，娱乐玩家在Bomb Pot中倾向于过度玩“顶对”或“中对”等在单板NLH中尚可的牌型，或者死追单向的听牌 7。</p>
-<p class="list-item">● 弃牌率的调整： 必胜法则要求极高的翻牌圈弃牌率。如果你的四张手牌没有与两副牌面中的任何一副形成强联系（如两对以上或强听牌），或者没有在其中一副形成坚果潜力，直接弃牌是长期正EV的唯一选择 19。不要因为支付了Ante就觉得“套牢”了（Pot Committed），那是沉没成本谬误。</p>
+<p class="list-item">● 弃牌率的调整： 进阶策略原则要求极高的翻牌圈弃牌率。如果你的四张手牌没有与两副牌面中的任何一副形成强联系（如两对以上或强听牌），或者没有在其中一副形成坚果潜力，直接弃牌是长期正EV的唯一选择 19。不要因为支付了Ante就觉得“套牢”了（Pot Committed），那是沉没成本谬误。</p>
 <p>第三章：中国局的特殊生态——抓（Straddle）、前注（Ante）与保险（Insurance）中国局（China Game）不仅在于玩法的变异，更在于其独特的金融与社交规则。Straddle和保险不仅仅是游戏机制，更是“老板”们控制游戏节奏和管理情绪的工具。</p>
 <p>3.1 强制行动体系：Straddle 与 Ante 的动力学在2025年的中国局中，Straddle（通常是UTG位两倍大盲）已是标配，甚至出现了Button Straddle或多重Straddle（UTG, UTG+1,...）的情况 5。</p>
 <p>3.1.1 SPR（筹码底池比）的剧变Straddle的引入直接改变了游戏的数学结构。在100BB买入的牌局中，如果有两倍的Straddle，实际的有效筹码深度瞬间降为25-33BB 22。这意味着游戏从深筹码策略转变为短筹码策略。</p>
@@ -2862,7 +3416,7 @@
 <p>6.1 2025主流作弊设备解析1. 新一代扑克分析仪（Poker Analyzers - CVK系列）：○ 原理： 这种设备外观像普通智能手机（如三星、iPhone模型，型号如CVK 350, CVK 500），侧面隐藏红外/紫外摄像头。配合特制的侧面条码扑克（Barcode Marked Cards），可以在洗牌结束的瞬间扫描牌序 13。○ 2025进化点： 扫描距离更远（20-40cm甚至更远），识别速度更快（0.1秒），且支持外接镜头（如手表、车钥匙、打火机甚至充电宝中的隐藏镜头） 37。这使得把手机放在桌面上不再是必要条件，作弊者可以更加隐蔽。○ 数据传输： 结果通过微型隐形耳机（Earpiece）或震动器（Vibrator）传达给作弊者 38。</p>
 <p>2. 红外隐形眼镜（Infrared Contact Lenses）：○ 原理： 配合背部用红外墨水标记的扑克牌。这种墨水肉眼不可见，但在滤光镜片下显示发光字体 14。○ 实战鉴别： 观察某些玩家在看牌背时是否有不自然的凝视，或者在强光/暗光环境下眼睛是否有异常反应（虽然高质量镜片已很难从外观察觉）。</p>
 <p>3. 洗牌机黑客（DeckMate Hacks）：○ 原理： 自动洗牌机（如DeckMate 2）内部有摄像头用于校验牌张。黑客可以通过USB接口植入恶意固件，或者通过蓝牙截取摄像头数据，从而知晓整副牌的顺序，并通过手机APP实时显示 41。○ 防御： 在私人局中，如果使用的是老旧或来源不明的自动洗牌机，风险极高。坚持手洗或要求定期检查机器是唯一的防御手段。</p>
-<h4>6.2 娱乐局必胜法之“安全防御”</h4>
+<h4>6.2 娱乐局进阶策略之“安全防御”</h4>
 <p class="list-item">● 物理隔离： 尽量不在允许带手机上桌、且没有信号屏蔽的私局玩大额。</p>
 <p class="list-item">● 观察异常： 警惕那些总是将随身物品（车钥匙、打火机、充电宝）精确摆放在牌桌边缘的玩</p>
 <p>家。警惕那些在发牌前就表现出异常自信或决策与公共牌面极度不符的玩家。</p>
@@ -2872,10 +3426,10 @@
 <p class="list-item">● 入池率（VPIP）过高： 很多老板玩牌是为了看翻牌，VPIP可能高达50%甚至80% 42。</p>
 <p class="list-item">● 对底池赔率不敏感： 面对加注，他们可能因为“感觉来了”而用垃圾牌跟注。</p>
 <p>在面对这种对手时，GTO建议的“平衡”（Balance）和“混合策略”（Mixed Strategy）变得毫无意义。如果对手永远不弃牌，你诈唬（Bluff）就是在送钱 44。</p>
-<p>7.2 2025剥削策略（Exploitative Play）的必胜解针对2025年的低级别或娱乐局，必胜法则是**“针对性剥削”**：1. 放弃平衡： 不要为了平衡范围而用强牌过牌（Check）。如果你有坚果，就往死里打价值（Value Bet）。老板们愿意支付 44。</p>
+<p>7.2 2025剥削策略（Exploitative Play）的策略思路针对2025年的低级别或娱乐局，进阶策略原则是**“针对性剥削”**：1. 放弃平衡： 不要为了平衡范围而用强牌过牌（Check）。如果你有坚果，就往死里打价值（Value Bet）。老板们愿意支付 44。</p>
 <p>2. 超额加注（Overbet）： 针对那些只会看自己牌力的玩家，当你有绝对强牌时，可以使用超过底池的下注。他们跟注的理由通常是“我想看一张牌”，而不是计算赔率 43。</p>
 <p>3. 节点锁定（Node Locking）： 在使用求解器复盘时，不要看GTO解，而是要锁定对手的策略节点（例如锁定对手永远不弃掉顶对），看看AI如何建议你调整。通常AI会建议你大幅减少诈唬，大幅增加价值下注的频率和尺度 44。</p>
-<p>第八章：软实力与“局”的艺术（Soft Skills）在2025年的中国局必胜法中，技术只是底色，“做人” 才是核心。正如职业牌手所言，要在高额局中生存，你不仅要赢钱，还要让输钱的老板觉得“开心”、“值得” 30。</p>
+<p>第八章：软实力与“局”的艺术（Soft Skills）在2025年的中国局进阶策略中，技术只是底色，“做人” 才是核心。正如职业牌手所言，要在高额局中生存，你不仅要赢钱，还要让输钱的老板觉得“开心”、“值得” 30。</p>
 <h4>8.1 情绪价值交换</h4>
 <p class="list-item">● 老板的心态： 老板来打牌是消费，买的是刺激、面子和社交。赢钱的PRO是在提供一种“陪练”和“娱乐”服务。</p>
 <p class="list-item">● 策略：○ 不要做“沉默的杀手”： 在桌上要活跃，要聊天，输了要大度，赢了要谦虚。○ 适度“送回”： 在无关痛痒的小底池中，适当展示一些较松的玩牌，让老板觉得你有可被</p>
@@ -4068,67 +4622,67 @@
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('HGDP_Deployment',20)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/HGDP_Deployment/page_1.jpg" alt="HGDP Deployment" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/HGDP_Deployment/page_1.jpg" alt="德州扑克会员图表资料预览：HGDP Deployment 第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>HGDP_Deployment</h4><p class="pdf-pages">&#128218; 20页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('中国局系统重构终局博弈',21)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/中国局系统重构终局博弈/page_1.jpg" alt="中国局系统重构终局博弈" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/中国局系统重构终局博弈/page_1.jpg" alt="德州扑克中国局系统重构终局博弈资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>中国局系统重构终局博弈</h4><p class="pdf-pages">&#128218; 21页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('扑克最优决策算法',15)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/扑克最优决策算法/page_1.jpg" alt="扑克最优决策算法" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/扑克最优决策算法/page_1.jpg" alt="德州扑克最优决策算法资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>扑克最优决策算法</h4><p class="pdf-pages">&#128218; 15页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('榨取价值',20)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/榨取价值/page_1.jpg" alt="榨取价值" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/榨取价值/page_1.jpg" alt="德州扑克价值下注与策略资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>榨取价值</h4><p class="pdf-pages">&#128218; 20页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('现金局进阶指南_从幸存者到大师',19)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/现金局进阶指南_从幸存者到大师/page_1.jpg" alt="现金局进阶指南" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/现金局进阶指南_从幸存者到大师/page_1.jpg" alt="德州扑克现金局进阶指南资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>现金局进阶指南_从幸存者到大师</h4><p class="pdf-pages">&#128218; 19页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('疯鱼粉碎机',26)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/疯鱼粉碎机/page_1.jpg" alt="疯鱼粉碎机" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/疯鱼粉碎机/page_1.jpg" alt="德州扑克娱乐玩家识别与策略资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>疯鱼粉碎机</h4><p class="pdf-pages">&#128218; 26页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('破解人类协议',20)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/破解人类协议/page_1.jpg" alt="破解人类协议" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/破解人类协议/page_1.jpg" alt="德州扑克牌桌心理与行为信号资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>破解人类协议</h4><p class="pdf-pages">&#128218; 20页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('绅士锋芒_统治协议',12)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/绅士锋芒_统治协议/page_1.jpg" alt="绅士锋芒_统治协议" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/绅士锋芒_统治协议/page_1.jpg" alt="德州扑克进阶策略资料绅士锋芒统治协议预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>绅士锋芒_统治协议</h4><p class="pdf-pages">&#128218; 12页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('荷官pdf',22)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/荷官pdf/page_1.jpg" alt="荷官pdf" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/荷官pdf/page_1.jpg" alt="德州扑克荷官与牌局风险识别资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>荷官pdf</h4><p class="pdf-pages">&#128218; 22页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('铁布衫系统协议_植入盈利算法',23)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/铁布衫系统协议_植入盈利算法/page_1.jpg" alt="铁布衫系统协议" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/铁布衫系统协议_植入盈利算法/page_1.jpg" alt="德州扑克资金管理与策略系统资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>铁布衫系统协议_植入盈利算法</h4><p class="pdf-pages">&#128218; 23页</p></div>
             </div>
 
             <div class="pdf-card vip-pdf" onclick="openPdfViewer('鱿鱼游戏',22)">
                 <div class="pdf-vip-lock"><div class="lock-icon">&#128274;</div><p>VIP会员专属</p><button class="vip-btn" onclick="event.stopPropagation();showVipModal()">&#128081; 解锁VIP</button></div>
-                <div class="pdf-thumb"><img src="images/鱿鱼游戏/page_1.jpg" alt="鱿鱼游戏" loading="lazy"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
+                <div class="pdf-thumb"><img src="images/鱿鱼游戏/page_1.jpg" alt="德州扑克牌局风险与人性博弈资料预览第1页" loading="lazy" decoding="async"><div class="thumb-overlay"><span>&#128065; 点击阅读</span></div></div>
                 <div class="pdf-info"><h4>鱿鱼游戏</h4><p class="pdf-pages">&#128218; 22页</p></div>
             </div>
 
@@ -4173,16 +4727,16 @@
             <!-- 信任背书 -->
             <div style="display:flex;justify-content:center;gap:20px;margin:14px 0 8px;flex-wrap:wrap;">
                 <div style="text-align:center;">
-                    <div style="color:#d4a853;font-size:1.6rem;font-weight:900;">10年+</div>
-                    <div style="color:#888;font-size:0.7rem;">实战经验沉淀</div>
+                    <div style="color:#d4a853;font-size:1.6rem;font-weight:900;">20+</div>
+                    <div style="color:#888;font-size:0.7rem;">深度文章</div>
                 </div>
                 <div style="text-align:center;">
-                    <div style="color:#1db954;font-size:1.6rem;font-weight:900;">3000+</div>
-                    <div style="color:#888;font-size:0.7rem;">读者学习反馈</div>
+                    <div style="color:#1db954;font-size:1.6rem;font-weight:900;">11套</div>
+                    <div style="color:#888;font-size:0.7rem;">图表资料</div>
                 </div>
                 <div style="text-align:center;">
-                    <div style="color:#ff6b6b;font-size:1.6rem;font-weight:900;">97%</div>
-                    <div style="color:#888;font-size:0.7rem;">好评率</div>
+                    <div style="color:#ff6b6b;font-size:1.6rem;font-weight:900;">每日</div>
+                    <div style="color:#888;font-size:0.7rem;">内容更新</div>
                 </div>
             </div>
 
@@ -4203,9 +4757,8 @@
                 <div style="flex:1;min-width:180px;background:rgba(29,185,84,0.06);border:1px solid rgba(29,185,84,0.4);border-radius:14px;padding:18px 14px;text-align:center;transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div style="font-size:1.3rem;font-weight:800;color:#1db954;margin-bottom:2px;">&#127183; VIP 会员</div>
                     <div style="color:#666;font-size:0.7rem;margin-bottom:2px;">掌握核心防坑 + 策略学习体系</div>
-                    <div style="color:#888;font-size:0.8rem;text-decoration:line-through;">&#165;19999</div>
                     <div style="color:#1db954;font-size:2rem;font-weight:900;line-height:1.1;">&#165;399</div>
-                    <div style="color:#1db954;font-size:0.7rem;font-weight:600;margin-bottom:10px;">&#128293; 限时1折 &#183; 永久有效</div>
+                    <div style="color:#1db954;font-size:0.7rem;font-weight:600;margin-bottom:10px;">会员资料库 &#183; 永久有效</div>
                     <div style="text-align:left;font-size:0.8rem;color:#b0b0b0;line-height:2;">
                         <div>&#10003; <strong style="color:#e0e0e0;">20篇深度实战文章</strong></div>
                         <div>&#10003; 识破骗局 &#183; 老千手法全解析</div>
@@ -4218,12 +4771,11 @@
                 </div>
                 <!-- SVIP -->
                 <div style="flex:1;min-width:180px;background:rgba(255,107,107,0.06);border:2px solid rgba(255,107,107,0.5);border-radius:14px;padding:18px 14px;text-align:center;position:relative;box-shadow:0 0 20px rgba(255,107,107,0.1);transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#ff6b6b,#ffa07a);color:#fff;font-size:0.65rem;font-weight:800;padding:3px 14px;border-radius:20px;white-space:nowrap;">&#128293; 90%的人选择这个</div>
+                    <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#ff6b6b,#ffa07a);color:#fff;font-size:0.65rem;font-weight:800;padding:3px 14px;border-radius:20px;white-space:nowrap;">进阶用户推荐</div>
                     <div style="font-size:1.3rem;font-weight:800;color:#ff6b6b;margin-bottom:2px;margin-top:4px;">&#128081; SVIP 超级会员</div>
                     <div style="color:#666;font-size:0.7rem;margin-bottom:2px;">高阶策略、线上安全与合规风险专题</div>
-                    <div style="color:#888;font-size:0.8rem;text-decoration:line-through;">&#165;199999</div>
                     <div style="color:#ff6b6b;font-size:2rem;font-weight:900;line-height:1.1;">&#165;1999</div>
-                    <div style="color:#ff6b6b;font-size:0.7rem;font-weight:600;margin-bottom:10px;">&#128293; 限时1折 &#183; 永久有效</div>
+                    <div style="color:#ff6b6b;font-size:0.7rem;font-weight:600;margin-bottom:10px;">高阶专题 &#183; 永久有效</div>
                     <div style="text-align:left;font-size:0.8rem;color:#b0b0b0;line-height:2;">
                         <div>&#10003; <strong style="color:#e0e0e0;">包含VIP全部20篇文章</strong></div>
                         <div>&#128293; <strong style="color:#ffa07a;">合规风险专题</strong>（私局生态与灰色边界识别）</div>
@@ -4238,13 +4790,13 @@
 
             <!-- 紧迫感提示 -->
             <div style="text-align:center;margin:8px 0 4px;">
-                <span style="display:inline-block;background:linear-gradient(135deg,#d4a853,#f5d78e);color:#0a0e17;font-size:0.72rem;font-weight:800;padding:4px 16px;border-radius:20px;animation:pulse 2s infinite;">&#9200; 内容持续更新 &#183; 适合理性学习与复盘</span>
+                <span style="display:inline-block;background:linear-gradient(135deg,#d4a853,#f5d78e);color:#0a0e17;font-size:0.72rem;font-weight:800;padding:4px 16px;border-radius:20px;animation:pulse 2s infinite;">内容持续更新 &#183; 适合理性学习与复盘</span>
             </div>
             <style>@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.85;transform:scale(1.02);}}</style>
 
             <!-- 联系方式 -->
             <div style="background:linear-gradient(135deg,rgba(212,168,83,0.1),rgba(245,215,142,0.05));border:1px solid rgba(212,168,83,0.3);border-radius:12px;padding:16px;margin:14px 0;">
-                <p style="color:#d4a853;font-weight:700;margin-bottom:10px;font-size:1rem;">&#128172; 立即联系 &#183; 秒回开通</p>
+                <p style="color:#d4a853;font-weight:700;margin-bottom:10px;font-size:1rem;">&#128172; 联系开通会员</p>
                 <div id="vipContactCards" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
                     <div style="background:rgba(0,0,0,0.3);padding:12px 22px;border-radius:10px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                         <span style="font-size:1.4rem;">&#128172;</span>
