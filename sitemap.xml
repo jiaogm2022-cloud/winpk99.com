@@ -2,38 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.winpk99.com/</loc>
-        <lastmod>2026-04-04</lastmod>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.winpk99.com/#序言</loc>
-        <lastmod>2026-04-04</lastmod>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.winpk99.com/#避坑指南</loc>
-        <lastmod>2026-04-04</lastmod>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.winpk99.com/#赢钱策略</loc>
-        <lastmod>2026-04-04</lastmod>
+        <loc>https://www.winpk99.com/#实战策略</loc>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.winpk99.com/#读人识局</loc>
-        <lastmod>2026-04-04</lastmod>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.winpk99.com/#资金管理</loc>
-        <lastmod>2026-04-04</lastmod>
+        <lastmod>2026-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/#合规风险</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/#线上安全</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/updates.html</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
 </urlset>
