@@ -1277,6 +1277,105 @@
             display: none;
         }
 
+        /* Final modal layout: mobile-first because most visitors open on phones. */
+        .vip-modal {
+            width: min(92vw, 520px);
+            max-width: 520px;
+            max-height: 90vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: clamp(1rem, 4vw, 2rem);
+        }
+
+        #vipPricingCards {
+            flex-direction: column !important;
+            gap: 10px !important;
+            margin: 12px 0 !important;
+        }
+
+        #vipPricingCards > div {
+            width: 100% !important;
+            min-width: 0 !important;
+            flex: none !important;
+            padding: 14px 14px !important;
+        }
+
+        #vipContactCards {
+            grid-template-columns: 1fr !important;
+            gap: 10px !important;
+        }
+
+        .vip-contact-card {
+            min-height: 72px;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 12px 14px;
+        }
+
+        .vip-contact-text {
+            text-align: left;
+        }
+
+        .vip-contact-copy {
+            flex: 0 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .vip-modal {
+                width: 94vw;
+                max-height: 86vh;
+                border-radius: 14px;
+            }
+
+            .vip-contact-panel {
+                padding: 14px;
+                margin: 12px 0 10px;
+            }
+
+            .vip-contact-title {
+                font-size: 1.08rem;
+            }
+
+            .vip-contact-hint {
+                font-size: 0.78rem;
+                line-height: 1.65;
+            }
+
+            .vip-contact-icon {
+                width: 42px;
+                height: 42px;
+                border-radius: 13px;
+                font-size: 1.2rem;
+            }
+
+            .vip-contact-value {
+                font-size: 1.02rem;
+            }
+
+            .vip-mobile-sticky-contact {
+                position: sticky;
+                bottom: 0;
+                z-index: 9;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                margin: 10px -4px 0;
+                padding: 10px 4px 2px;
+                background: linear-gradient(to top, rgba(7,10,18,0.96) 0%, rgba(7,10,18,0.86) 70%, transparent 100%);
+            }
+
+            .vip-mobile-sticky-contact button {
+                border: none;
+                border-radius: 999px;
+                padding: 11px 8px;
+                color: #0a0e17;
+                background: linear-gradient(135deg,#d4a853,#f5d78e);
+                font-size: 0.76rem;
+                font-weight: 900;
+                box-shadow: 0 8px 22px rgba(0,0,0,0.28);
+            }
+        }
+
         /* Card with VIP tag */
         .card.vip-card {
             border-color: rgba(212, 168, 83, 0.5);
