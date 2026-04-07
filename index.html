@@ -780,9 +780,88 @@
             .vip-modal .close-btn { top: 8px; right: 12px; font-size: 1.2rem; z-index: 10; }
 
             /* VIP pricing cards stack vertically on mobile */
-            #vipPricingCards { flex-direction: column !important; }
-            #vipContactCards { grid-template-columns: 1fr !important; gap: 10px !important; }
-            #vipContactCards > button { width: 100% !important; justify-content: flex-start !important; }
+            #vipPricingCards {
+                flex-direction: column !important;
+                gap: 10px !important;
+                margin: 12px 0 !important;
+            }
+            #vipPricingCards > div {
+                min-width: 0 !important;
+                width: 100% !important;
+                padding: 14px 12px !important;
+                border-radius: 14px !important;
+            }
+            #vipPricingCards > div > div:first-child {
+                font-size: 1.12rem !important;
+            }
+            #vipPricingCards > div > div:nth-child(3) {
+                font-size: 1.75rem !important;
+            }
+            #vipPricingCards > div > div:nth-child(5) {
+                font-size: 0.78rem !important;
+                line-height: 1.7 !important;
+            }
+            .vip-contact-panel {
+                padding: 14px !important;
+                margin: 12px 0 10px !important;
+                border-radius: 16px !important;
+            }
+            .vip-contact-title {
+                font-size: 1.08rem !important;
+                margin-bottom: 6px !important;
+            }
+            .vip-contact-hint {
+                font-size: 0.78rem !important;
+                line-height: 1.65 !important;
+                margin-bottom: 10px !important;
+            }
+            #vipContactCards {
+                grid-template-columns: 1fr !important;
+                gap: 10px !important;
+            }
+            #vipContactCards > button {
+                width: 100% !important;
+                justify-content: flex-start !important;
+            }
+            .vip-contact-card {
+                min-height: 72px !important;
+                padding: 12px !important;
+                gap: 10px !important;
+            }
+            .vip-contact-icon {
+                width: 42px !important;
+                height: 42px !important;
+                border-radius: 13px !important;
+                font-size: 1.2rem !important;
+            }
+            .vip-contact-value {
+                font-size: 1.02rem !important;
+            }
+            .vip-contact-copy {
+                padding: 7px 10px !important;
+                font-size: 0.72rem !important;
+            }
+            .vip-mobile-sticky-contact {
+                position: sticky;
+                bottom: 0;
+                z-index: 9;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                margin: 10px -4px 0;
+                padding: 10px 4px 2px;
+                background: linear-gradient(to top, rgba(7,10,18,0.96) 0%, rgba(7,10,18,0.86) 70%, transparent 100%);
+            }
+            .vip-mobile-sticky-contact button {
+                border: none;
+                border-radius: 999px;
+                padding: 11px 8px;
+                color: #0a0e17;
+                background: linear-gradient(135deg,#d4a853,#f5d78e);
+                font-size: 0.76rem;
+                font-weight: 900;
+                box-shadow: 0 8px 22px rgba(0,0,0,0.28);
+            }
 
             #vipCodeInput { padding: 10px 12px; font-size: 0.9rem; }
             .vip-modal button[onclick="activateVip()"] { padding: 10px 16px; font-size: 0.85rem; }
@@ -814,6 +893,8 @@
             .vip-modal { padding: 0.8rem; max-height: 82vh; }
             .vip-modal h3 { font-size: 0.9rem; }
             .vip-modal .crown-big { font-size: 1.4rem; margin-bottom: 0.2rem; }
+            .vip-contact-copy { display: none; }
+            .vip-mobile-sticky-contact button { font-size: 0.7rem; padding: 10px 6px; }
         }
         
         
@@ -1089,24 +1170,27 @@
         }
 
         .vip-contact-panel {
-            background: linear-gradient(135deg, rgba(212,168,83,0.16), rgba(245,215,142,0.06));
-            border: 1px solid rgba(212,168,83,0.42);
-            border-radius: 16px;
+            background:
+                radial-gradient(circle at 18% 10%, rgba(29,185,84,0.18), transparent 38%),
+                linear-gradient(145deg, rgba(245,215,142,0.14), rgba(255,255,255,0.045));
+            border: 1px solid rgba(245,215,142,0.45);
+            border-radius: 18px;
             padding: 18px;
-            margin: 16px 0;
-            box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+            margin: 16px 0 12px;
+            box-shadow: 0 14px 36px rgba(0,0,0,0.24);
         }
         .vip-contact-title {
             color: #f5d78e;
-            font-weight: 800;
+            font-weight: 900;
             margin-bottom: 8px;
-            font-size: 1.08rem;
+            font-size: 1.22rem;
+            letter-spacing: 0.02em;
         }
         .vip-contact-hint {
-            color: #b8b1a4;
-            font-size: 0.78rem;
+            color: #d8d2c6;
+            font-size: 0.86rem;
             margin: 0 0 14px;
-            line-height: 1.6;
+            line-height: 1.75;
         }
         #vipContactCards {
             display: grid;
@@ -1115,15 +1199,15 @@
         }
         .vip-contact-card {
             width: 100%;
-            min-height: 74px;
-            background: rgba(0,0,0,0.36);
-            border: 1px solid rgba(245,215,142,0.2);
-            border-radius: 14px;
+            min-height: 86px;
+            background: rgba(0,0,0,0.42);
+            border: 1px solid rgba(245,215,142,0.26);
+            border-radius: 16px;
             color: inherit;
             display: flex;
             align-items: center;
             gap: 12px;
-            padding: 14px 16px;
+            padding: 16px;
             cursor: pointer;
             text-align: left;
             transition: transform 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
@@ -1139,23 +1223,28 @@
             outline: none;
         }
         .vip-contact-icon {
-            width: 42px;
-            height: 42px;
-            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            border-radius: 16px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background: rgba(212,168,83,0.16);
-            font-size: 1.35rem;
+            background: linear-gradient(135deg, rgba(212,168,83,0.28), rgba(29,185,84,0.14));
+            border: 1px solid rgba(245,215,142,0.18);
+            font-size: 1.45rem;
             flex: 0 0 auto;
+        }
+        .vip-contact-text {
+            min-width: 0;
+            flex: 1;
         }
         .vip-contact-copy {
             margin-left: auto;
             color: #0a0e17;
             background: linear-gradient(135deg, #d4a853, #f5d78e);
             border-radius: 999px;
-            padding: 6px 10px;
-            font-size: 0.72rem;
+            padding: 7px 12px;
+            font-size: 0.76rem;
             font-weight: 900;
             white-space: nowrap;
         }
@@ -1165,23 +1254,27 @@
         }
         .vip-contact-label {
             display: block;
-            color: #8f8f8f;
-            font-size: 0.68rem;
+            color: #b6b0a4;
+            font-size: 0.72rem;
             margin-bottom: 2px;
         }
         .vip-contact-value {
             display: block;
             color: #f5d78e;
             font-weight: 900;
-            font-size: 1.08rem;
+            font-size: 1.15rem;
             letter-spacing: 0.03em;
+            overflow-wrap: anywhere;
         }
         #vipCopyMsg {
             min-height: 1.2em;
             color: #1db954;
-            font-size: 0.76rem;
-            font-weight: 700;
-            margin: 10px 0 0;
+            font-size: 0.82rem;
+            font-weight: 800;
+            margin: 12px 0 0;
+        }
+        .vip-mobile-sticky-contact {
+            display: none;
         }
 
         /* Card with VIP tag */
@@ -5170,26 +5263,30 @@
             <!-- 联系方式 -->
             <div class="vip-contact-panel">
                 <p class="vip-contact-title">&#128172; 联系开通会员</p>
-                <p class="vip-contact-hint">点击下面任意联系方式即可复制，不需要点中小字；复制后到 QQ 或 Telegram 搜索添加。</p>
+                <p class="vip-contact-hint">手机用户直接点大按钮复制。复制后打开 QQ 或 Telegram 搜索添加，备注“winpk99会员”。</p>
                 <div id="vipContactCards">
-                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '993833', 'QQ号已复制：993833')">
+                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '993833', 'QQ号已复制：993833，打开 QQ 搜索添加')">
                         <span class="vip-contact-icon">&#128172;</span>
-                        <span>
-                            <span class="vip-contact-label">QQ 号</span>
+                        <span class="vip-contact-text">
+                            <span class="vip-contact-label">QQ 开通 / 咨询</span>
                             <span class="vip-contact-value">993833</span>
                         </span>
-                        <span class="vip-contact-copy">复制</span>
+                        <span class="vip-contact-copy">复制QQ</span>
                     </button>
-                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '@SkySingapore', 'Telegram 已复制：@SkySingapore')">
+                    <button type="button" class="vip-contact-card" onclick="copyVipContact(this, '@SkySingapore', 'Telegram 已复制：@SkySingapore，打开 Telegram 搜索添加')">
                         <span class="vip-contact-icon">&#9992;</span>
-                        <span>
-                            <span class="vip-contact-label">Telegram</span>
+                        <span class="vip-contact-text">
+                            <span class="vip-contact-label">Telegram 开通 / 咨询</span>
                             <span class="vip-contact-value">@SkySingapore</span>
                         </span>
-                        <span class="vip-contact-copy">复制</span>
+                        <span class="vip-contact-copy">复制TG</span>
                     </button>
                 </div>
                 <p id="vipCopyMsg" aria-live="polite"></p>
+                <div class="vip-mobile-sticky-contact" aria-label="手机快速联系方式">
+                    <button type="button" onclick="copyVipContact(document.querySelector('.vip-contact-card'), '993833', 'QQ号已复制：993833，打开 QQ 搜索添加')">复制 QQ 993833</button>
+                    <button type="button" onclick="copyVipContact(document.querySelectorAll('.vip-contact-card')[1], '@SkySingapore', 'Telegram 已复制：@SkySingapore，打开 Telegram 搜索添加')">复制 Telegram</button>
+                </div>
             </div>
 
             <!-- 激活码输入 -->
