@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://www.winpk99.com/</loc>
-        <lastmod>2026-04-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -13,12 +13,62 @@
     </url>
     <url>
         <loc>https://www.winpk99.com/updates.html</loc>
-        <lastmod>2026-04-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
         <image:image>
             <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
             <image:title>德州扑克避坑系列文章封面预览</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/guides.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
+            <image:title>德州扑克学习指南与专题导航</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/beginner-guide.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.88</priority>
+        <image:image>
+            <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
+            <image:title>德州扑克新手入门指南</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/bankroll-management.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.88</priority>
+        <image:image>
+            <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
+            <image:title>德州扑克资金管理指南</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/offline-game-risk.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
+            <image:title>德州扑克线下局避坑指南</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.winpk99.com/online-poker-safety.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://www.winpk99.com/images/HGDP_Deployment/page_1.jpg</image:loc>
+            <image:title>线上德州扑克安全指南</image:title>
         </image:image>
     </url>
 </urlset>

@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /*.txt$
+Disallow: /VIP激活码清单.txt
+Disallow: /SVIP激活码清单.txt
+Disallow: /会员激活码管理.txt
 Sitemap: https://www.winpk99.com/sitemap.xml
 
 User-agent: Googlebot
