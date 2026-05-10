@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T08:02:23.404Z",
+  "generated_at": "2026-05-10T08:07:36.955Z",
   "sources": [
     "PokerNews",
     "CardPlayer Blogs",
@@ -8,7 +8,9 @@
     "GTO Wizard Blog",
     "Reddit r/poker"
   ],
-  "errors": [],
+  "errors": [
+    "CardPlayer Blogs: HTTP 403"
+  ],
   "items": [
     {
       "id": "1d17afeed77b65e6",
@@ -20,7 +22,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "updates.html",
       "published_at": "2026-05-10T02:59:00.000Z",
-      "collected_at": "2026-05-10T08:02:22.178Z",
+      "collected_at": "2026-05-10T08:07:22.991Z",
       "score": 11
     },
     {
@@ -33,7 +35,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "updates.html",
       "published_at": "2026-05-08T20:26:00.000Z",
-      "collected_at": "2026-05-10T08:02:22.178Z",
+      "collected_at": "2026-05-10T08:07:22.992Z",
       "score": 11
     },
     {
@@ -46,7 +48,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-08T14:00:53.000Z",
-      "collected_at": "2026-05-10T08:02:22.481Z",
+      "collected_at": "2026-05-10T08:07:23.479Z",
       "score": 11
     },
     {
@@ -59,7 +61,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "updates.html",
       "published_at": "2026-05-08T12:00:00.000Z",
-      "collected_at": "2026-05-10T08:02:22.179Z",
+      "collected_at": "2026-05-10T08:07:22.993Z",
       "score": 11
     },
     {
@@ -72,7 +74,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "updates.html",
       "published_at": "2026-05-08T09:00:00.000Z",
-      "collected_at": "2026-05-10T08:02:22.179Z",
+      "collected_at": "2026-05-10T08:07:22.993Z",
       "score": 11
     },
     {
@@ -85,7 +87,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "updates.html",
       "published_at": "2026-05-08T08:00:00.000Z",
-      "collected_at": "2026-05-10T08:02:22.179Z",
+      "collected_at": "2026-05-10T08:07:22.993Z",
       "score": 11
     }
   ]
