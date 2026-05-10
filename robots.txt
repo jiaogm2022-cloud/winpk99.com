@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://www.winpk99.com/sitemap.xml
+Host: www.winpk99.com

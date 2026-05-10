@@ -15,7 +15,9 @@
 4. 生成中文导读和站内延伸链接。
 5. 更新 `updates.html` 和首页的“今日值得看”。
 6. 保存当天归档到 `data/updates/YYYY-MM-DD.json`。
-7. 自动提交到 `main`，GitHub Pages 随后发布。
+7. 刷新 SEO 标题、描述、结构化数据和 `sitemap.xml`。
+8. 自动提交到 `main`，GitHub Pages 随后发布。
+9. 通过 IndexNow 通知 Bing/IndexNow 支持的搜索引擎页面已更新。
 
 ## 调整采集源
 
@@ -43,6 +45,7 @@
 
 ```bash
 node scripts/daily-update.mjs
+node scripts/seo-optimize.mjs
 ```
 
 可选参数：

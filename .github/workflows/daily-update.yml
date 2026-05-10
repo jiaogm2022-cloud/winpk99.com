@@ -25,16 +25,25 @@ jobs:
           node-version: "22"
 
       - name: Collect daily poker content
-        run: node scripts/daily-update.mjs
+        run: |
+          node scripts/daily-update.mjs
+          node scripts/seo-optimize.mjs
 
       - name: Commit generated update
+        id: commit
         run: |
           if git diff --quiet; then
             echo "No content changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "winpk99 daily updater"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html updates.html data/updates
+          git add index.html updates.html feed.xml sitemap.xml robots.txt data/updates
           git commit -m "Daily content update"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Notify IndexNow
+        if: steps.commit.outputs.changed == 'true'
+        run: node scripts/indexnow-submit.mjs

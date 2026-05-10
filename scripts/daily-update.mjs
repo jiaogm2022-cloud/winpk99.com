@@ -222,6 +222,36 @@ function renderUpdateStrip(items) {
     .join("")}</div><p class="center"><a class="text-link" href="updates.html">进入每日更新</a></p>`;
 }
 
+function renderFeed(items, date) {
+  const updated = new Date().toUTCString();
+  const itemXml = items
+    .map(
+      (item) => `<item>
+      <title>${escapeHtml(item.title)}</title>
+      <link>${escapeHtml(item.url)}</link>
+      <guid isPermaLink="false">${escapeHtml(item.id)}</guid>
+      <pubDate>${new Date(item.published_at).toUTCString()}</pubDate>
+      <category>${escapeHtml(item.category)}</category>
+      <description>${escapeHtml(`${item.summary_zh} ${item.why_it_matters}`)}</description>
+    </item>`,
+    )
+    .join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>winpk99 德州扑克每日更新</title>
+    <link>${SITE_ORIGIN}/updates.html</link>
+    <description>每日自动汇总德州扑克新闻、策略笔记、赛事动态、风险提醒和站内延伸阅读。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>${updated}</lastBuildDate>
+    <pubDate>${updated}</pubDate>
+    <ttl>1440</ttl>
+    ${itemXml}
+  </channel>
+</rss>
+`;
+}
+
 function replaceFirst(input, pattern, replacement, label) {
   if (!pattern.test(input)) throw new Error(`Cannot find ${label}`);
   return input.replace(pattern, replacement);
@@ -248,6 +278,7 @@ async function updatePages(items, date) {
 
   await writeFile("updates.html", updatedUpdates);
   await writeFile("index.html", updatedIndex);
+  await writeFile("feed.xml", renderFeed(items, date));
 }
 
 async function main() {
