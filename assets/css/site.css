@@ -122,7 +122,6 @@ h1 {
 }
 .panel-kicker { color: var(--green); font-weight: 800; }
 .hero-panel ol { padding-left: 20px; margin-bottom: 0; color: var(--muted); }
-.compact-hero { min-height: 420px; }
 .container {
   width: min(1180px, calc(100% - 36px));
   margin: 0 auto;
@@ -195,43 +194,11 @@ h1 {
 }
 .prose h2 { font-size: clamp(26px, 4vw, 38px); }
 .prose p { color: var(--muted); font-size: 18px; }
-.prose ul { color: var(--muted); font-size: 18px; padding-left: 22px; }
-.wiki-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.term-card h3 { font-size: 18px; line-height: 1.35; }
-.term-card p { font-size: 15px; }
 .related-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 16px;
+  gap: 12px 18px;
   align-items: center;
-  margin-top: 20px;
-  padding-top: 16px;
-  border-top: 1px solid var(--line);
-}
-.table-wrap {
-  overflow-x: auto;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  color: var(--muted);
-  background: var(--surface);
-}
-th, td {
-  padding: 12px 14px;
-  border-bottom: 1px solid var(--line);
-  text-align: left;
-  vertical-align: top;
-}
-th { color: var(--gold); background: rgba(234, 196, 125, .08); }
-tr:last-child td { border-bottom: 0; }
-.download-panel {
-  padding: 28px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface-2);
 }
 .paywall-preview {
   padding: 28px;
@@ -280,7 +247,7 @@ tr:last-child td { border-bottom: 0; }
   .site-nav.open { display: flex; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .section-head { display: block; }
-  .card-grid, .pricing-grid, .library-grid, .benefit-list, .update-strip, .wiki-grid { grid-template-columns: 1fr; }
+  .card-grid, .pricing-grid, .library-grid, .benefit-list, .update-strip { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .site-header { gap: 12px; }
