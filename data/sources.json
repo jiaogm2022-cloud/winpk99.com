@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PokerNews",
+    "url": "https://www.pokernews.com/rss.php",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "CardPlayer Blogs",
+    "url": "https://www.cardplayer.com/poker-blogs.rss",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "Upswing Poker",
+    "url": "https://upswingpoker.com/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "GTO Wizard Blog",
+    "url": "https://blog.gtowizard.com/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "Reddit r/poker",
+    "url": "https://www.reddit.com/r/poker/.rss",
+    "type": "rss",
+    "categoryHint": "社区讨论"
+  }
+]
