@@ -6,12 +6,6 @@
     "categoryHint": "新闻动态"
   },
   {
-    "name": "CardPlayer Blogs",
-    "url": "https://www.cardplayer.com/poker-blogs.rss",
-    "type": "rss",
-    "categoryHint": "策略笔记"
-  },
-  {
     "name": "Upswing Poker",
     "url": "https://upswingpoker.com/feed/",
     "type": "rss",
