@@ -22,5 +22,71 @@
     "url": "https://www.reddit.com/r/poker/.rss",
     "type": "rss",
     "categoryHint": "社区讨论"
+  },
+  {
+    "name": "PokerTube",
+    "url": "https://www.pokertube.com/feed",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "Red Chip Poker",
+    "url": "https://redchippoker.com/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "Cardplayer Lifestyle",
+    "url": "https://cardplayerlifestyle.com/feed/",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "Poker News Daily",
+    "url": "https://www.pokernewsdaily.com/feed/",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "Ante Up Magazine",
+    "url": "https://anteupmagazine.com/feed/",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "Jonathan Little Poker",
+    "url": "https://jonathanlittlepoker.com/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "Thinking Poker",
+    "url": "https://www.thinkingpoker.net/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "BlackRain79",
+    "url": "https://www.blackrain79.com/feeds/posts/default?alt=rss",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "My Poker Coaching",
+    "url": "https://www.mypokercoaching.com/feed/",
+    "type": "rss",
+    "categoryHint": "策略笔记"
+  },
+  {
+    "name": "iGaming Poker News",
+    "url": "https://igaming.org/poker-news/feed/",
+    "type": "rss",
+    "categoryHint": "新闻动态"
+  },
+  {
+    "name": "iGaming Poker Interviews",
+    "url": "https://igaming.org/poker-interviews/feed/",
+    "type": "rss",
+    "categoryHint": "新闻动态"
   }
 ]

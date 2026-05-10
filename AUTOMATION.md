@@ -52,6 +52,7 @@ node scripts/seo-optimize.mjs
 
 ```bash
 MAX_DAILY_ITEMS=8 node scripts/daily-update.mjs
+MAX_DAILY_ITEMS=100 MAX_ITEMS_PER_SOURCE=25 node scripts/daily-update.mjs
 UPDATE_DATE=2026-05-10 node scripts/daily-update.mjs
 ```
 

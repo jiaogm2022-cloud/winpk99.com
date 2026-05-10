@@ -25,6 +25,9 @@ jobs:
           node-version: "22"
 
       - name: Collect daily poker content
+        env:
+          MAX_DAILY_ITEMS: "100"
+          MAX_ITEMS_PER_SOURCE: "25"
         run: |
           node scripts/daily-update.mjs
           node scripts/seo-optimize.mjs

@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 
 const SITE_ORIGIN = "https://www.winpk99.com";
 const MAX_ITEMS = Number(process.env.MAX_DAILY_ITEMS || 6);
+const MAX_ITEMS_PER_SOURCE = Number(process.env.MAX_ITEMS_PER_SOURCE || 25);
 const SOURCE_FILE = "data/sources.json";
 const ARCHIVE_DIR = "data/updates";
 const UA = "winpk99-daily-updater/1.0 (+https://www.winpk99.com/)";
@@ -176,10 +177,10 @@ function makeChineseTitle(title, category) {
   if (category === "风险提醒") return `${subject || "德州扑克"}风险识别提醒`;
   if (category === "社区讨论") return `${subject || "扑克社区"}玩家讨论观察`;
   if (category === "赛事新闻") {
-    if (/main event/i.test(title)) return `${subject || "扑克赛事"}主赛事最新动态`;
-    if (/final table/i.test(title)) return `${subject || "扑克赛事"}决赛桌动态`;
-    if (/high roller/i.test(title)) return `${subject || "扑克赛事"}高额赛动态`;
-    return `${subject || "扑克赛事"}赛事动态`;
+    if (/main event/i.test(title)) return `${subject || "扑克"}主赛事最新动态`;
+    if (/final table/i.test(title)) return `${subject || "扑克"}决赛桌动态`;
+    if (/high roller/i.test(title)) return `${subject || "扑克"}高额赛动态`;
+    return subject ? `${subject}赛事动态` : "扑克赛事动态";
   }
   return `${subject || "德州扑克"}行业动态`;
 }
@@ -208,7 +209,7 @@ function toChineseDigest(text, category) {
 
 function makeChineseBody(title, description, category) {
   const terms = pickTerms(`${title} ${description}`);
-  const subject = terms.slice(0, 3).join("、") || "这条扑克内容";
+  const subject = terms.slice(0, 3).join("、") || (category === "赛事新闻" ? "相关赛事" : "这条扑克内容");
   const lead = summarize(title, description, category);
   const map = {
     策略笔记: [
@@ -298,6 +299,31 @@ function dedupe(items) {
     result.push(item);
   }
   return result;
+}
+
+function selectBalancedItems(items, maxItems) {
+  const selected = [];
+  const perSource = new Map();
+  const sorted = [...items].sort((a, b) => b.score - a.score || new Date(b.published_at) - new Date(a.published_at));
+
+  for (const item of sorted) {
+    const count = perSource.get(item.source) || 0;
+    if (count >= MAX_ITEMS_PER_SOURCE) continue;
+    selected.push(item);
+    perSource.set(item.source, count + 1);
+    if (selected.length >= maxItems) return selected;
+  }
+
+  if (selected.length < maxItems) {
+    const selectedIds = new Set(selected.map((item) => item.id));
+    for (const item of sorted) {
+      if (selectedIds.has(item.id)) continue;
+      selected.push(item);
+      if (selected.length >= maxItems) break;
+    }
+  }
+
+  return selected;
 }
 
 function escapeHtml(value = "") {
@@ -397,11 +423,11 @@ async function main() {
   const errors = settled
     .filter((result) => result.status === "rejected")
     .map((result) => result.reason.message);
-  const items = dedupe(settled.flatMap((result) => (result.status === "fulfilled" ? result.value : [])))
+  const publishableItems = dedupe(settled.flatMap((result) => (result.status === "fulfilled" ? result.value : [])))
     .map((item) => ({ ...item, score: scoreItem(item) }))
     .filter((item) => item.score >= 3)
-    .sort((a, b) => b.score - a.score || new Date(b.published_at) - new Date(a.published_at))
-    .slice(0, MAX_ITEMS);
+    .sort((a, b) => b.score - a.score || new Date(b.published_at) - new Date(a.published_at));
+  const items = selectBalancedItems(publishableItems, MAX_ITEMS);
 
   if (!items.length) throw new Error(`No publishable items collected. Errors: ${errors.join("; ")}`);
 
