@@ -214,6 +214,16 @@ const pages = [
   },
 ];
 
+async function generatedPages() {
+  try {
+    const raw = await readFile("data/generated-pages.json", "utf8");
+    return JSON.parse(raw);
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
 const organization = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -327,8 +337,8 @@ function upsertHead(html, page) {
   return out;
 }
 
-function sitemap() {
-  const rows = pages
+function sitemap(allPages) {
+  const rows = allPages
     .map((page) => `  <url>
     <loc>${urlFor(page)}</loc>
     <lastmod>${today}</lastmod>
@@ -343,12 +353,14 @@ function robots() {
   return `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\nHost: www.winpk99.com\n`;
 }
 
-for (const page of pages) {
+const allPages = [...pages, ...(await generatedPages())];
+
+for (const page of allPages) {
   const html = await readFile(page.file, "utf8");
   await writeFile(page.file, `${upsertHead(html, page).trimEnd()}\n`);
 }
 
-await writeFile("sitemap.xml", sitemap());
+await writeFile("sitemap.xml", sitemap(allPages));
 await writeFile("robots.txt", robots());
 
-console.log(`Optimized SEO metadata for ${pages.length} pages.`);
+console.log(`Optimized SEO metadata for ${allPages.length} pages.`);
