@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T08:17:41.233Z",
+  "generated_at": "2026-05-10T08:33:16.949Z",
   "sources": [
     "PokerNews",
     "Upswing Poker",
@@ -12,79 +12,121 @@
     {
       "id": "1d17afeed77b65e6",
       "title": "PokerStars Ambassador Mestre Trails Binder at EPT Monte-Carlo Main Event Final Table",
+      "title_zh": "PokerStars / EPT / Monte-Carlo主赛事最新动态",
       "source": "PokerNews",
       "url": "https://www.pokernews.com/news/2026/05/bernhard-binder-leads-ept-monte-carlo-main-event-final-table-51226.htm",
       "category": "赛事新闻",
-      "summary_zh": "这条内容属于赛事和行业动态：Binder goes wire-to-wire to lead the final eight in the €5,300 EPT Main Event",
+      "summary_zh": "今日赛事动态：EPT、Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：EPT、Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "站内解读：PokerStars、EPT、Monte-Carlo这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "updates.html",
+      "related_page": "strategy.html",
       "published_at": "2026-05-10T02:59:00.000Z",
-      "collected_at": "2026-05-10T08:17:28.114Z",
+      "collected_at": "2026-05-10T08:33:16.559Z",
+      "score": 11
+    },
+    {
+      "id": "3a7647314145af0c",
+      "title": "Binder Leads as Eychenne Crashes Out of EPT Monte-Carlo Main Event",
+      "title_zh": "EPT / Monte-Carlo / Main Event主赛事最新动态",
+      "source": "PokerNews",
+      "url": "https://www.pokernews.com/news/2026/05/binder-leads-eychenne-crashes-out-ept-monte-carlo-main-event-51224.htm",
+      "category": "赛事新闻",
+      "summary_zh": "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "站内解读：EPT、Monte-Carlo、Main Event这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
+      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-09T02:44:00.000Z",
+      "collected_at": "2026-05-10T08:33:16.559Z",
       "score": 11
     },
     {
       "id": "3957808f91752df8",
       "title": "Vegas Matt Reveals Favorite Las Vegas Casinos (and Nearly Wins a Poker Event)",
+      "title_zh": "Las Vegas赛事动态",
       "source": "PokerNews",
       "url": "https://www.pokernews.com/casino/news/2026/05/vegas-matt-favorite-las-vegas-casinos-51222.htm",
       "category": "赛事新闻",
-      "summary_zh": "这条内容属于赛事和行业动态：The most popular slot livestreamer had an interesting opinion.",
+      "summary_zh": "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "站内解读：Las Vegas这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "updates.html",
+      "related_page": "strategy.html",
       "published_at": "2026-05-08T20:26:00.000Z",
-      "collected_at": "2026-05-10T08:17:28.115Z",
+      "collected_at": "2026-05-10T08:33:16.559Z",
       "score": 11
     },
     {
       "id": "e35de89949ed4e31",
       "title": "How Timothy Adams Approaches Deep Stack Tournament Poker",
+      "title_zh": "Timothy Adams锦标赛策略观察",
       "source": "Upswing Poker",
       "url": "https://upswingpoker.com/how-timothy-adams-approaches-deep-stack-tournament-poker/",
       "category": "策略笔记",
-      "summary_zh": "这条内容可以转成一条策略复盘笔记：Timothy Adams has spent years playing the toughest tournament fields in the world, and one thing comes through very cl...",
+      "summary_zh": "今日策略笔记：Timothy Adams适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
+      "body_zh": [
+        "今日策略笔记：Timothy Adams适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
+        "站内解读：Timothy Adams的重点不在于照抄某个结论，而在于把它拆成可复盘的问题：当时的位置如何、有效筹码多深、对手范围怎样变化、下注尺度服务于什么目的。",
+        "对普通玩家来说，更有价值的做法是把类似场景记录下来，复盘自己是否因为牌面刺激、短期输赢或对手形象而偏离原计划。",
+        "延伸阅读建议：先看实战策略栏目，再把相关场景整理进自己的手牌复盘表。"
+      ],
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-08T14:00:53.000Z",
-      "collected_at": "2026-05-10T08:17:28.494Z",
+      "collected_at": "2026-05-10T08:33:16.563Z",
       "score": 11
     },
     {
       "id": "8c2ef0d9d5b8e9a4",
       "title": "Get Set for the APAT Online Championship Weekend at Sky Poker",
+      "title_zh": "APAT / Sky Poker赛事动态",
       "source": "PokerNews",
       "url": "https://www.pokernews.com/news/2026/05/get-set-for-apat-online-championship-weekend-at-sky-poker-51218.htm",
       "category": "赛事新闻",
-      "summary_zh": "这条内容属于赛事和行业动态：The second APAT Online Championship Weekend runs on Sky Poker from May 8-10.",
+      "summary_zh": "今日赛事动态：APAT、Sky Poker出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：APAT、Sky Poker出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "站内解读：APAT、Sky Poker这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "updates.html",
+      "related_page": "strategy.html",
       "published_at": "2026-05-08T12:00:00.000Z",
-      "collected_at": "2026-05-10T08:17:28.115Z",
+      "collected_at": "2026-05-10T08:33:16.560Z",
       "score": 11
     },
     {
       "id": "1a1786070e8856aa",
       "title": "OneShotAaway Wins XL Spring Series High Roller; Main Events Set to Overlay",
+      "title_zh": "Main Event / High Roller主赛事最新动态",
       "source": "PokerNews",
       "url": "https://www.pokernews.com/news/2026/05/oneshotaaway-wins-xl-spring-series-high-roller-51217.htm",
       "category": "赛事新闻",
-      "summary_zh": "这条内容属于赛事和行业动态：Massive value awaits in the 888poker XL Spring Series Main Events.",
+      "summary_zh": "今日赛事动态：888poker、Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：888poker、Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "站内解读：888poker、Main Event、High Roller这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "updates.html",
+      "related_page": "strategy.html",
       "published_at": "2026-05-08T09:00:00.000Z",
-      "collected_at": "2026-05-10T08:17:28.115Z",
-      "score": 11
-    },
-    {
-      "id": "3c3af5a429a07ae5",
-      "title": "PokerNews-Exclusive Satellites: 25x $109 Anniversary Series Main Event Seats Added",
-      "source": "PokerNews",
-      "url": "https://www.pokernews.com/news/promotions/2026/05/pokernews-excluve-satellites-25x-109-anniversary-series-51206.htm",
-      "category": "赛事新闻",
-      "summary_zh": "这条内容属于赛事和行业动态：At least 25 seats to the $1.5M Gtd Anniversary Series Main Event will be won.",
-      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "updates.html",
-      "published_at": "2026-05-08T08:00:00.000Z",
-      "collected_at": "2026-05-10T08:17:28.115Z",
+      "collected_at": "2026-05-10T08:33:16.560Z",
       "score": 11
     }
   ]

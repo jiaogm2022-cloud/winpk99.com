@@ -20,9 +20,9 @@ const relatedByCategory = {
   风险提醒: "offline-game-risk.html",
   资金管理: "bankroll-management.html",
   策略笔记: "strategy.html",
-  赛事新闻: "updates.html",
-  社区讨论: "updates.html",
-  新闻动态: "updates.html",
+  赛事新闻: "strategy.html",
+  社区讨论: "strategy.html",
+  新闻动态: "guides.html",
 };
 
 function todayInSingapore() {
@@ -90,10 +90,12 @@ function normalizeItem(item) {
   return {
     id,
     title: item.title,
+    title_zh: makeChineseTitle(item.title, category),
     source: item.source,
     url,
     category,
     summary_zh: summarize(item.title, item.description, category),
+    body_zh: makeChineseBody(item.title, item.description, category),
     why_it_matters: whyItMatters(category),
     related_page: relatedByCategory[category] || "updates.html",
     published_at: normalizeDate(item.publishedAt),
@@ -129,16 +131,124 @@ function classify(text, fallback = "新闻动态") {
 function summarize(title, description, category) {
   const clean = description || title;
   const sentence = clean.split(/(?<=[.!?。！？])\s+/)[0] || clean;
-  const clipped = sentence.length > 120 ? `${sentence.slice(0, 118)}...` : sentence;
+  const clipped = toChineseDigest(sentence, category);
   const prefix = {
-    风险提醒: "这条内容适合当作风险检查提醒：",
-    资金管理: "这条内容和资金边界、波动控制有关：",
-    策略笔记: "这条内容可以转成一条策略复盘笔记：",
-    赛事新闻: "这条内容属于赛事和行业动态：",
-    社区讨论: "这条内容来自社区讨论，适合观察玩家关注点：",
-    新闻动态: "这条内容属于扑克行业动态：",
+    风险提醒: "今日风险提醒：",
+    资金管理: "今日资金管理笔记：",
+    策略笔记: "今日策略笔记：",
+    赛事新闻: "今日赛事动态：",
+    社区讨论: "今日社区观察：",
+    新闻动态: "今日行业动态：",
   }[category];
   return `${prefix}${clipped}`;
+}
+
+function pickTerms(title = "") {
+  const known = [
+    "PokerStars",
+    "EPT",
+    "Monte-Carlo",
+    "WSOP",
+    "WPT",
+    "Triton",
+    "APAT",
+    "Sky Poker",
+    "888poker",
+    "GTO Wizard",
+    "Timothy Adams",
+    "Las Vegas",
+    "Main Event",
+    "High Roller",
+  ];
+  return known.filter((term) => title.toLowerCase().includes(term.toLowerCase()));
+}
+
+function makeChineseTitle(title, category) {
+  const terms = pickTerms(title);
+  const subject = terms.slice(0, 3).join(" / ");
+  if (category === "策略笔记") {
+    if (/deep stack/i.test(title)) return `${subject || "深筹码"}锦标赛策略观察`;
+    if (/preflop|range/i.test(title)) return `${subject || "翻前范围"}策略复盘`;
+    if (/cash game/i.test(title)) return `${subject || "现金局"}实战策略笔记`;
+    return `${subject || "德州扑克"}策略复盘笔记`;
+  }
+  if (category === "资金管理") return `${subject || "德州扑克"}资金管理与波动控制提醒`;
+  if (category === "风险提醒") return `${subject || "德州扑克"}风险识别提醒`;
+  if (category === "社区讨论") return `${subject || "扑克社区"}玩家讨论观察`;
+  if (category === "赛事新闻") {
+    if (/main event/i.test(title)) return `${subject || "扑克赛事"}主赛事最新动态`;
+    if (/final table/i.test(title)) return `${subject || "扑克赛事"}决赛桌动态`;
+    if (/high roller/i.test(title)) return `${subject || "扑克赛事"}高额赛动态`;
+    return `${subject || "扑克赛事"}赛事动态`;
+  }
+  return `${subject || "德州扑克"}行业动态`;
+}
+
+function toChineseDigest(text, category) {
+  const clean = stripHtml(text).replace(/\s+/g, " ").trim();
+  const terms = pickTerms(clean);
+  const subject = terms.slice(0, 3).join("、");
+  if (category === "策略笔记") {
+    return `${subject || "这篇策略内容"}适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。`;
+  }
+  if (category === "赛事新闻") {
+    return `${subject || "近期扑克赛事"}出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。`;
+  }
+  if (category === "资金管理") {
+    return `${subject || "这条内容"}提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。`;
+  }
+  if (category === "风险提醒") {
+    return `${subject || "这条内容"}适合转成风险清单，重点看规则透明度、资金边界和异常行为。`;
+  }
+  if (category === "社区讨论") {
+    return `${subject || "社区讨论"}反映了玩家近期关注的问题，可以作为后续选题和复盘入口。`;
+  }
+  return `${subject || "扑克行业"}出现值得关注的新动态，适合整理成中文简报并关联站内专题。`;
+}
+
+function makeChineseBody(title, description, category) {
+  const terms = pickTerms(`${title} ${description}`);
+  const subject = terms.slice(0, 3).join("、") || "这条扑克内容";
+  const lead = summarize(title, description, category);
+  const map = {
+    策略笔记: [
+      `${lead}`,
+      `站内解读：${subject}的重点不在于照抄某个结论，而在于把它拆成可复盘的问题：当时的位置如何、有效筹码多深、对手范围怎样变化、下注尺度服务于什么目的。`,
+      "对普通玩家来说，更有价值的做法是把类似场景记录下来，复盘自己是否因为牌面刺激、短期输赢或对手形象而偏离原计划。",
+      "延伸阅读建议：先看实战策略栏目，再把相关场景整理进自己的手牌复盘表。",
+    ],
+    赛事新闻: [
+      `${lead}`,
+      `站内解读：${subject}这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。`,
+      "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+      "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。",
+    ],
+    资金管理: [
+      `${lead}`,
+      `站内解读：${subject}可以提醒我们，德州扑克的长期结果不只由技术决定，也由买入比例、止损纪律和桌级选择共同决定。`,
+      "很多亏损不是输在某一手牌，而是输在连续加码、疲劳作战和不愿降级。把规则提前写下来，比临场靠意志力更可靠。",
+      "延伸阅读建议：查看资金管理栏目，把止损线和复盘字段固定下来。",
+    ],
+    风险提醒: [
+      `${lead}`,
+      `站内解读：${subject}适合放进风险识别清单。凡是规则不透明、结算不清楚、资金流向模糊或离场被施压的环境，都应该先暂停。`,
+      "风险内容的意义不是制造恐慌，而是提醒玩家把边界问清楚。越是熟人局、娱乐局、私人局，越不能省略规则确认。",
+      "延伸阅读建议：查看避坑指南和线上安全栏目。",
+    ],
+    社区讨论: [
+      `${lead}`,
+      `站内解读：${subject}说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。`,
+      "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+      "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。",
+    ],
+    新闻动态: [
+      `${lead}`,
+      `站内解读：${subject}属于行业信息，适合帮助中文玩家快速了解外部动态。`,
+      "这类内容不建议只停留在资讯层面，更适合继续追问：它会影响哪些玩家、哪些玩法、哪些风险或哪些学习主题。",
+      "延伸阅读建议：根据主题进入专题导航继续阅读。",
+    ],
+  };
+  return map[category] || map["新闻动态"];
 }
 
 function whyItMatters(category) {
@@ -201,12 +311,11 @@ function escapeHtml(value = "") {
 function renderArticleList(items) {
   return `<div class="article-list">${items
     .map(
-      (item) => `<article>
+      (item) => `<article id="${escapeHtml(item.id)}">
         <span class="pill">${escapeHtml(item.category)}</span>
-        <h2>${escapeHtml(item.title)}</h2>
+        <h2>${escapeHtml(item.title_zh || item.title)}</h2>
         <p>${escapeHtml(item.summary_zh)}</p>
-        <p>${escapeHtml(item.why_it_matters)}</p>
-        <p class="source-line">来源：<a class="text-link" href="${escapeHtml(item.url)}" rel="nofollow noopener" target="_blank">${escapeHtml(item.source)}</a></p>
+        ${(item.body_zh || []).slice(1).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
         <a class="text-link" href="${escapeHtml(item.related_page)}">站内延伸</a>
       </article>`,
     )
@@ -217,7 +326,7 @@ function renderUpdateStrip(items) {
   return `<div class="update-strip">${items
     .slice(0, 3)
     .map(
-      (item) => `<article><span>${escapeHtml(item.category)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary_zh)}</p></article>`,
+      (item) => `<article><span>${escapeHtml(item.category)}</span><h3>${escapeHtml(item.title_zh || item.title)}</h3><p>${escapeHtml(item.summary_zh)}</p></article>`,
     )
     .join("")}</div><p class="center"><a class="text-link" href="updates.html">进入每日更新</a></p>`;
 }
@@ -227,8 +336,8 @@ function renderFeed(items, date) {
   const itemXml = items
     .map(
       (item) => `<item>
-      <title>${escapeHtml(item.title)}</title>
-      <link>${escapeHtml(item.url)}</link>
+      <title>${escapeHtml(item.title_zh || item.title)}</title>
+      <link>${SITE_ORIGIN}/updates.html#${escapeHtml(item.id)}</link>
       <guid isPermaLink="false">${escapeHtml(item.id)}</guid>
       <pubDate>${new Date(item.published_at).toUTCString()}</pubDate>
       <category>${escapeHtml(item.category)}</category>
