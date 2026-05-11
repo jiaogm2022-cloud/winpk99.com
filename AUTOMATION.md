@@ -12,12 +12,13 @@
 1. 读取 `data/sources.json` 里的 RSS 来源。
 2. 抓取公开内容的标题、链接、发布时间和摘要。
 3. 自动去重、分类、打分。
-4. 生成站内中文标题、中文导读和中文短文，不在页面展示外站跳转。
-5. 更新 `updates.html` 和首页的“今日值得看”。
-6. 保存当天归档到 `data/updates/YYYY-MM-DD.json`。
-7. 刷新 SEO 标题、描述、结构化数据和 `sitemap.xml`。
-8. 自动提交到 `main`，GitHub Pages 随后发布。
-9. 通过 IndexNow 通知 Bing/IndexNow 支持的搜索引擎页面已更新。
+4. 对英文标题和摘要做中文翻译、编辑改写和二创导读，不直接搬运外站全文。
+5. 生成更长的站内中文标题、中文导读、英文原题、中文化处理、站内解读、复盘问题和风险边界提醒。
+6. 更新 `updates.html`、首页的“今日值得看”，并同步更新 `guides.html`、`beginner-guide.html`、`strategy.html`、`bankroll-management.html`、`offline-game-risk.html`、`online-poker-safety.html` 的每日中文编辑模块。
+7. 保存当天归档到 `data/updates/YYYY-MM-DD.json`。
+8. 刷新 SEO 标题、描述、结构化数据和 `sitemap.xml`。
+9. 自动提交到 `main`，GitHub Pages 随后发布。
+10. 通过 IndexNow 通知 Bing/IndexNow 支持的搜索引擎页面已更新。
 
 ## 调整采集源
 
