@@ -1,3 +1,17 @@
 User-agent: *
 Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
 Sitemap: https://www.winpk99.com/sitemap.xml
+Host: www.winpk99.com

@@ -4,7 +4,7 @@ const site = {
   name: "winpk99",
   origin: "https://www.winpk99.com",
   description:
-    "面向中文玩家的德州扑克内容资料库，覆盖新手入门、实战策略、资金管理、避坑指南、线上安全、每日更新与会员资料。",
+    "面向中文玩家的德州扑克学习资料库，覆盖新手入门、德州扑克规则、实战策略、资金管理、手牌复盘、避坑指南、线上安全与每日更新。",
 };
 
 const nav = [
@@ -766,21 +766,66 @@ function contentSection(title, subtitle, inner, className = "") {
 </section>`;
 }
 
+function aiSummary() {
+  return contentSection(
+    "AI 摘要与收录重点",
+    "给搜索引擎和 AI 搜索一个清楚答案",
+    `<div class="summary-box">
+      <p><strong>winpk99 是中文德州扑克学习资料库</strong>，核心内容包括德州扑克入门规则、位置与起手牌、实战策略、底池赔率、资金管理、手牌复盘、线下局避坑和线上安全。</p>
+      <p>本站定位为规则学习、策略复盘、风险识别与理性娱乐资料，不组织牌局，不提供赌博导流，不处理资金交易，也不承诺任何短期收益。</p>
+      <ul>
+        <li>新手先看规则、牌型、位置、下注顺序和起手牌范围。</li>
+        <li>进阶玩家重点看下注尺度、底池赔率、对手范围和复盘模板。</li>
+        <li>高风险场景优先看资金管理、止损规则、线下局避坑和线上安全清单。</li>
+      </ul>
+    </div>`,
+    "summary-section",
+  );
+}
+
+function longTailHub() {
+  const items = [
+    { label: "长尾", title: "德州扑克怎么提高胜率", href: "how-to-improve-win-rate.html", desc: "从位置意识、起手牌、选局、下注计划和复盘习惯拆解胜率提升路径。" },
+    { label: "长尾", title: "德州扑克为什么总输", href: "why-always-lose.html", desc: "分析起手牌过宽、追损、位置感弱、桌况风险、资金管理不足和复盘缺失。" },
+    { label: "长尾", title: "德州扑克长期盈利靠什么", href: "long-term-profit.html", desc: "把长期盈利拆成纪律、选局、资金管理、情绪控制、风险识别和持续复盘。" },
+    { label: "规则", title: "德州扑克规则流程", href: "beginner-rules-flow.html", desc: "从发牌、翻前、翻牌、转牌、河牌到摊牌，一次建立基础流程。" },
+    { label: "资金", title: "德州扑克资金管理", href: "bankroll-management.html", desc: "用买入比例、止损线、降级规则和记录表减少结构性亏损。" },
+    { label: "安全", title: "线上德州扑克安全指南", href: "online-poker-safety.html", desc: "围绕账号、资金、私人俱乐部、出金记录和异常协作建立检查清单。" },
+  ];
+  return contentSection("长尾搜索入口", "每个明确问题都有自己的落地页", cardGrid(items), "longtail-section");
+}
+
+function faqBlock() {
+  return contentSection(
+    "常见问题",
+    "适合 AI 搜索直接引用的简短答案",
+    `<div class="faq-list">
+      <article><h3>德州扑克新手应该先学什么？</h3><p>先学牌型大小、行动顺序、位置、起手牌范围和底池赔率，再进入下注尺度、读牌和 GTO。没有资金管理和复盘记录之前，不建议急着学习复杂打法。</p></article>
+      <article><h3>德州扑克怎么减少亏损？</h3><p>减少亏损的核心是少玩弱起手牌、重视位置、控制追听牌成本、设定止损线、记录手牌并避开规则不透明的局。</p></article>
+      <article><h3>线上德州扑克安全吗？</h3><p>安全性取决于平台规则、账号保护、资金记录、出金透明度和异常协作处理。遇到规则不清、出金拖延或多人异常配合时，应停止扩大投入并保留记录。</p></article>
+      <article><h3>本站提供牌局或充值提现吗？</h3><p>不提供。winpk99 只做德州扑克学习、风险识别、理性复盘和会员资料整理，不组织牌局、不做赌博导流、不代收代付、不处理资金交易。</p></article>
+    </div>`,
+    "faq-section",
+  );
+}
+
 const pages = [
   {
     file: "index.html",
-    title: "德州扑克中文系统资料库",
+    title: "德州扑克中文学习资料库",
     description: site.description,
     body: `${hero({
-      eyebrow: "每日更新 · 系统学习 · 会员资料",
-      title: "德州扑克内容资料库，重新按栏目搭起来",
+      eyebrow: "德州扑克入门 · 实战策略 · 资金管理 · 风险识别",
+      title: "德州扑克中文资料库",
       lead:
-        "从入门规则、实战策略、资金管理、避坑识别到线上安全，把零散内容整理成可持续更新、可试看、可付费解锁的学习系统。",
+        "从德州扑克规则、牌型大小、位置与起手牌，到实战策略、底池赔率、资金管理、手牌复盘、线下局避坑和线上安全，把零散经验整理成可持续更新的中文学习路径。",
       actions:
-        '<a class="btn primary" href="membership.html">查看会员方案</a><a class="btn secondary" href="updates.html">看今日更新</a>',
+        '<a class="btn primary" href="beginner-guide.html">从新手入门开始</a><a class="btn secondary" href="updates.html">看今日更新</a><a class="btn secondary" href="guides.html">专题导航</a>',
     })}
     <main class="container">
+      ${aiSummary()}
       ${contentSection("栏目入口", "按照用户最常见的问题组织", cardGrid(topicCards))}
+      ${longTailHub()}
       ${contentSection(
         "今日值得看",
         "免费内容负责回访，会员内容负责深度",
@@ -789,6 +834,7 @@ const pages = [
           .map(([tag, title, desc]) => `<article><span>${tag}</span><h3>${title}</h3><p>${desc}</p></article>`)
           .join("")}</div><p class="center"><a class="text-link" href="updates.html">进入每日更新</a></p>`,
       )}
+      ${faqBlock()}
       ${contentSection(
         "付费模式",
         "免费试看 + VIP/SVIP 分层",
@@ -806,14 +852,14 @@ const pages = [
     description: "集中整理 winpk99 的全部栏目入口，帮助用户从问题出发找到对应的学习路径、公开内容和会员资料。",
     body: `${hero({
       eyebrow: "栏目总入口",
-      title: "把用户问题拆成清楚的专题页",
-      lead: "首页负责建立信任，专题导航负责承接长尾搜索。每个栏目都有明确的人群、内容范围和下一步转化。",
-      actions: '<a class="btn primary" href="member-library.html">看会员资料库</a>',
+      title: "德州扑克专题导航：从入门规则到风险识别",
+      lead: "按搜索意图整理德州扑克新手入门、实战策略、资金管理、手牌复盘、线下避坑、线上安全和会员资料入口，让每个问题都有对应页面。",
+      actions: '<a class="btn primary" href="beginner-guide.html">新手入门</a><a class="btn secondary" href="member-library.html">看会员资料库</a>',
     })}<main class="container">${contentSection("全部栏目", "公开栏目与会员栏目并列展示", cardGrid(topicCards.concat([
       { label: "会员", title: "VIP 专区", href: "vip.html", desc: "基础与进阶内容的主付费层，适合大多数系统学习用户。" },
       { label: "会员", title: "SVIP 专区", href: "svip.html", desc: "更高阶的线上安全、合规风险、案例复盘和持续更新专题。" },
       { label: "转化", title: "会员方案", href: "membership.html", desc: "清楚展示权益、价格、适合人群和开通方式。" },
-    ])))}</main>`,
+    ])))}${longTailHub()}${faqBlock()}</main>`,
   },
   {
     file: "updates.html",
@@ -1204,8 +1250,8 @@ h1, h2, h3, p { margin-top: 0; }
 h1 {
   max-width: 980px;
   margin-bottom: 18px;
-  font-size: clamp(40px, 7vw, 84px);
-  line-height: 1.05;
+  font-size: clamp(34px, 5.2vw, 60px);
+  line-height: 1.12;
   letter-spacing: 0;
 }
 .lead {
@@ -1287,6 +1333,17 @@ h1 {
 .update-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .update-strip span { color: var(--green); font-weight: 900; }
 .center { text-align: center; margin-top: 24px; }
+.summary-box, .faq-list article {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+.summary-box p, .summary-box li, .faq-list p { color: var(--muted); }
+.summary-box strong { color: var(--text); }
+.summary-box ul { margin: 14px 0 0; padding-left: 20px; }
+.faq-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.faq-list h3 { margin-bottom: 8px; font-size: 20px; }
 .article-list { display: grid; gap: 16px; }
 .article-list article h2 { font-size: clamp(24px, 3vw, 34px); }
 .prose {
@@ -1353,14 +1410,14 @@ h1 {
   .site-nav.open { display: flex; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .section-head { display: block; }
-  .card-grid, .pricing-grid, .library-grid, .benefit-list, .update-strip { grid-template-columns: 1fr; }
+  .card-grid, .pricing-grid, .library-grid, .benefit-list, .update-strip, .faq-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .site-header { gap: 12px; }
   .brand { min-width: 0; }
   .brand small { display: none; }
   .hero { padding-top: 54px; }
-  h1 { font-size: 38px; }
+  h1 { font-size: 34px; }
 }
 `;
 

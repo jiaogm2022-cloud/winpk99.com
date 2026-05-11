@@ -7,10 +7,10 @@ const pages = [
   {
     file: "index.html",
     path: "/",
-    title: "德州扑克教学与策略资料库｜新手入门、实战技巧、资金管理与避坑指南",
-    name: "德州扑克教学与策略资料库",
+    title: "德州扑克中文学习资料库｜规则、策略、资金管理、复盘与安全指南",
+    name: "德州扑克中文学习资料库",
     description:
-      "winpk99 是面向中文玩家的德州扑克教学与策略资料库，覆盖新手入门、实战技巧、资金管理、避坑指南、线上安全、每日更新和会员资料。",
+      "winpk99 是面向中文玩家的德州扑克学习资料库，覆盖新手入门、德州扑克规则、实战策略、资金管理、手牌复盘、避坑指南、线上安全和每日更新。",
     keywords:
       "德州扑克,德州扑克教学,德州扑克技巧,德州扑克策略,德州扑克入门,德州扑克规则,德州扑克资料库,德扑教学,德扑攻略,Texas Holdem",
     type: "WebSite",
@@ -273,7 +273,7 @@ function breadcrumb(page) {
 function pageSchema(page) {
   const base = {
     "@context": "https://schema.org",
-    "@type": page.type,
+    "@type": page.type || "WebPage",
     name: page.name,
     headline: page.name,
     url: urlFor(page),
@@ -294,6 +294,70 @@ function pageSchema(page) {
   return base;
 }
 
+function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "winpk99",
+    url: origin,
+    inLanguage: "zh-CN",
+    description:
+      "中文德州扑克学习资料库，覆盖入门规则、实战策略、资金管理、手牌复盘、风险识别和线上安全。",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${origin}/?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+function homeFaqSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "德州扑克新手应该先学什么？",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "先学牌型大小、行动顺序、位置、起手牌范围和底池赔率，再进入下注尺度、读牌和 GTO。没有资金管理和复盘记录之前，不建议急着学习复杂打法。",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "德州扑克怎么减少亏损？",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "减少亏损的核心是少玩弱起手牌、重视位置、控制追听牌成本、设定止损线、记录手牌并避开规则不透明的局。",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "线上德州扑克安全吗？",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "安全性取决于平台规则、账号保护、资金记录、出金透明度和异常协作处理。遇到规则不清、出金拖延或多人异常配合时，应停止扩大投入并保留记录。",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "本站提供牌局或充值提现吗？",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "不提供。winpk99 只做德州扑克学习、风险识别、理性复盘和会员资料整理，不组织牌局、不做赌博导流、不代收代付、不处理资金交易。",
+        },
+      },
+    ],
+  };
+}
+
+function schemaPayload(page) {
+  const payload = [organization, websiteSchema(), pageSchema(page), breadcrumb(page)];
+  if (page.path === "/") payload.push(homeFaqSchema());
+  return payload;
+}
+
 function replaceTag(html, pattern, replacement, fallbackAnchor = "</head>") {
   if (pattern.test(html)) return html.replace(pattern, replacement);
   return html.replace(fallbackAnchor, `  ${replacement}\n${fallbackAnchor}`);
@@ -302,7 +366,7 @@ function replaceTag(html, pattern, replacement, fallbackAnchor = "</head>") {
 function upsertHead(html, page) {
   const title = `<title>${escapeAttr(page.title)}</title>`;
   const desc = `<meta name="description" content="${escapeAttr(page.description)}">`;
-  const keywords = `<meta name="keywords" content="${escapeAttr(page.keywords)}">`;
+  const keywords = `<meta name="keywords" content="${escapeAttr(page.keywords || "德州扑克,德州扑克学习,德州扑克策略,德州扑克规则,德州扑克资金管理,德州扑克复盘")}">`;
   const canonical = `<link rel="canonical" href="${urlFor(page)}">`;
   const ogType = `<meta property="og:type" content="${page.type === "Article" ? "article" : "website"}">`;
   const ogTitle = `<meta property="og:title" content="${escapeAttr(page.title)}">`;
@@ -310,7 +374,7 @@ function upsertHead(html, page) {
   const ogUrl = `<meta property="og:url" content="${urlFor(page)}">`;
   const twitterTitle = `<meta name="twitter:title" content="${escapeAttr(page.title)}">`;
   const twitterDesc = `<meta name="twitter:description" content="${escapeAttr(page.description)}">`;
-  const json = `<script type="application/ld+json">${JSON.stringify([organization, pageSchema(page), breadcrumb(page)])}</script>`;
+  const json = `<script type="application/ld+json">${JSON.stringify(schemaPayload(page))}</script>`;
   const feed = `<link rel="alternate" type="application/rss+xml" title="winpk99 德州扑克每日更新" href="${origin}/feed.xml">`;
 
   let out = html;
@@ -350,10 +414,56 @@ function sitemap(allPages) {
 }
 
 function robots() {
-  return `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\nHost: www.winpk99.com\n`;
+  return `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\nHost: www.winpk99.com\n`;
 }
 
-const allPages = [...pages, ...(await generatedPages())];
+async function existingSitemapPages(knownPages) {
+  let raw = "";
+  try {
+    raw = await readFile("sitemap.xml", "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  }
+  const known = new Set(knownPages.map((page) => page.path));
+  const locs = [...raw.matchAll(/<loc>(https:\/\/www\.winpk99\.com\/[^<]*)<\/loc>/g)].map((match) => match[1]);
+  const additions = [];
+  for (const loc of locs) {
+    const url = new URL(loc);
+    const path = url.pathname;
+    if (known.has(path)) continue;
+    const file = path === "/" ? "index.html" : path.replace(/^\//, "");
+    let html = "";
+    try {
+      html = await readFile(file, "utf8");
+    } catch (error) {
+      if (error.code === "ENOENT") continue;
+      throw error;
+    }
+    const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/);
+    const descriptionMatch = html.match(/<meta name="description" content="([^"]*)">/);
+    const h1Match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
+    const title = (titleMatch?.[1] || h1Match?.[1] || "德州扑克资料").replace(/\s*\|\s*winpk99\s*$/, "").trim();
+    const description =
+      descriptionMatch?.[1] ||
+      "winpk99 德州扑克中文资料页，提供规则学习、策略复盘、资金管理、风险识别和线上安全相关内容。";
+    additions.push({
+      file,
+      path,
+      title,
+      name: title,
+      description,
+      keywords: "德州扑克,德州扑克学习,德州扑克策略,德州扑克规则,德州扑克资金管理,德州扑克复盘",
+      type: file.endsWith(".html") ? "Article" : "WebPage",
+      priority: path.includes("/questions/") || path.includes("/glossary/") ? "0.6" : "0.7",
+      changefreq: path.includes("/questions/") ? "weekly" : "monthly",
+    });
+  }
+  return additions;
+}
+
+const knownPages = [...pages, ...(await generatedPages())];
+const allPages = [...knownPages, ...(await existingSitemapPages(knownPages))];
 
 for (const page of allPages) {
   const html = await readFile(page.file, "utf8");
