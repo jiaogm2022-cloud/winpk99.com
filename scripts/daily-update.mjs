@@ -592,7 +592,7 @@ async function updatePages(items, date) {
     renderArticleList(items),
     "updates article list",
   )
-    .replace(/<h2>今日内容<\/h2>/, `<h2>${date} 每日内容</h2>`)
+    .replace(/<h2>(?:今日内容|\d{4}-\d{2}-\d{2}\s+每日内容)<\/h2>/, `<h2>${date} 每日内容</h2>`)
     .replace(/<p class="lead">[\s\S]*?<\/p>/, `<p class="lead">这里每天自动汇总公开来源的德州扑克新闻、策略笔记、风险提醒和社区讨论，并引导到站内专题继续阅读。</p>`);
 
   const updatedIndex = replaceFirst(
@@ -612,6 +612,7 @@ async function updatePages(items, date) {
 
 async function main() {
   const date = process.env.UPDATE_DATE || todayInSingapore();
+  console.log(`Daily update target date: ${date}; generated at ${new Date().toISOString()} UTC.`);
   const sources = JSON.parse(await readFile(SOURCE_FILE, "utf8"));
   const settled = await Promise.allSettled(sources.map(fetchFeed));
   const errors = settled

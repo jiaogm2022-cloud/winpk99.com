@@ -2,7 +2,9 @@ name: Daily content update
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # Run at 08:07 Singapore time. Avoiding minute 0 reduces GitHub Actions queue delays.
+    - cron: "7 8 * * *"
+      timezone: "Asia/Singapore"
   workflow_dispatch:
 
 permissions:
