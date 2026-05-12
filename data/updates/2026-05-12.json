@@ -1,6 +1,6 @@
 {
   "date": "2026-05-12",
-  "generated_at": "2026-05-11T17:57:34.166Z",
+  "generated_at": "2026-05-12T03:44:50.660Z",
   "sources": [
     "PokerNews",
     "Upswing Poker",
@@ -41,7 +41,31 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T15:24:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.995Z",
+      "collected_at": "2026-05-12T03:44:48.761Z",
+      "score": 11
+    },
+    {
+      "id": "d066c2f49d864854",
+      "title": "How to Bet on the 2026 WSOP",
+      "original_title": "How to Bet on the 2026 WSOP",
+      "translated_title_zh": "WSOP英文资讯中文整理",
+      "title_zh": "WSOP赛事动态",
+      "source": "PokerNews",
+      "url": "https://www.pokernews.com/prediction-markets/news/2026/05/how-to-bet-on-the-2026-wsop-51237.htm",
+      "category": "赛事新闻",
+      "summary_zh": "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "英文来源整理：WSOP英文资讯中文整理。近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：WSOP这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
+      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T14:13:00.000Z",
+      "collected_at": "2026-05-12T03:44:48.761Z",
       "score": 11
     },
     {
@@ -65,7 +89,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-11T13:42:55.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.388Z",
       "score": 11
     },
     {
@@ -89,7 +113,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T11:40:54.000Z",
-      "collected_at": "2026-05-11T17:57:32.498Z",
+      "collected_at": "2026-05-12T03:44:48.640Z",
       "score": 11
     },
     {
@@ -113,7 +137,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T11:00:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.761Z",
       "score": 11
     },
     {
@@ -137,7 +161,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T10:30:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 11
     },
     {
@@ -161,7 +185,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T09:30:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 11
     },
     {
@@ -185,7 +209,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T08:47:56.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 11
     },
     {
@@ -209,7 +233,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-05-11T03:58:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 11
     },
     {
@@ -233,7 +257,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T18:16:39.000Z",
-      "collected_at": "2026-05-11T17:57:33.415Z",
+      "collected_at": "2026-05-12T03:44:49.180Z",
       "score": 11
     },
     {
@@ -257,7 +281,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T14:30:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
+      "collected_at": "2026-05-12T03:44:48.763Z",
       "score": 11
     },
     {
@@ -281,7 +305,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T02:59:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
+      "collected_at": "2026-05-12T03:44:48.763Z",
       "score": 11
     },
     {
@@ -305,7 +329,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-09T08:30:00.000Z",
-      "collected_at": "2026-05-11T17:57:33.747Z",
+      "collected_at": "2026-05-12T03:44:50.654Z",
       "score": 11
     },
     {
@@ -329,8 +353,8 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-09T02:44:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
-      "score": 11
+      "collected_at": "2026-05-12T03:44:48.763Z",
+      "score": 9
     },
     {
       "id": "3957808f91752df8",
@@ -353,8 +377,8 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-08T20:26:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
-      "score": 11
+      "collected_at": "2026-05-12T03:44:48.764Z",
+      "score": 9
     },
     {
       "id": "e35de89949ed4e31",
@@ -377,31 +401,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-08T14:00:53.000Z",
-      "collected_at": "2026-05-11T17:57:32.574Z",
-      "score": 9
-    },
-    {
-      "id": "8c2ef0d9d5b8e9a4",
-      "title": "Get Set for the APAT Online Championship Weekend at Sky Poker",
-      "original_title": "Get Set for the APAT Online Championship Weekend at Sky Poker",
-      "translated_title_zh": "APAT / Sky Poker冠军动态：中文玩家可关注决赛阶段策略",
-      "title_zh": "APAT / Sky Poker赛事动态",
-      "source": "PokerNews",
-      "url": "https://www.pokernews.com/news/2026/05/get-set-for-apat-online-championship-weekend-at-sky-poker-51218.htm",
-      "category": "赛事新闻",
-      "summary_zh": "今日赛事动态：APAT、Sky Poker出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-      "body_zh": [
-        "今日赛事动态：APAT、Sky Poker出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-        "英文来源整理：APAT / Sky Poker冠军动态：中文玩家可关注决赛阶段策略。APAT、Sky Poker出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：APAT、Sky Poker这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
-        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
-      ],
-      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-08T12:00:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
+      "collected_at": "2026-05-12T03:44:49.185Z",
       "score": 9
     },
     {
@@ -425,7 +425,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-08T11:38:27.000Z",
-      "collected_at": "2026-05-11T17:57:32.498Z",
+      "collected_at": "2026-05-12T03:44:48.642Z",
       "score": 9
     },
     {
@@ -449,7 +449,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-05-06T20:47:39.000Z",
-      "collected_at": "2026-05-11T17:57:31.735Z",
+      "collected_at": "2026-05-12T03:44:48.674Z",
       "score": 9
     },
     {
@@ -473,7 +473,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-05T16:26:02.000Z",
-      "collected_at": "2026-05-11T17:57:32.499Z",
+      "collected_at": "2026-05-12T03:44:48.644Z",
       "score": 9
     },
     {
@@ -497,7 +497,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-05T14:28:39.000Z",
-      "collected_at": "2026-05-11T17:57:31.735Z",
+      "collected_at": "2026-05-12T03:44:48.675Z",
       "score": 9
     },
     {
@@ -521,7 +521,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-03T22:32:58.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 9
     },
     {
@@ -545,7 +545,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-03T09:05:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.499Z",
+      "collected_at": "2026-05-12T03:44:48.645Z",
       "score": 9
     },
     {
@@ -569,7 +569,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-01T21:53:21.000Z",
-      "collected_at": "2026-05-11T17:57:33.623Z",
+      "collected_at": "2026-05-12T03:44:49.935Z",
       "score": 9
     },
     {
@@ -593,7 +593,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-01T02:41:25.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 9
     },
     {
@@ -617,7 +617,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-30T14:20:03.000Z",
-      "collected_at": "2026-05-11T17:57:31.735Z",
+      "collected_at": "2026-05-12T03:44:48.675Z",
       "score": 9
     },
     {
@@ -641,7 +641,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-04-30T14:08:53.000Z",
-      "collected_at": "2026-05-11T17:57:33.748Z",
+      "collected_at": "2026-05-12T03:44:50.655Z",
       "score": 9
     },
     {
@@ -665,7 +665,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-04-29T23:20:13.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 9
     },
     {
@@ -689,7 +689,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-04-25T17:32:58.000Z",
-      "collected_at": "2026-05-11T17:57:33.748Z",
+      "collected_at": "2026-05-12T03:44:50.655Z",
       "score": 9
     },
     {
@@ -713,7 +713,31 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-04-24T13:58:34.000Z",
-      "collected_at": "2026-05-11T17:57:32.574Z",
+      "collected_at": "2026-05-12T03:44:49.185Z",
+      "score": 9
+    },
+    {
+      "id": "6f2e3d18dac35722",
+      "title": "David Coleman Denies Kristen Foxen, Wins U.S. Poker Open Main Event",
+      "original_title": "David Coleman Denies Kristen Foxen, Wins U.S. Poker Open Main Event",
+      "translated_title_zh": "Main Event冠军动态：从决赛桌压力看职业牌手决策",
+      "title_zh": "Main Event主赛事最新动态",
+      "source": "Poker News Daily",
+      "url": "https://www.pokernewsdaily.com/coleman-wins-u-s-poker-open-47467/",
+      "category": "赛事新闻",
+      "summary_zh": "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：近期扑克赛事出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "英文来源整理：Main Event冠军动态：从决赛桌压力看职业牌手决策。Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：Main Event这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+      ],
+      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
+      "related_page": "strategy.html",
+      "published_at": "2026-04-23T14:30:39.000Z",
+      "collected_at": "2026-05-12T03:44:48.677Z",
       "score": 9
     },
     {
@@ -737,7 +761,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-04-22T21:43:32.000Z",
-      "collected_at": "2026-05-11T17:57:33.624Z",
+      "collected_at": "2026-05-12T03:44:49.936Z",
       "score": 9
     },
     {
@@ -761,7 +785,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-18T03:17:43.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 9
     },
     {
@@ -785,7 +809,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-08T18:05:37.000Z",
-      "collected_at": "2026-05-11T17:57:32.575Z",
+      "collected_at": "2026-05-12T03:44:49.186Z",
       "score": 9
     },
     {
@@ -809,7 +833,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-01T00:14:52.000Z",
-      "collected_at": "2026-05-11T17:57:33.748Z",
+      "collected_at": "2026-05-12T03:44:50.654Z",
       "score": 9
     },
     {
@@ -833,7 +857,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-03-31T01:45:08.000Z",
-      "collected_at": "2026-05-11T17:57:33.748Z",
+      "collected_at": "2026-05-12T03:44:50.654Z",
       "score": 9
     },
     {
@@ -857,56 +881,8 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-03-28T19:00:06.000Z",
-      "collected_at": "2026-05-11T17:57:33.747Z",
+      "collected_at": "2026-05-12T03:44:50.654Z",
       "score": 9
-    },
-    {
-      "id": "7fa500592bd1ab2c",
-      "title": "Poker Puzzle Game",
-      "original_title": "Poker Puzzle Game",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1taabq8/poker_puzzle_game/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T17:33:48.000Z",
-      "collected_at": "2026-05-11T17:57:33.418Z",
-      "score": 8
-    },
-    {
-      "id": "41126a12d1372d71",
-      "title": "Galway or Dublin, Ireland 1/3 cash poker?",
-      "original_title": "Galway or Dublin, Ireland 1/3 cash poker?",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta7v46/galway_or_dublin_ireland_13_cash_poker/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T16:09:34.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
-      "score": 8
     },
     {
       "id": "a6e48489010087be",
@@ -929,31 +905,7 @@
       "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T16:07:15.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
-      "score": 8
-    },
-    {
-      "id": "cc7f33a078f1002e",
-      "title": "Cherche 2-3 personnes pour nous entraider au poker",
-      "original_title": "Cherche 2-3 personnes pour nous entraider au poker",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta11ob/cherche_23_personnes_pour_nous_entraider_au_poker/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T11:55:11.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
       "score": 8
     },
     {
@@ -977,7 +929,7 @@
       "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T00:46:22.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
       "score": 8
     },
     {
@@ -1001,55 +953,103 @@
       "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T21:32:31.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
       "score": 8
     },
     {
-      "id": "f3d5449ed5fa8478",
-      "title": "WSOP coverage schedules besides ME?",
-      "original_title": "WSOP coverage schedules besides ME?",
-      "translated_title_zh": "WSOP英文资讯中文整理",
-      "title_zh": "WSOP赛事动态",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1taaee9/wsop_coverage_schedules_besides_me/",
-      "category": "赛事新闻",
-      "summary_zh": "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "id": "037d48a4fc3366b9",
+      "title": "High-Stakes Lawyer Tom Goldstein Won $1.7 Million Right Before Being Indicted",
+      "original_title": "High-Stakes Lawyer Tom Goldstein Won $1.7 Million Right Before Being Indicted",
+      "translated_title_zh": "扑克风险英文风险内容中文整理",
+      "title_zh": "德州扑克风险识别提醒",
+      "source": "PokerNews",
+      "url": "https://www.pokernews.com/news/2026/05/tom-goldstein-2025-gambling-winnings-51238.htm",
+      "category": "风险提醒",
+      "summary_zh": "今日风险提醒：这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。",
       "body_zh": [
-        "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-        "英文来源整理：WSOP英文资讯中文整理。WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：WSOP这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
-        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
+        "今日风险提醒：这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。",
+        "英文来源整理：扑克风险英文风险内容中文整理。这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容适合放进风险识别清单。凡是规则不透明、结算不清楚、资金流向模糊或离场被施压的环境，都应该先暂停。",
+        "风险内容的意义不是制造恐慌，而是提醒玩家把边界问清楚。越是熟人局、娱乐局、私人局，越不能省略规则确认。",
+        "边界提醒：本站只做规则学习、策略复盘、风险识别和理性娱乐资料，不组织牌局，不做赌博导流，也不处理充值、提现或代打。",
+        "延伸阅读建议：查看避坑指南和线上安全栏目。"
       ],
-      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T17:36:13.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
+      "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
+      "related_page": "offline-game-risk.html",
+      "published_at": "2026-05-12T00:47:00.000Z",
+      "collected_at": "2026-05-12T03:44:48.761Z",
       "score": 7
     },
     {
-      "id": "d3a13f83182d68b6",
-      "title": "At what stack depth are you not 5bet jamming AKs?",
-      "original_title": "At what stack depth are you not 5bet jamming AKs?",
-      "translated_title_zh": "EPT英文资讯中文整理",
-      "title_zh": "EPT赛事动态",
+      "id": "7183ac5463df9d39",
+      "title": "Venetian DS Championship Series: Schedule & Structures released: 115 Tournaments / $16M Guaranteed (18 May - 2nd Aug)",
+      "original_title": "Venetian DS Championship Series: Schedule & Structures released: 115 Tournaments / $16M Guaranteed (18 May - 2nd Aug)",
+      "translated_title_zh": "扑克赛事冠军动态：中文玩家可关注决赛阶段策略",
+      "title_zh": "德州扑克策略复盘笔记",
       "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta8u0v/at_what_stack_depth_are_you_not_5bet_jamming_aks/",
-      "category": "赛事新闻",
-      "summary_zh": "今日赛事动态：EPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "url": "https://www.reddit.com/r/poker/comments/1tale6u/venetian_ds_championship_series_schedule/",
+      "category": "策略笔记",
+      "summary_zh": "今日策略笔记：这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
       "body_zh": [
-        "今日赛事动态：EPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-        "英文来源整理：EPT英文资讯中文整理。EPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：EPT这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "今日策略笔记：这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
+        "英文来源整理：扑克赛事冠军动态：中文玩家可关注决赛阶段策略。这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容的重点不在于照抄某个结论，而在于把它拆成可复盘的问题：当时的位置如何、有效筹码多深、对手范围怎样变化、下注尺度服务于什么目的。",
+        "对普通玩家来说，更有价值的做法是把类似场景记录下来，复盘自己是否因为牌面刺激、短期输赢或对手形象而偏离原计划。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：先看实战策略栏目，再把相关场景整理进自己的手牌复盘表。"
+      ],
+      "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-12T00:20:45.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 7
+    },
+    {
+      "id": "0d4933f3e86a2534",
+      "title": "Winning online microstakes but losing at -7bb/hour at live 1/3 after 200 hours - need advice",
+      "original_title": "Winning online microstakes but losing at -7bb/hour at live 1/3 after 200 hours - need advice",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "德州扑克资金管理与波动控制提醒",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1taikdt/winning_online_microstakes_but_losing_at_7bbhour/",
+      "category": "资金管理",
+      "summary_zh": "今日资金管理笔记：这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。",
+      "body_zh": [
+        "今日资金管理笔记：这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容可以提醒我们，德州扑克的长期结果不只由技术决定，也由买入比例、止损纪律和桌级选择共同决定。",
+        "很多亏损不是输在某一手牌，而是输在连续加码、疲劳作战和不愿降级。把规则提前写下来，比临场靠意志力更可靠。",
+        "中文编辑建议：把今天看到的内容落到一张表里，记录单次买入、最大亏损、离场时间、是否追损、是否因为桌况不好仍然继续。",
+        "延伸阅读建议：查看资金管理栏目，把止损线和复盘字段固定下来。"
+      ],
+      "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
+      "related_page": "bankroll-management.html",
+      "published_at": "2026-05-11T22:23:49.000Z",
+      "collected_at": "2026-05-12T03:44:49.180Z",
+      "score": 7
+    },
+    {
+      "id": "f0486504a2e6e024",
+      "title": "ClubWPT Gold ad fail",
+      "original_title": "ClubWPT Gold ad fail",
+      "translated_title_zh": "WPT英文资讯中文整理",
+      "title_zh": "WPT赛事动态",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tadogp/clubwpt_gold_ad_fail/",
+      "category": "赛事新闻",
+      "summary_zh": "今日赛事动态：WPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+      "body_zh": [
+        "今日赛事动态：WPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "英文来源整理：WPT英文资讯中文整理。WPT出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：WPT这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
         "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
         "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
         "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
       ],
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
-      "published_at": "2026-05-11T16:43:30.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
+      "published_at": "2026-05-11T19:27:09.000Z",
+      "collected_at": "2026-05-12T03:44:49.180Z",
       "score": 7
     },
     {
@@ -1073,7 +1073,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-11T16:36:40.000Z",
-      "collected_at": "2026-05-11T17:57:33.415Z",
+      "collected_at": "2026-05-12T03:44:49.180Z",
       "score": 7
     },
     {
@@ -1097,31 +1097,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T16:27:51.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
-      "score": 7
-    },
-    {
-      "id": "f3691b1779d8cc75",
-      "title": "Roman Stoica Derails Bernhard Binder, Wins EPT Monte Carlo Main Event",
-      "original_title": "Roman Stoica Derails Bernhard Binder, Wins EPT Monte Carlo Main Event",
-      "translated_title_zh": "EPT / Main Event冠军动态：从决赛桌压力看职业牌手决策",
-      "title_zh": "EPT / Main Event主赛事最新动态",
-      "source": "Poker News Daily",
-      "url": "https://www.pokernewsdaily.com/roman-stoica-wins-2026-ept-monte-carlo-47508/",
-      "category": "赛事新闻",
-      "summary_zh": "今日赛事动态：Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-      "body_zh": [
-        "今日赛事动态：Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-        "英文来源整理：EPT / Main Event冠军动态：从决赛桌压力看职业牌手决策。EPT、Monte-Carlo、Main Event出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：EPT、Monte-Carlo、Main Event这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
-        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
-      ],
-      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T14:33:51.000Z",
-      "collected_at": "2026-05-11T17:57:31.734Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
       "score": 7
     },
     {
@@ -1145,7 +1121,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T14:09:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.761Z",
       "score": 7
     },
     {
@@ -1169,31 +1145,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T13:02:21.000Z",
-      "collected_at": "2026-05-11T17:57:33.747Z",
-      "score": 7
-    },
-    {
-      "id": "4b7a076007d61ebe",
-      "title": "HUD PLO 6-max cash game",
-      "original_title": "HUD PLO 6-max cash game",
-      "translated_title_zh": "德州扑克英文策略中文改写",
-      "title_zh": "现金局实战策略笔记",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta1zg1/hud_plo_6max_cash_game/",
-      "category": "策略笔记",
-      "summary_zh": "今日策略笔记：这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
-      "body_zh": [
-        "今日策略笔记：这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。",
-        "英文来源整理：德州扑克英文策略中文改写。这篇策略内容适合作为复盘材料，重点关注位置、筹码深度、范围选择和下注计划，而不是只看单手牌结果。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容的重点不在于照抄某个结论，而在于把它拆成可复盘的问题：当时的位置如何、有效筹码多深、对手范围怎样变化、下注尺度服务于什么目的。",
-        "对普通玩家来说，更有价值的做法是把类似场景记录下来，复盘自己是否因为牌面刺激、短期输赢或对手形象而偏离原计划。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：先看实战策略栏目，再把相关场景整理进自己的手牌复盘表。"
-      ],
-      "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T12:34:51.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
+      "collected_at": "2026-05-12T03:44:50.654Z",
       "score": 7
     },
     {
@@ -1217,7 +1169,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T09:40:52.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.389Z",
       "score": 7
     },
     {
@@ -1241,7 +1193,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T09:07:20.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.389Z",
       "score": 7
     },
     {
@@ -1265,31 +1217,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T02:00:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
-      "score": 7
-    },
-    {
-      "id": "2d8207285db05942",
-      "title": "What’s one “boring” adjustment that made you a lot more profitable at low stakes",
-      "original_title": "What’s one “boring” adjustment that made you a lot more profitable at low stakes",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "德州扑克资金管理与波动控制提醒",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1t9iba5/whats_one_boring_adjustment_that_made_you_a_lot/",
-      "category": "资金管理",
-      "summary_zh": "今日资金管理笔记：这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。",
-      "body_zh": [
-        "今日资金管理笔记：这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。这条内容提醒玩家把买入、止损和桌级选择写成规则，避免用情绪处理波动。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容可以提醒我们，德州扑克的长期结果不只由技术决定，也由买入比例、止损纪律和桌级选择共同决定。",
-        "很多亏损不是输在某一手牌，而是输在连续加码、疲劳作战和不愿降级。把规则提前写下来，比临场靠意志力更可靠。",
-        "中文编辑建议：把今天看到的内容落到一张表里，记录单次买入、最大亏损、离场时间、是否追损、是否因为桌况不好仍然继续。",
-        "延伸阅读建议：查看资金管理栏目，把止损线和复盘字段固定下来。"
-      ],
-      "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
-      "related_page": "bankroll-management.html",
-      "published_at": "2026-05-10T20:40:47.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 7
     },
     {
@@ -1313,7 +1241,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T16:00:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 7
     },
     {
@@ -1337,31 +1265,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-05-10T02:09:40.000Z",
-      "collected_at": "2026-05-11T17:57:31.734Z",
-      "score": 7
-    },
-    {
-      "id": "8fe15ec594610f69",
-      "title": "WSOP Implements In-App Dealer Rating System",
-      "original_title": "WSOP Implements In-App Dealer Rating System",
-      "translated_title_zh": "WSOP英文资讯中文整理",
-      "title_zh": "WSOP赛事动态",
-      "source": "Poker News Daily",
-      "url": "https://www.pokernewsdaily.com/wsop-implements-in-app-dealer-rating-system-47500/",
-      "category": "赛事新闻",
-      "summary_zh": "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-      "body_zh": [
-        "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
-        "英文来源整理：WSOP英文资讯中文整理。WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：WSOP这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
-        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
-      ],
-      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-08T19:42:04.000Z",
-      "collected_at": "2026-05-11T17:57:31.735Z",
+      "collected_at": "2026-05-12T03:44:48.674Z",
       "score": 7
     },
     {
@@ -1385,7 +1289,7 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-11T17:01:47.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.388Z",
       "score": 6
     },
     {
@@ -1409,7 +1313,7 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-11T10:36:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.996Z",
+      "collected_at": "2026-05-12T03:44:48.762Z",
       "score": 6
     },
     {
@@ -1433,7 +1337,7 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-11T08:50:45.000Z",
-      "collected_at": "2026-05-11T17:57:32.498Z",
+      "collected_at": "2026-05-12T03:44:48.642Z",
       "score": 6
     },
     {
@@ -1457,7 +1361,7 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-10T14:10:43.000Z",
-      "collected_at": "2026-05-11T17:57:33.622Z",
+      "collected_at": "2026-05-12T03:44:49.935Z",
       "score": 6
     },
     {
@@ -1481,7 +1385,7 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-10T07:50:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
+      "collected_at": "2026-05-12T03:44:48.763Z",
       "score": 6
     },
     {
@@ -1505,56 +1409,32 @@
       "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
       "related_page": "guides.html",
       "published_at": "2026-05-09T23:43:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.997Z",
+      "collected_at": "2026-05-12T03:44:48.763Z",
       "score": 6
     },
     {
-      "id": "d00d4ba9b110b12f",
-      "title": "Poker Player, Sports Talk Host Nick Wright Refuses to Sell $2M Sports Betting Ticket",
-      "original_title": "Poker Player, Sports Talk Host Nick Wright Refuses to Sell $2M Sports Betting Ticket",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "德州扑克行业动态",
-      "source": "PokerNews",
-      "url": "https://www.pokernews.com/news/2026/05/nick-wright-sports-betting-ticket-51223.htm",
-      "category": "新闻动态",
-      "summary_zh": "今日行业动态：扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。",
+      "id": "8fe15ec594610f69",
+      "title": "WSOP Implements In-App Dealer Rating System",
+      "original_title": "WSOP Implements In-App Dealer Rating System",
+      "translated_title_zh": "WSOP英文资讯中文整理",
+      "title_zh": "WSOP赛事动态",
+      "source": "Poker News Daily",
+      "url": "https://www.pokernewsdaily.com/wsop-implements-in-app-dealer-rating-system-47500/",
+      "category": "赛事新闻",
+      "summary_zh": "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
       "body_zh": [
-        "今日行业动态：扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容属于行业信息，适合帮助中文玩家快速了解外部动态。",
-        "这类内容不建议只停留在资讯层面，更适合继续追问：它会影响哪些玩家、哪些玩法、哪些风险或哪些学习主题。",
-        "中文二创角度：把新闻拆成背景、影响、玩家该看什么、站内该延伸到哪个专题四部分，比单纯追热点更利于长期收录。",
-        "延伸阅读建议：根据主题进入专题导航继续阅读。"
+        "今日赛事动态：WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。",
+        "英文来源整理：WSOP英文资讯中文整理。WSOP出现新的赛况变化，适合用来保持行业关注，也可以观察职业牌手在高压阶段的决策方式。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：WSOP这类赛事动态适合观察职业牌手在深筹码、决赛桌或高压奖金结构下的行动倾向。普通玩家不必模仿每个激进动作，但可以学习他们如何控制风险和选择入池时机。",
+        "赛事新闻对学习的价值，不是知道谁赢了，而是借真实赛况提醒自己：位置、筹码量、对手压力和阶段目标，会同时影响一手牌的价值。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：结合实战策略、资金管理和长期盈利思维一起看。"
       ],
-      "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
-      "related_page": "guides.html",
-      "published_at": "2026-05-09T00:51:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
-      "score": 6
-    },
-    {
-      "id": "f5be528c44ac32d2",
-      "title": "Chapter 4 Ep. 17 Bluffers, Bomb Pots & Barbecue Sauce",
-      "original_title": "Chapter 4 Ep. 17 Bluffers, Bomb Pots & Barbecue Sauce",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "德州扑克行业动态",
-      "source": "Ante Up Magazine",
-      "url": "https://anteupmagazine.com/2026/05/08/chapter-4-ep-17-bluffers-bomb-pots-barbecue-sauce/",
-      "category": "新闻动态",
-      "summary_zh": "今日行业动态：扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。",
-      "body_zh": [
-        "今日行业动态：扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。扑克行业出现值得关注的新动态，适合整理成中文简报并关联站内专题。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容属于行业信息，适合帮助中文玩家快速了解外部动态。",
-        "这类内容不建议只停留在资讯层面，更适合继续追问：它会影响哪些玩家、哪些玩法、哪些风险或哪些学习主题。",
-        "中文二创角度：把新闻拆成背景、影响、玩家该看什么、站内该延伸到哪个专题四部分，比单纯追热点更利于长期收录。",
-        "延伸阅读建议：根据主题进入专题导航继续阅读。"
-      ],
-      "why_it_matters": "补充行业信息，让每日更新不只停留在站内长文。",
-      "related_page": "guides.html",
-      "published_at": "2026-05-08T21:05:03.000Z",
-      "collected_at": "2026-05-11T17:57:33.623Z",
-      "score": 6
+      "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-08T19:42:04.000Z",
+      "collected_at": "2026-05-12T03:44:48.674Z",
+      "score": 5
     },
     {
       "id": "40d36bd9619a7a90",
@@ -1577,7 +1457,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-08T17:00:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
+      "collected_at": "2026-05-12T03:44:48.764Z",
       "score": 5
     },
     {
@@ -1601,31 +1481,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-05-08T14:56:10.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
-      "score": 5
-    },
-    {
-      "id": "485ade08fb463199",
-      "title": "Is Winning on Prediction Markets Getting Harder?",
-      "original_title": "Is Winning on Prediction Markets Getting Harder?",
-      "translated_title_zh": "扑克风险英文风险内容中文整理",
-      "title_zh": "德州扑克风险识别提醒",
-      "source": "PokerNews",
-      "url": "https://www.pokernews.com/prediction-markets/news/2026/05/is-winning-on-prediction-markets-getting-harder-51219.htm",
-      "category": "风险提醒",
-      "summary_zh": "今日风险提醒：这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。",
-      "body_zh": [
-        "今日风险提醒：这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。",
-        "英文来源整理：扑克风险英文风险内容中文整理。这条内容适合转成风险清单，重点看规则透明度、资金边界和异常行为。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容适合放进风险识别清单。凡是规则不透明、结算不清楚、资金流向模糊或离场被施压的环境，都应该先暂停。",
-        "风险内容的意义不是制造恐慌，而是提醒玩家把边界问清楚。越是熟人局、娱乐局、私人局，越不能省略规则确认。",
-        "边界提醒：本站只做规则学习、策略复盘、风险识别和理性娱乐资料，不组织牌局，不做赌博导流，也不处理充值、提现或代打。",
-        "延伸阅读建议：查看避坑指南和线上安全栏目。"
-      ],
-      "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
-      "related_page": "offline-game-risk.html",
-      "published_at": "2026-05-08T12:27:00.000Z",
-      "collected_at": "2026-05-11T17:57:31.998Z",
+      "collected_at": "2026-05-12T03:44:49.389Z",
       "score": 5
     },
     {
@@ -1649,7 +1505,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-08T09:11:30.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.389Z",
       "score": 5
     },
     {
@@ -1673,7 +1529,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-08T08:19:17.000Z",
-      "collected_at": "2026-05-11T17:57:31.754Z",
+      "collected_at": "2026-05-12T03:44:49.389Z",
       "score": 5
     },
     {
@@ -1697,7 +1553,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-06T07:17:03.000Z",
-      "collected_at": "2026-05-11T17:57:32.499Z",
+      "collected_at": "2026-05-12T03:44:48.643Z",
       "score": 5
     },
     {
@@ -1721,7 +1577,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-05-05T21:55:48.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 5
     },
     {
@@ -1745,7 +1601,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-04T13:58:27.000Z",
-      "collected_at": "2026-05-11T17:57:33.042Z",
+      "collected_at": "2026-05-12T03:44:49.212Z",
       "score": 5
     },
     {
@@ -1769,7 +1625,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-04T11:42:17.000Z",
-      "collected_at": "2026-05-11T17:57:32.311Z",
+      "collected_at": "2026-05-12T03:44:49.268Z",
       "score": 5
     },
     {
@@ -1793,7 +1649,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-05-01T17:22:38.000Z",
-      "collected_at": "2026-05-11T17:57:32.574Z",
+      "collected_at": "2026-05-12T03:44:49.185Z",
       "score": 5
     },
     {
@@ -1817,7 +1673,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-04-29T17:02:42.000Z",
-      "collected_at": "2026-05-11T17:57:32.563Z",
+      "collected_at": "2026-05-12T03:44:48.651Z",
       "score": 5
     },
     {
@@ -1841,7 +1697,7 @@
       "why_it_matters": "适合引导到资金管理和止损模板，强化长期复盘习惯。",
       "related_page": "bankroll-management.html",
       "published_at": "2026-04-29T17:00:53.000Z",
-      "collected_at": "2026-05-11T17:57:32.574Z",
+      "collected_at": "2026-05-12T03:44:49.185Z",
       "score": 5
     },
     {
@@ -1865,7 +1721,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-27T21:23:47.000Z",
-      "collected_at": "2026-05-11T17:57:31.735Z",
+      "collected_at": "2026-05-12T03:44:48.676Z",
       "score": 5
     },
     {
@@ -1889,7 +1745,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-27T15:16:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.311Z",
+      "collected_at": "2026-05-12T03:44:49.269Z",
       "score": 5
     },
     {
@@ -1913,7 +1769,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-27T08:38:06.000Z",
-      "collected_at": "2026-05-11T17:57:33.749Z",
+      "collected_at": "2026-05-12T03:44:50.655Z",
       "score": 5
     },
     {
@@ -1937,7 +1793,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-24T20:21:43.000Z",
-      "collected_at": "2026-05-11T17:57:33.624Z",
+      "collected_at": "2026-05-12T03:44:49.935Z",
       "score": 5
     },
     {
@@ -1961,7 +1817,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-23T18:56:06.000Z",
-      "collected_at": "2026-05-11T17:57:32.574Z",
+      "collected_at": "2026-05-12T03:44:49.185Z",
       "score": 5
     },
     {
@@ -1985,7 +1841,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-20T16:15:28.000Z",
-      "collected_at": "2026-05-11T17:57:33.042Z",
+      "collected_at": "2026-05-12T03:44:49.212Z",
       "score": 5
     },
     {
@@ -2009,7 +1865,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-04-19T13:14:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.312Z",
+      "collected_at": "2026-05-12T03:44:49.269Z",
       "score": 5
     },
     {
@@ -2033,7 +1889,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-17T22:50:51.000Z",
-      "collected_at": "2026-05-11T17:57:33.624Z",
+      "collected_at": "2026-05-12T03:44:49.936Z",
       "score": 5
     },
     {
@@ -2057,7 +1913,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-17T14:00:52.000Z",
-      "collected_at": "2026-05-11T17:57:32.575Z",
+      "collected_at": "2026-05-12T03:44:49.186Z",
       "score": 5
     },
     {
@@ -2081,7 +1937,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-16T13:26:58.000Z",
-      "collected_at": "2026-05-11T17:57:32.564Z",
+      "collected_at": "2026-05-12T03:44:48.651Z",
       "score": 5
     },
     {
@@ -2105,7 +1961,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-15T03:51:43.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 5
     },
     {
@@ -2129,7 +1985,7 @@
       "why_it_matters": "帮助读者先识别局面和资金风险，再决定是否继续投入时间或资金。",
       "related_page": "offline-game-risk.html",
       "published_at": "2026-04-13T13:26:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.312Z",
+      "collected_at": "2026-05-12T03:44:49.269Z",
       "score": 5
     },
     {
@@ -2153,7 +2009,7 @@
       "why_it_matters": "保持网站每日活跃，也能承接德州扑克赛事搜索流量。",
       "related_page": "strategy.html",
       "published_at": "2026-04-13T01:23:29.000Z",
-      "collected_at": "2026-05-11T17:57:32.929Z",
+      "collected_at": "2026-05-12T03:44:50.185Z",
       "score": 5
     },
     {
@@ -2177,7 +2033,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-10T15:03:44.000Z",
-      "collected_at": "2026-05-11T17:57:32.575Z",
+      "collected_at": "2026-05-12T03:44:49.186Z",
       "score": 5
     },
     {
@@ -2201,7 +2057,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-07T04:28:04.000Z",
-      "collected_at": "2026-05-11T17:57:32.930Z",
+      "collected_at": "2026-05-12T03:44:50.186Z",
       "score": 5
     },
     {
@@ -2225,7 +2081,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-06T13:16:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.312Z",
+      "collected_at": "2026-05-12T03:44:49.269Z",
       "score": 5
     },
     {
@@ -2249,7 +2105,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-04-03T14:30:47.000Z",
-      "collected_at": "2026-05-11T17:57:32.575Z",
+      "collected_at": "2026-05-12T03:44:49.186Z",
       "score": 5
     },
     {
@@ -2273,7 +2129,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-03-31T21:02:15.000Z",
-      "collected_at": "2026-05-11T17:57:32.564Z",
+      "collected_at": "2026-05-12T03:44:48.651Z",
       "score": 5
     },
     {
@@ -2297,7 +2153,7 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-03-31T12:17:00.000Z",
-      "collected_at": "2026-05-11T17:57:32.313Z",
+      "collected_at": "2026-05-12T03:44:49.269Z",
       "score": 5
     },
     {
@@ -2321,8 +2177,224 @@
       "why_it_matters": "可以作为公开导读，引导读者进入实战策略和会员资料库。",
       "related_page": "strategy.html",
       "published_at": "2026-03-30T14:22:42.000Z",
-      "collected_at": "2026-05-11T17:57:33.042Z",
+      "collected_at": "2026-05-12T03:44:49.212Z",
       "score": 5
+    },
+    {
+      "id": "f194fb362569d6b3",
+      "title": "Any update on Resorts World in NYC getting a card room?",
+      "original_title": "Any update on Resorts World in NYC getting a card room?",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tapvym/any_update_on_resorts_world_in_nyc_getting_a_card/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-12T03:41:40.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "e6d66eb4a959c0ee",
+      "title": "Advice for a beginner",
+      "original_title": "Advice for a beginner",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tapbcn/advice_for_a_beginner/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-12T03:14:17.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "5fd25e96ffc55e41",
+      "title": "Where to play 1/3 NLH in LV for beginners?",
+      "original_title": "Where to play 1/3 NLH in LV for beginners?",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1talux7/where_to_play_13_nlh_in_lv_for_beginners/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-12T00:41:16.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "d61015e26de46ef7",
+      "title": "Dylan Flashner is now down 607,000 dollars",
+      "original_title": "Dylan Flashner is now down 607,000 dollars",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1talg6v/dylan_flashner_is_now_down_607000_dollars/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-12T00:23:15.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "fb6e21f9aba0e247",
+      "title": "Get Nick Wright tfo of NoGambleNoFuture",
+      "original_title": "Get Nick Wright tfo of NoGambleNoFuture",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tajxrw/get_nick_wright_tfo_of_nogamblenofuture/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T23:19:36.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "803c8eec50d61275",
+      "title": "Why isn't there a required Badbeat flair?",
+      "original_title": "Why isn't there a required Badbeat flair?",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tajs3i/why_isnt_there_a_required_badbeat_flair/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T23:13:12.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "be5a91afdafbc602",
+      "title": "Home Game Related Question for the Community",
+      "original_title": "Home Game Related Question for the Community",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tacez7/home_game_related_question_for_the_community/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T18:44:26.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
+    },
+    {
+      "id": "87e875d387a7903f",
+      "title": "Is AK overrated?",
+      "original_title": "Is AK overrated?",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tabfu0/is_ak_overrated/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T18:11:12.000Z",
+      "collected_at": "2026-05-12T03:44:49.180Z",
+      "score": 4
+    },
+    {
+      "id": "de67e85ce260457b",
+      "title": "Bizarre Home Game Ruling Needed",
+      "original_title": "Bizarre Home Game Ruling Needed",
+      "translated_title_zh": "德州扑克英文来源中文编辑整理",
+      "title_zh": "扑克社区玩家讨论观察",
+      "source": "Reddit r/poker",
+      "url": "https://www.reddit.com/r/poker/comments/1tabarm/bizarre_home_game_ruling_needed/",
+      "category": "社区讨论",
+      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+      "body_zh": [
+        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
+        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
+        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
+        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
+        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
+        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
+      ],
+      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
+      "related_page": "strategy.html",
+      "published_at": "2026-05-11T18:06:26.000Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
+      "score": 4
     },
     {
       "id": "ad563ea5afecb036",
@@ -2345,79 +2417,7 @@
       "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
       "related_page": "strategy.html",
       "published_at": "2026-05-11T17:45:00.000Z",
-      "collected_at": "2026-05-11T17:57:33.417Z",
-      "score": 4
-    },
-    {
-      "id": "96d3c2d0711c89bb",
-      "title": "AMA with ACR Team Pro Chris Moorman",
-      "original_title": "AMA with ACR Team Pro Chris Moorman",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1taa0mu/ama_with_acr_team_pro_chris_moorman/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T17:23:19.000Z",
-      "collected_at": "2026-05-11T17:57:33.415Z",
-      "score": 4
-    },
-    {
-      "id": "6024b8aa9eddcb7d",
-      "title": "I sat for one buyin yesterday and rage quit...",
-      "original_title": "I sat for one buyin yesterday and rage quit...",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta931n/i_sat_for_one_buyin_yesterday_and_rage_quit/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T16:52:05.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
-      "score": 4
-    },
-    {
-      "id": "b0fa5087e9c82f5a",
-      "title": "Please dealer! 🙏",
-      "original_title": "Please dealer! 🙏",
-      "translated_title_zh": "德州扑克英文来源中文编辑整理",
-      "title_zh": "扑克社区玩家讨论观察",
-      "source": "Reddit r/poker",
-      "url": "https://www.reddit.com/r/poker/comments/1ta6lqg/please_dealer/",
-      "category": "社区讨论",
-      "summary_zh": "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-      "body_zh": [
-        "今日社区观察：社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。",
-        "英文来源整理：德州扑克英文来源中文编辑整理。社区讨论反映了玩家近期关注的问题，可以作为后续选题和复盘入口。这里不是搬运全文，而是把英文标题和摘要转成适合中文玩家阅读的站内编辑稿，保留主题，重新组织成学习、复盘和风险判断。",
-        "站内解读：这条扑克内容说明玩家正在关注类似问题。社区内容不一定代表正确答案，但很适合作为复盘素材和选题来源。",
-        "阅读社区讨论时，要区分情绪表达、个案经验和可验证的策略原则。真正有用的是能沉淀成清单、模板和复盘问题的部分。",
-        "今日复盘问题：如果把这条内容放进自己的牌局记录里，至少要写下三个点：它对应什么场景、我过去有没有类似错误、下一次应该提前设置什么停止条件。",
-        "延伸阅读建议：把相关问题放入每日更新和会员资料库的后续专题。"
-      ],
-      "why_it_matters": "能反映玩家正在讨论的问题，适合沉淀成后续选题。",
-      "related_page": "strategy.html",
-      "published_at": "2026-05-11T15:25:53.000Z",
-      "collected_at": "2026-05-11T17:57:33.416Z",
+      "collected_at": "2026-05-12T03:44:49.181Z",
       "score": 4
     }
   ]
