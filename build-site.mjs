@@ -867,8 +867,8 @@ const pages = [
     description: "每日更新德州扑克新闻摘要、策略笔记、风险提醒和复盘提示，作为公开回访入口和会员内容的前置导读。",
     body: `${hero({
       eyebrow: "每日更新",
-      title: "每天给用户一个回来看的理由",
-      lead: "每日更新不追求搬运全文，而是把新闻、技巧、风险和复盘问题转成中文摘要，再引导用户阅读深度专题。",
+      title: "每日 30 条内容，10 条长文",
+      lead: "每天抓取公开来源的德州扑克新闻、策略笔记、风险提醒和社区讨论，其中 10 条整理成长文中文导读，其余内容保留轻量摘要。",
       actions: '<a class="btn secondary" href="member-library.html">查看深度资料</a>',
     })}<main class="container">${contentSection(
       "今日内容",
