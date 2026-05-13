@@ -1141,7 +1141,7 @@ function modalMarkup() {
     <h2>会员开通与激活</h2>
     <p>当前版本建议人工开通：用户付款后发放一次性激活码。正式收费时，请改为服务端校验。</p>
     <div class="modal-actions">
-      <a class="btn primary" href="mailto:contact@winpk99.com?subject=开通winpk99会员">邮件咨询</a>
+      <a class="btn primary" href="https://wpa.qq.com/msgrd?v=3&uin=993833&site=winpk99&menu=yes" target="_blank" rel="noopener">QQ993833</a>
       <input id="memberCode" type="text" placeholder="输入激活码">
       <button class="btn secondary" type="button" data-activate>激活</button>
     </div>
